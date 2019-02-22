@@ -16,9 +16,10 @@ class ChinaTimezone(tzinfo):
 
     def dst(self, dt):
         return timedelta()
-        
+
+
 def convert_line(line):
-    
+
     # IP
     if re.match(r'[\d\.:]+', line):
         return line
@@ -33,10 +34,10 @@ def convert_line(line):
     line = line.replace(r'\*', '.+')
     # Seperator
     line = line.replace(r'\^', '[/:]')
-    
+
     # Domain name
     if line.startswith(r'\|\|'):
-        return '^https?://%s.*' % line[4:]  
+        return '^https?://%s.*' % line[4:]
 
     # Exact address
     if line.startswith(r'\|'):
@@ -46,20 +47,24 @@ def convert_line(line):
     # Address parts
     return line
 
+
 def main():
     header = [
         '#',
+        '# Home Page: {}'.format('https://github.com/NateScarlet/gfwlist.acl'),
         '# Date: {}'.format(datetime.now(ChinaTimezone()).isoformat()),
+        '# URL: {}'.format(
+            'https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl'),
         '#',
     ]
-    whitelist = ['','[bypass_all]','']
-    blacklist = ['','[proxy_list]','']
-    
+    whitelist = ['', '[bypass_all]', '']
+    blacklist = ['', '[proxy_list]', '']
+
     for line in fileinput.input():
-        line = line.strip() # type: str
-        if not line or line.startswith(('!','[AutoProxy')):
+        line = line.strip()  # type: str
+        if not line or line.startswith(('!', '[AutoProxy')):
             continue
-            
+
         if line.startswith('@@'):
             whitelist.append(convert_line(line[2:]))
         else:
@@ -67,6 +72,7 @@ def main():
 
     for i in chain(header, whitelist, blacklist):
         print(i)
+
 
 if __name__ == '__main__':
     main()
