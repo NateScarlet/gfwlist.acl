@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+before_script:
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+script:
+  - curl https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt | python -m base64 -d | ./gfwlist2acl.py > gfwlist.acl
+  - git commit -a -m 'Update via travis [skip ci]'
+  - git push
