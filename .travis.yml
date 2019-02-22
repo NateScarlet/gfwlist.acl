@@ -9,3 +9,6 @@ script:
   - curl https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt | python -m base64 -d | ./gfwlist2acl.py > gfwlist.acl
   - git commit -a -m 'Update via travis [skip ci]'
   - git push
+branches:
+  only: 
+    - master
