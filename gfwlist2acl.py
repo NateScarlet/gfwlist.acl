@@ -67,7 +67,7 @@ def convert_line(line):
     line = line.replace(r'\/', '/')
 
     # IP
-    match = re.match(r'^(?:https?://)?(\d{,3}\.\d{,3}\.\d{,3}\.\d{,3}(?::\d{1,5})?)$', line)
+    match = re.match(r'^\|*(?:https?://)?(\d{,3}\.\d{,3}\.\d{,3}\.\d{,3}(?::\d{1,5})?)$', line)
     if match:
         return [match.group(1)]
 
