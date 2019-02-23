@@ -21,6 +21,10 @@ class ChinaTimezone(tzinfo):
 def convert_line(line):
     """ Convert gfwlist rule to acl format   """
 
+    # IP
+    if re.match(r'^[\d.:/]+$', line):
+        return line
+
     # https://adblockplus.org/filters#regexps
     if line.startswith('/') and line.endswith('/'):
         return line[1:-1].replace(r'\/', '/')
