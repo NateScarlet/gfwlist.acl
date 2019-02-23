@@ -58,7 +58,7 @@ def convert_line(line):
     line = re.sub('https?://', '', line)
     # IP
     if re.match(r'^[\d.:/]+$', line):
-        return ''
+        return line
 
     # https://adblockplus.org/filters#regexps
     if line.startswith('/') and line.endswith('/'):
