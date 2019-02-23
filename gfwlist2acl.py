@@ -18,7 +18,7 @@ class ChinaTimezone(tzinfo):
         return timedelta()
 
 
-def get_domain_from_rule(line):
+def get_regexp(line):
 
     # Escape, not use `re.escape` since it behavior changes in diffrent python version
     line = re.sub(r'[.*+?^${}()|[\]\\]', lambda x: '\\{}'.format(x.group(0)), line)
@@ -29,45 +29,52 @@ def get_domain_from_rule(line):
     line = line.replace(r'\^', r'([^a-zA-Z0-9_-.%]|$)')
 
     # https://adblockplus.org/filters#anchors
-    if line.startswith(r'\|\|'):
-        line = r'(^|\.){}'.format(line[4:])
-    elif line.startswith(r'\|'):
-        line = '^{}'.format(line[2:])
-    if line.endswith(r'\|'):
-        line = '{}$'.format(line[:-2])
+    line = re.sub(r'^\\\|\\\|(https?\??://)?', r'(^|\.)', line)
+    line = re.sub(r'^\\\|(https?\??://)?', '^', line)
+    line = re.sub(r'\\\|$', '$', line)
 
-
-    return get_domain_from_regexp(line)
+    return get_rules(line)
     
 
-def get_domain_from_regexp(line):
-    if not re.match(r'^\^|\(.*(?<!\\)\^.*\)', line):
-        line = '^.*{}'.format(line)
-    if not line.endswith('$'):
-        line = '{}.*$'.format(line)
+def get_rules(regexp):
+    regexp = re.sub(r'\^?https?\??://', '^', regexp)
+    regexp = re.sub(r'(\.\*)+$', '', regexp)
+    regexp = re.sub(r'/$', '$', regexp)
 
-    return line
+    ret = [regexp]
+    # Split long line by `|`
+    match = len(regexp) > 80 and re.match(r'(.*)\((.*)\)(.*)', regexp)
+    if match:
+        prefix = match.group(1)
+        items = match.group(2).split('|')
+        suffix = match.group(3)
+        ret = []
+        size = 10
+        for i in range(0, len(items),size):
+            chunk = items[i:i+size]
+            ret.append('{}({}){}'.format(prefix, '|'.join(chunk), suffix))
+
+    # SSR can not deal with too long rule in one line
+    ret = [i for i in ret if len(i) < 500]
+    return ret
 
 def convert_line(line):
     """ Convert gfwlist rule to acl format   """
 
     if not line:
-        return line
+        return []
 
     line = line.replace(r'\/', '/')
-    line = re.sub('https?://', '', line)
+
     # IP
     if re.match(r'^[\d.:/]+$', line):
-        return line
+        return [line]
 
     # https://adblockplus.org/filters#regexps
     if line.startswith('/') and line.endswith('/'):
-        return get_domain_from_regexp(line[1:-1])
-    elif line.count('/'):
-        return ''
+        return get_rules(line[1:-1])
 
-
-    return get_domain_from_rule(line)
+    return get_regexp(line)
 
 
 def main():
@@ -94,9 +101,7 @@ def main():
         is_whitelist = line.startswith('@@')
         if is_whitelist:
             line = line[2:]
-        result = convert_line(line)
-        if result:
-            (whitelist if is_whitelist else blacklist).append(result)
+        (whitelist if is_whitelist else blacklist).extend(convert_line(line))
 
     for i in chain(header, blacklist, whitelist):
         print(i)
