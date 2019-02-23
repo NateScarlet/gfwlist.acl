@@ -39,7 +39,7 @@ def convert_line(line):
 
     # https://adblockplus.org/filters#anchors
     if line.startswith(r'\|\|'):
-        line = r'(^|\.){}'.format(line[4:])
+        line = r'(^https?://|\.){}'.format(line[4:])
     if line.endswith(r'\|'):
         line = '{}$'.format(line[:-2])
     if line.startswith(r'\|'):
