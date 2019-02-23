@@ -25,7 +25,7 @@ def convert_line(line):
     if line.startswith('/') and line.endswith('/'):
         return line[1:-1]
     # Escape, not use `re.escape` since it behavior changes in diffrent python version
-    line = re.sub(r'[.*+?^${}()|[\]\\/]', lambda x: '\\{}'.format(x.group(0)), line)
+    line = re.sub(r'[.*+?^${}()|[\]\\]', lambda x: '\\{}'.format(x.group(0)), line)
 
     # https://adblockplus.org/filters#basic
     line = line.replace(r'\*', '.+')
