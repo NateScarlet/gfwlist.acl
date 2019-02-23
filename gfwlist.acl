@@ -1,8 +1,10 @@
 #
-# Date: 2019-02-23T22:13:02.884548+08:00
+# Date: 2019-02-23T22:22:35.300644+08:00
 # Home Page: https://github.com/NateScarlet/gfwlist.acl
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
+
+[bypass_all]
 
 [proxy_list]
 
@@ -211,11 +213,6 @@
 (^|\.)zim\.vn.*$
 (^|\.)zozotown\.com.*$
 (^|\.)1\.1\.1\.1.*$
-14.102.250.18
-14.102.250.19
-50.7.31.230:8898
-174.142.105.153
-69.65.19.160
 (^|\.)xn--4gq171p\.com.*$
 (^|\.)xn--czq75pvv1aj5c\.org.*$
 (^|\.)xn--i2ru8q2qg\.com.*$
@@ -2648,7 +2645,6 @@
 ^.*\.gaozhisheng\.net.*$
 ^.*gardennetworks\.com.*$
 (^|\.)gardennetworks\.org.*$
-72.52.81.22
 (^|\.)gartlive\.com.*$
 (^|\.)gate-project\.com.*$
 (^|\.)gather\.com.*$
@@ -4710,9 +4706,6 @@
 ^.*sexinsex\.net.*$
 (^|\.)sexinsex\.net.*$
 ^.*\.sextvx\.com.*$
-67.220.91.15
-67.220.91.18
-67.220.91.23
 ^.+\.sf\.net.*$
 ^.*\.sfileydy\.com.*$
 (^|\.)sfshibao\.com.*$
@@ -6489,5 +6482,3 @@
 (^|\.)youdao\.com.*$
 (^|\.)zhongsou\.com.*$
 ^ime\.baidu\.jp.*$
-
-[bypass_all]
