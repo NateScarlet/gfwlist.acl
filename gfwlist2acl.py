@@ -46,14 +46,17 @@ def convert_line(line):
 def main():
     header = [
         '#',
-        '# Home Page: {}'.format('https://github.com/NateScarlet/gfwlist.acl'),
         '# Date: {}'.format(datetime.now(ChinaTimezone()).isoformat()),
+        '# Home Page: {}'.format('https://github.com/NateScarlet/gfwlist.acl'),
         '# URL: {}'.format(
             'https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl'),
         '#',
+        '',
+        '[bypass_all]',
+        '',
     ]
-    whitelist = ['', '[bypass_all]', '']
     blacklist = ['', '[proxy_list]', '']
+    whitelist = ['', '[bypass_list]', '']
 
     for line in fileinput.input():
         line = line.strip()  # type: str
