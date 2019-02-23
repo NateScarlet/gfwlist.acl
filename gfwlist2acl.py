@@ -1,9 +1,8 @@
-u#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Convert gfwlist format to ssr compatible acl file"""
 
 import fileinput
 import re
-import sys
 from datetime import datetime, timedelta, tzinfo
 from itertools import chain
 
