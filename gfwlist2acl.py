@@ -18,34 +18,51 @@ class ChinaTimezone(tzinfo):
         return timedelta()
 
 
-def convert_line(line):
-    """ Convert gfwlist rule to acl format   """
+def get_domain_from_rule(line):
 
-    # IP
-    if re.match(r'^[\d.:/]+$', line):
-        return line
-
-    # https://adblockplus.org/filters#regexps
-    if line.startswith('/') and line.endswith('/'):
-        return line[1:-1].replace(r'\/', '/')
     # Escape, not use `re.escape` since it behavior changes in diffrent python version
     line = re.sub(r'[.*+?^${}()|[\]\\]', lambda x: '\\{}'.format(x.group(0)), line)
-    line = line.replace(r'\/', '/')
-
+    
     # https://adblockplus.org/filters#basic
     line = line.replace(r'\*', '.+')
     # https://adblockplus.org/filters#separators
     line = line.replace(r'\^', r'([^a-zA-Z0-9_-.%]|$)')
 
+    line = re.sub(r'\$*$', '$', line)
     # https://adblockplus.org/filters#anchors
     if line.startswith(r'\|\|'):
-        line = r'(^https?://|\.|^){}'.format(line[4:])
-    if line.endswith(r'\|'):
-        line = '{}$'.format(line[:-2])
-    if line.startswith(r'\|'):
-        line = '^{}'.format(line[2:])
-
+        return r'(^|\.){}'.format(line[4:])
+    elif line.startswith(r'\|'):
+        line = line[2:]
+    line = re.sub(r'^\^*', '^', line)
+    
     return line
+
+def get_domain_from_regexp(line):
+    return line
+
+def convert_line(line):
+    """ Convert gfwlist rule to acl format   """
+
+    if not line:
+        return line
+
+    # IP
+    if re.match(r'^[\d.:/]+$', line):
+        return line
+
+
+    line = line.replace(r'\/', '/')
+    line = re.sub('https?://', '', line)
+    # https://adblockplus.org/filters#regexps
+    if line.startswith('/') and line.endswith('/'):
+        return get_domain_from_regexp(line[1:-1])
+    elif line.count('/'):
+        return ''
+
+
+    return get_domain_from_rule(line)
+
 
 def main():
     header = [
@@ -68,10 +85,12 @@ def main():
             continue
 
         # https://adblockplus.org/filters#whitelist
-        if line.startswith('@@'):
-            whitelist.append(convert_line(line[2:]))
-        else:
-            blacklist.append(convert_line(line))
+        is_whitelist = line.startswith('@@')
+        if is_whitelist:
+            line = line[2:]
+        result = convert_line(line)
+        if result:
+            (whitelist if is_whitelist else blacklist).append(result)
 
     for i in chain(header, blacklist, whitelist):
         print(i)
