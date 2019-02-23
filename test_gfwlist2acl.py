@@ -4,6 +4,7 @@ from gfwlist2acl import convert_line
 def test_convert():
 
     TEST_CASES = [
+        ('.example.com.cn', r'^.*\.example\.com\.cn.*$'),
         ('', ''),
         ('|https://example.com.cn/path/name', ''),
         ('example.com.cn', r'^.*example\.com\.cn.*$'),

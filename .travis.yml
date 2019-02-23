@@ -5,7 +5,10 @@ before_script:
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git checkout master
+install:
+  - pip install pytest
 script:
+  - pytest
   - curl https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt | python -m base64 -d | ./gfwlist2acl.py > gfwlist.acl
   - sed -e 's/\[bypass_all\]/[proxy_all]/' gfwlist.acl -e 's@/master/gfwlist\.acl@/master/gfwlist.white.acl@' > gfwlist.white.acl
   - sed -i -n  '0,/\[bypass_list]/{/\[bypass_list]/ d};p' gfwlist.acl
