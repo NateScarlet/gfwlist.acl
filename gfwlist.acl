@@ -4,8 +4,6 @@
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
-[bypass_all]
-
 [proxy_list]
 
 (^|\.)agnesb\.fr.*$
@@ -6491,3 +6489,5 @@
 (^|\.)youdao\.com.*$
 (^|\.)zhongsou\.com.*$
 ^ime\.baidu\.jp.*$
+
+[bypass_all]
