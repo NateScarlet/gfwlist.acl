@@ -3,6 +3,7 @@
 
 import fileinput
 import re
+import sys
 from datetime import datetime, timedelta, tzinfo
 from itertools import chain
 
@@ -19,38 +20,28 @@ class ChinaTimezone(tzinfo):
 
 
 def convert_line(line):
-    """ Convert gfwlist rule to acl format
+    """ Convert gfwlist rule to acl format   """
 
-    Reference:
-        https://adblockplus.org/en/filter-cheatsheet
-        https://adblockplus.org/filters#regexps
-    """
-
-    # Regexp
+    # https://adblockplus.org/filters#regexps
     if line.startswith('/') and line.endswith('/'):
         return line[1:-1]
+    # Escape, not use `re.escape` since it behavior changes in diffrent python version
+    line = re.sub(r'[.*+?^${}()|[\]\\/]', lambda x: '\\{}'.format(x.group(0)), line)
 
-    line = re.escape(line)
-
-    # Regexp indicator
-    line = line.replace('/', r'\/')
-    # Wildcard
+    # https://adblockplus.org/filters#basic
     line = line.replace(r'\*', '.+')
-    # Seperator
-    line = line.replace(r'\^', r'[\/:]')
+    # https://adblockplus.org/filters#separators
+    line = line.replace(r'\^', r'([^a-zA-Z0-9_-.%]|$)')
 
-    # Exact address end
-    if line.endswith(r'\|'):
-        line = '{}$'.format(line[:-2])
-    # Domain name
+    # https://adblockplus.org/filters#anchors
     if line.startswith(r'\|\|'):
         line = r'^https?:\/\/{}'.format(line[4:])
-    # Exact address start
-    elif line.startswith(r'\|'):
+    if line.endswith(r'\|'):
+        line = '{}$'.format(line[:-2])
+    if line.startswith(r'\|'):
         line = '^{}'.format(line[2:])
 
     return line
-
 
 def main():
     header = [
@@ -66,9 +57,11 @@ def main():
 
     for line in fileinput.input():
         line = line.strip()  # type: str
+        # https://adblockplus.org/filters#comments
         if not line or line.startswith(('!', '[AutoProxy')):
             continue
 
+        # https://adblockplus.org/filters#whitelist
         if line.startswith('@@'):
             whitelist.append(convert_line(line[2:]))
         else:
