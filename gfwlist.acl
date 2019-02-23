@@ -1,5 +1,5 @@
 #
-# Date: 2019-02-24T01:42:28.420074+08:00
+# Date: 2019-02-24T01:46:35.098376+08:00
 # Home Page: https://github.com/NateScarlet/gfwlist.acl
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
@@ -228,7 +228,7 @@ share\.dmhy\.org
 (^|\.)zattoo\.com
 (^|\.)zim\.vn
 (^|\.)zozotown\.com
-(^|\.)1\.1\.1\.1
+1.1.1.1
 14.102.250.18
 14.102.250.19
 50.7.31.230:8898
