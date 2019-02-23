@@ -19,32 +19,36 @@ class ChinaTimezone(tzinfo):
 
 
 def convert_line(line):
+    """ Convert gfwlist rule to acl format
 
-    # IP
-    if re.match(r'[\d\.:]+', line):
-        return line
+    Reference:
+        https://adblockplus.org/en/filter-cheatsheet
+        https://adblockplus.org/filters#regexps
+    """
 
-    line = re.escape(line)
-    # https://adblockplus.org/en/filter-cheatsheet
-
-    if line[0] == '/' and line[-1] == '/':
+    # Regexp
+    if line.startswith('/') and line.endswith('/'):
         return line[1:-1]
 
+    line = re.escape(line)
+
+    # Regexp indicator
+    line = line.replace('/', r'\/')
     # Wildcard
     line = line.replace(r'\*', '.+')
     # Seperator
-    line = line.replace(r'\^', '[/:]')
+    line = line.replace(r'\^', r'[\/:]')
 
-    # Domain name
-    if line.startswith(r'\|\|'):
-        return '^https?://%s.*' % line[4:]
-
-    # Exact address
-    if line.startswith(r'\|'):
-        line = '^{}'.format(line[2:])
+    # Exact address end
     if line.endswith(r'\|'):
         line = '{}$'.format(line[:-2])
-    # Address parts
+    # Domain name
+    if line.startswith(r'\|\|'):
+        line = r'^https?:\/\/{}'.format(line[4:])
+    # Exact address start
+    elif line.startswith(r'\|'):
+        line = '^{}'.format(line[2:])
+
     return line
 
 
