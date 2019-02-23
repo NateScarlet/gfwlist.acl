@@ -22,22 +22,30 @@ def get_domain_from_rule(line):
 
     # Escape, not use `re.escape` since it behavior changes in diffrent python version
     line = re.sub(r'[.*+?^${}()|[\]\\]', lambda x: '\\{}'.format(x.group(0)), line)
-    
+
     # https://adblockplus.org/filters#basic
     line = line.replace(r'\*', '.+')
     # https://adblockplus.org/filters#separators
     line = line.replace(r'\^', r'([^a-zA-Z0-9_-.%]|$)')
 
-    line = re.sub(r'\$*$', '$', line)
     # https://adblockplus.org/filters#anchors
     if line.startswith(r'\|\|'):
-        return r'(^|\.){}'.format(line[4:])
+        line = r'(^|\.){}'.format(line[4:])
     elif line.startswith(r'\|'):
         line = '^{}'.format(line[2:])
+    if line.endswith(r'\|'):
+        line = '{}$'.format(line[:-2])
 
-    return line
+
+    return get_domain_from_regexp(line)
+    
 
 def get_domain_from_regexp(line):
+    if not re.match(r'^\^|\(.*(?<!\\)\^.*\)', line):
+        line = '^.*{}'.format(line)
+    if not line.endswith('$'):
+        line = '{}.*$'.format(line)
+
     return line
 
 def convert_line(line):
@@ -79,7 +87,7 @@ def main():
     for line in fileinput.input():
         line = line.strip()  # type: str
         # https://adblockplus.org/filters#comments
-        if not line or line.startswith(('!', '[AutoProxy')):
+        if line.startswith(('!', '[AutoProxy')):
             continue
 
         # https://adblockplus.org/filters#whitelist
