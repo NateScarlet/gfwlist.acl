@@ -67,8 +67,9 @@ def convert_line(line):
     line = line.replace(r'\/', '/')
 
     # IP
-    if re.match(r'^[\d.:/]+$', line):
-        return [line]
+    match = re.match(r'^(?:https?://)?(\d{,3}\.\d{,3}\.\d{,3}\.\d{,3}(?::\d{1,5})?)$', line)
+    if match:
+        return [match.group(1)]
 
     # https://adblockplus.org/filters#regexps
     if line.startswith('/') and line.endswith('/'):
