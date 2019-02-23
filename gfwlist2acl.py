@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+u#!/usr/bin/env python3
 """Convert gfwlist format to ssr compatible acl file"""
 
 import fileinput
@@ -53,7 +53,6 @@ def main():
         '#',
         '',
         '[bypass_all]',
-        '',
     ]
     blacklist = ['', '[proxy_list]', '']
     whitelist = ['', '[bypass_list]', '']
@@ -70,7 +69,7 @@ def main():
         else:
             blacklist.append(convert_line(line))
 
-    for i in chain(header, whitelist, blacklist):
+    for i in chain(header, blacklist, whitelist):
         print(i)
 
 
