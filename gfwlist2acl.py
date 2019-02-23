@@ -8,6 +8,8 @@ from itertools import chain
 
 
 class ChinaTimezone(tzinfo):
+    """Timezone of china.  """
+
     def tzname(self, dt):
         return 'UTC+8'
 
@@ -19,24 +21,36 @@ class ChinaTimezone(tzinfo):
 
 
 def get_regexp(line):
+    """Get regular expression from a line.
+
+    Returns:
+        str
+    """
 
     # Escape, not use `re.escape` since it behavior changes in diffrent python version
-    line = re.sub(r'[.*+?^${}()|[\]\\]', lambda x: '\\{}'.format(x.group(0)), line)
+    ret = re.sub(r'[.*+?^${}()|[\]\\]',
+                 lambda x: '\\{}'.format(x.group(0)), line)
 
     # https://adblockplus.org/filters#basic
-    line = line.replace(r'\*', '.+')
+    ret = ret.replace(r'\*', '.+')
     # https://adblockplus.org/filters#separators
-    line = line.replace(r'\^', r'([^a-zA-Z0-9_-.%]|$)')
+    ret = ret.replace(r'\^', r'([^a-zA-Z0-9_-.%]|$)')
 
     # https://adblockplus.org/filters#anchors
-    line = re.sub(r'^\\\|\\\|(https?\??://)?', r'(^|\.)', line)
-    line = re.sub(r'^\\\|(https?\??://)?', '^', line)
-    line = re.sub(r'\\\|$', '$', line)
+    ret = re.sub(r'^\\\|\\\|(https?\??://)?', r'(^|\.)', ret)
+    ret = re.sub(r'^\\\|(https?\??://)?', '^', ret)
+    ret = re.sub(r'\\\|$', '$', ret)
 
-    return get_rules(line)
-    
+    return ret
+
 
 def get_rules(regexp):
+    """Get acl rules from regular expression.
+
+    Returns:
+        List[str]
+    """
+
     regexp = re.sub(r'\^?https?\??://', '^', regexp)
     regexp = re.sub(r'(\.\*)+$', '', regexp)
     regexp = re.sub(r'/$', '$', regexp)
@@ -50,7 +64,7 @@ def get_rules(regexp):
         suffix = match.group(3)
         ret = []
         size = 10
-        for i in range(0, len(items),size):
+        for i in range(0, len(items), size):
             chunk = items[i:i+size]
             ret.append('{}({}){}'.format(prefix, '|'.join(chunk), suffix))
 
@@ -58,8 +72,13 @@ def get_rules(regexp):
     ret = [i for i in ret if len(i) < 500]
     return ret
 
+
 def convert_line(line):
-    """ Convert gfwlist rule to acl format   """
+    """ Convert a input line to acl rules
+
+    Returns:
+        List[str]
+    """
 
     if not line:
         return []
@@ -67,7 +86,8 @@ def convert_line(line):
     line = line.replace(r'\/', '/')
 
     # IP
-    match = re.match(r'^\|*(?:https?://)?(\d{,3}\.\d{,3}\.\d{,3}\.\d{,3}(?::\d{1,5})?)/*$', line)
+    match = re.match(
+        r'^\|*(?:https?://)?(\d{,3}\.\d{,3}\.\d{,3}\.\d{,3}(?::\d{1,5})?)/*$', line)
     if match:
         return [match.group(1)]
 
@@ -75,7 +95,7 @@ def convert_line(line):
     if line.startswith('/') and line.endswith('/'):
         return get_rules(line[1:-1])
 
-    return get_regexp(line)
+    return get_rules(get_regexp(line))
 
 
 def main():
