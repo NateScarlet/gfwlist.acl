@@ -12,8 +12,8 @@ def test_convert():
         ('example.com.cn|', r'^.*example\.com\.cn$'),
         ('|example.com.cn|', r'^example\.com\.cn$'),
         ('||example.com.cn', r'(^|\.)example\.com\.cn.*$'),
-        ('127.0.0.1', '127.0.0.1'),
-        ('http://127.0.0.1', '127.0.0.1'),
+        ('127.0.0.1', ''),
+        ('http://127.0.0.1', ''),
     ]
 
     for case, expected in TEST_CASES:
