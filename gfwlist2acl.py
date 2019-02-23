@@ -33,9 +33,8 @@ def get_domain_from_rule(line):
     if line.startswith(r'\|\|'):
         return r'(^|\.){}'.format(line[4:])
     elif line.startswith(r'\|'):
-        line = line[2:]
-    line = re.sub(r'^\^*', '^', line)
-    
+        line = '^{}'.format(line[2:])
+
     return line
 
 def get_domain_from_regexp(line):
@@ -47,13 +46,12 @@ def convert_line(line):
     if not line:
         return line
 
+    line = line.replace(r'\/', '/')
+    line = re.sub('https?://', '', line)
     # IP
     if re.match(r'^[\d.:/]+$', line):
         return line
 
-
-    line = line.replace(r'\/', '/')
-    line = re.sub('https?://', '', line)
     # https://adblockplus.org/filters#regexps
     if line.startswith('/') and line.endswith('/'):
         return get_domain_from_regexp(line[1:-1])
