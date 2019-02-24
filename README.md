@@ -7,4 +7,4 @@
 
 Blacklist: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 
-WhiteList: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
+Whitelist: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
