@@ -5,8 +5,6 @@ before_script:
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git checkout master
-install:
-  - pip install pytest
 script:
   - pytest
   - curl https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt | python -m base64 -d | ./gfwlist2acl.py > gfwlist.acl
