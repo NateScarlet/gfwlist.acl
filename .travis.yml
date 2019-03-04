@@ -7,11 +7,7 @@ before_script:
   - git checkout master
 script:
   - pytest
-  - curl https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt | python -m base64 -d | ./gfwlist2acl.py > gfwlist.acl
-  - sed -e 's/\[bypass_all\]/[proxy_all]/' gfwlist.acl -e 's@/master/gfwlist\.acl@/master/gfwlist.white.acl@' > gfwlist.white.acl
-after_success:
-  - git commit -a -m 'Update via travis [skip ci]'
-  - git push
+  - ./update.py
 branches:
   only:
     - master

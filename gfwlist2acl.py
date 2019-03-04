@@ -102,21 +102,20 @@ def convert_line(line):
     return get_rules(get_regexp(line))
 
 
-def main():
-    header = [
-        '#',
-        '# Date: {}'.format(datetime.now(ChinaTimezone()).isoformat()),
-        '# Home Page: {}'.format('https://github.com/NateScarlet/gfwlist.acl'),
-        '# URL: {}'.format(
-            'https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl'),
-        '#',
-        '',
-        '[bypass_all]',
-    ]
-    blacklist = ['', '[proxy_list]', '']
-    whitelist = ['', '[bypass_list]', '']
+def get_acl_rules(gfwlist):
+    """Get acl rules from gfwlist
 
-    for line in fileinput.input():
+    Args:
+        gfwlist (List[str]): gfwlist data
+
+    Returns:
+        (List, List): (blacklist, whitelist)
+    """
+
+    blacklist = []
+    whitelist = []
+
+    for line in gfwlist:
         line = line.strip()  # type: str
         # https://adblockplus.org/filters#comments
         if line.startswith(('!', '[AutoProxy')):
@@ -128,7 +127,28 @@ def main():
             line = line[2:]
         (whitelist if is_whitelist else blacklist).extend(convert_line(line))
 
-    for i in chain(header, blacklist, whitelist):
+    return blacklist, whitelist
+
+
+def main():
+    blacklist, whitelist = get_acl_rules(fileinput.input())
+
+    for i in chain([
+            '#',
+            '# Date: {}'.format(datetime.now(ChinaTimezone()).isoformat()),
+            '# Home Page: {}'.format(
+                'https://github.com/NateScarlet/gfwlist.acl'),
+            '# URL: {}'.format(
+                'https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl'),
+            '#',
+            '',
+            '[bypass_all]',
+            '',
+            '[proxy_list]',
+            '',],
+                   blacklist,
+                   ['', '[bypass_list]', ''],
+                   whitelist):
         print(i)
 
 
