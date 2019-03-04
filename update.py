@@ -70,7 +70,8 @@ def main():
              '', ],
             blacklist,
             ['', '[bypass_list]', ''],
-            whitelist)))
+            whitelist,
+            [''])))
     with open(_file_path('gfwlist.white.acl'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(chain(
             ['#'],
@@ -85,7 +86,8 @@ def main():
              '', ],
             blacklist,
             ['', '[bypass_list]', ''],
-            whitelist)))
+            whitelist,
+            [''])))
     with open(HASH_FILE, 'w', encoding='utf-8') as f:
         f.write(result_hash)
 
