@@ -3,6 +3,7 @@
 import base64
 import errno
 import hashlib
+import json
 import os
 import subprocess
 from datetime import datetime
@@ -44,10 +45,11 @@ def main():
         h.update(i.encode('utf-8'))
     result_hash = h.hexdigest()
 
+    is_release = True
     try:
         with open(HASH_FILE, 'r', encoding='utf-8') as f:
             if f.read() == result_hash:
-                return
+                is_release = False
     except OSError as ex:
         if ex.errno != errno.ENOENT:
             raise
@@ -88,11 +90,19 @@ def main():
             ['', '[bypass_list]', ''],
             whitelist,
             [''])))
+    with open(_file_path('gfwlist.acl.json'), 'w', encoding='utf-8') as f:
+        json.dump({'hash': result_hash,
+                   'blacklist': blacklist,
+                   'whitelist': whitelist},
+                  f,
+                  indent=4,)
     with open(HASH_FILE, 'w', encoding='utf-8') as f:
         f.write(result_hash)
 
+    if not is_release:
+        return
     assert subprocess.call(
-        ['git', 'add', 'hash.txt', 'gfwlist.acl', 'gfwlist.white.acl']) == 0
+        ['git', 'add', 'hash.txt', 'gfwlist.acl', 'gfwlist.white.acl', 'gfwlist.acl.json']) == 0
     assert subprocess.call(
         ['git', 'commit', '-m', 'update acl files [skip ci]']) == 0
     assert subprocess.call(['git', 'tag', datetime.now(
