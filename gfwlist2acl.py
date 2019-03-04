@@ -55,6 +55,10 @@ def get_rules(regexp):
     regexp = re.sub(r'(\.\*)+$', '', regexp)
     regexp = re.sub(r'/$', '$', regexp)
 
+    # Exclude pathname rule, since ssr only accept domain match
+    if '/' in re.sub(r'(\[\^.*)/(.*\])', lambda match: match.group(1) + match.group(2), regexp):
+        return []
+
     ret = [regexp]
     # Split long line by `|`
     match = len(regexp) > 80 and re.match(r'(.*)\((.*)\)(.*)', regexp)

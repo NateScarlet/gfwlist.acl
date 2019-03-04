@@ -6,7 +6,7 @@ def test_convert():
     cases = [
         ('.example.com.cn', [r'\.example\.com\.cn']),
         ('', []),
-        ('|https://example.com.cn/path/name', [r'^example\.com\.cn/path/name']),
+        ('|https://example.com.cn/path/name', []),
         ('example.com.cn', [r'example\.com\.cn']),
         ('|example.com.cn', [r'^example\.com\.cn']),
         ('example.com.cn|', [r'example\.com\.cn$']),
@@ -26,7 +26,8 @@ def test_convert():
              r'^([^/]+\.)*google\.(ac|ad|ae|af|al|am|as|at|az|ba)$',
              r'^([^/]+\.)*google\.(be|bf|bg|bi|bj|bs|bt|by|ca|cat)$',
              r'^([^/]+\.)*google\.(cd|cf|cg|ch|ci|cl|cm|co.ao)$',
-         ])
+         ]),
+         (r'/[^abc\/def].com/', [r'[^abc/def].com'])
     ]
 
     for case, expected in cases:
