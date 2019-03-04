@@ -4,6 +4,7 @@
 
 - [x] Tested on [SSRR-Android](https://github.com/shadowsocksrr/shadowsocksr-android)
 - [x] Update daily by travis CI
+- [x] New release when upstream changed
 
 Blacklist: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 
