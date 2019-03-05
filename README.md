@@ -1,4 +1,4 @@
-# gfwlist.acl [![Build Status](https://travis-ci.org/NateScarlet/gfwlist.acl.svg?branch=master)](https://travis-ci.org/NateScarlet/gfwlist.acl)
+# gfwlist.acl [![Build Status](https://travis-ci.org/NateScarlet/gfwlist.acl.svg?branch=master)](https://travis-ci.org/NateScarlet/gfwlist.acl) [![CalVer](https://img.shields.io/badge/calver-YYYY.0M.0D-22bfda.svg)](http://calver.org)
 
 [gfwlist](https://github.com/gfwlist/gfwlist) in acl format
 
