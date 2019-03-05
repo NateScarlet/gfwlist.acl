@@ -1,7 +1,11 @@
+"""Test `gfwlist2acl` module.  """
+
+import sys
+
 from gfwlist2acl import convert_line
 
 
-def test_convert():
+def _generate_tests():
 
     cases = [
         ('.example.com.cn', [r'\.example\.com\.cn']),
@@ -27,8 +31,16 @@ def test_convert():
              r'^([^/]+\.)*google\.(be|bf|bg|bi|bj|bs|bt|by|ca|cat)$',
              r'^([^/]+\.)*google\.(cd|cf|cg|ch|ci|cl|cm|co.ao)$',
          ]),
-         (r'/[^abc\/def].com/', [r'[^abc/def].com'])
+        (r'/[^abc\/def].com/', [r'[^abc/def].com'])
     ]
 
-    for case, expected in cases:
-        assert convert_line(case) == expected, (case, expected)
+    def create_test(case):
+        def _test():
+            line, expected = case
+            assert convert_line(line) == expected, case
+        return _test
+
+    for index, case in enumerate(cases, 1):
+        setattr(sys.modules[__name__], f'test_convert_line_{index}', create_test(case))
+
+_generate_tests()
