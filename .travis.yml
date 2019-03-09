@@ -1,7 +1,8 @@
-dist: xenial
 language: python
 python:
   - '3.6'
+go:
+  - stable
 install:
   - go get github.com/github/hub && hub --version
 before_script:

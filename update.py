@@ -8,6 +8,7 @@ import os
 import subprocess
 from datetime import datetime
 from itertools import chain
+from tempfile import mkstemp
 from typing import List
 
 from gfwlist2acl import ChinaTimezone, get_acl_rules
@@ -110,10 +111,15 @@ def main():
     subprocess.run(
         ['hub', 'commit', '-m', 'Update acl files [skip ci]'], check=True)
     subprocess.run(['hub', 'push'], check=True)
-    subprocess.run(['hub', 'release', 'create', '-m',
-                    now.strftime('%Y.%m.%d') + '\n\n' + diff,
+
+    temp_fd, temp_name = mkstemp()
+    with open(temp_fd, 'w', encoding='utf-8') as f:
+        f.write(now.strftime('%Y.%m.%d') + '\n\n' + diff)
+
+    subprocess.run(['hub', 'release', 'create', '-F', temp_name,
                     *chain(*(['-a', i] for i in filenames)),
                     now.strftime('%Y.%m.%d')], check=True)
+    os.unlink(temp_name)
 
 
 if __name__ == '__main__':
