@@ -1,6 +1,6 @@
 # gfwlist.acl
 
-[![Build Status](https://travis-ci.org/NateScarlet/gfwlist.acl.svg?branch=master)](https://travis-ci.org/NateScarlet/gfwlist.acl) [![Release](https://img.shields.io/github/release/NateScarlet/gfwlist.acl.svg)](https://github.com/NateScarlet/gfwlist.acl/releases/latest) [![gfwlist updated](https://img.shields.io/github/last-commit/gfwlist/gfwlist.svg?label=gfwlist%20updated)](https://github.com/gfwlist/gfwlist) [![CalVer](https://img.shields.io/badge/calver-YYYY.0M.0D-22bfda.svg)](http://calver.org) [![Maintainability](https://api.codeclimate.com/v1/badges/b98d90257f10f7aedcf2/maintainability)](https://codeclimate.com/github/NateScarlet/gfwlist.acl/maintainability) ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)
+[![Build Status](https://travis-ci.org/NateScarlet/gfwlist.acl.svg?branch=master)](https://travis-ci.org/NateScarlet/gfwlist.acl) [![gfwlist updated](https://img.shields.io/github/last-commit/gfwlist/gfwlist.svg?label=gfwlist%20updated)](https://github.com/gfwlist/gfwlist) [![Release](https://img.shields.io/github/release/NateScarlet/gfwlist.acl.svg)](https://github.com/NateScarlet/gfwlist.acl/releases/latest) [![CalVer](https://img.shields.io/badge/calver-YYYY.0M.0D-22bfda.svg)](http://calver.org) [![Maintainability](https://api.codeclimate.com/v1/badges/b98d90257f10f7aedcf2/maintainability)](https://codeclimate.com/github/NateScarlet/gfwlist.acl/maintainability) ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)
 
 [gfwlist] in acl format
 
