@@ -1,9 +1,8 @@
 language: python
 python:
   - '3.6'
-go:
-  - stable
 install:
+  - eval "$(gimme stable)"
   - go get github.com/github/hub && hub --version
 before_script:
   - git config credential.helper "store --file=.git/credentials"
