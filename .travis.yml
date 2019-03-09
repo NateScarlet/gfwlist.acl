@@ -1,8 +1,9 @@
+dist: trusty
 language: python
 python:
   - '3.6'
 install:
-  - go get github.com/github/hub
+  - go get github.com/github/hub && hub --version
 before_script:
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GITHUB_TOKEN}:@github.com" > .git/credentials
