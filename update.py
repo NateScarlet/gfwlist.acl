@@ -99,8 +99,8 @@ def main():
         print('Updated repository data, skip release since not specified `--release`')
         return
 
-    subprocess.run(['git', 'add', *filenames], check=True)
-    diff = subprocess.run(['git', 'diff', '--cached', 'gfwlist.acl.json'],
+    subprocess.run(['hub', 'add', *filenames], check=True)
+    diff = subprocess.run(['hub', 'diff', '--cached', 'gfwlist.acl.json'],
                           encoding='utf-8',
                           stdout=subprocess.PIPE,
                           check=True).stdout
@@ -108,8 +108,8 @@ def main():
         print('Already up to date')
         return
     subprocess.run(
-        ['git', 'commit', '-m', 'Update acl files [skip ci]'], check=True)
-    subprocess.run(['git', 'push'], check=True)
+        ['hub', 'commit', '-m', 'Update acl files [skip ci]'], check=True)
+    subprocess.run(['hub', 'push'], check=True)
     subprocess.run(['hub', 'release', 'create', '-m',
                     now.strftime('%Y.%m.%d') + '\n\n' + diff,
                     *chain(*(['-a', i] for i in filenames)),
