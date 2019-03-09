@@ -6,6 +6,24 @@ import re
 from datetime import datetime, timedelta, tzinfo
 from itertools import chain
 
+ACL_TEMPLATE = """\
+#
+# Home: https://github.com/NateScarlet/gfwlist.acl
+# Date: {date}
+# URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/{filename}
+#
+
+[{default_action}]
+
+[proxy_list]
+
+{blacklist}
+
+[bypass_list]
+
+{whitelist}
+"""
+
 
 class ChinaTimezone(tzinfo):
     """Timezone of china.  """
@@ -108,54 +126,39 @@ def convert_line(line):
     return get_rules(get_regexp(line))
 
 
-def get_acl_rules(gfwlist):
+def get_acl_rules(_content):
     """Get acl rules from gfwlist
 
     Args:
-        gfwlist (List[str]): gfwlist data
+        _content (Iterable[str]): gfwlist data
 
     Returns:
-        (List, List): (blacklist, whitelist)
+        (List[str], List[str]): (blacklist, whitelist)
     """
+    content = _content
+    content = (i.strip() for i in content)
+    # https://adblockplus.org/filters#comments
+    content = [i for i in content if not i.startswith(('!', '[AutoProxy'))]
 
-    blacklist = []
-    whitelist = []
+    # https://adblockplus.org/filters#whitelist
+    blacklist = chain(*(convert_line(i)
+                        for i in content if not i.startswith('@@')))
+    whitelist = chain(*(convert_line(i[2:])
+                        for i in content if i.startswith('@@')))
 
-    for line in gfwlist:
-        line = line.strip()  # type: str
-        # https://adblockplus.org/filters#comments
-        if line.startswith(('!', '[AutoProxy')):
-            continue
-
-        # https://adblockplus.org/filters#whitelist
-        is_whitelist = line.startswith('@@')
-        if is_whitelist:
-            line = line[2:]
-        (whitelist if is_whitelist else blacklist).extend(convert_line(line))
-
-    return blacklist, whitelist
+    return list(blacklist), list(whitelist)
 
 
 def main():
     blacklist, whitelist = get_acl_rules(fileinput.input())
 
-    for i in chain([
-        '#',
-        '# Date: {}'.format(datetime.now(ChinaTimezone()).isoformat()),
-        '# Home Page: {}'.format(
-            'https://github.com/NateScarlet/gfwlist.acl'),
-        '# URL: {}'.format(
-            'https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl'),
-        '#',
-        '',
-        '[bypass_all]',
-        '',
-        '[proxy_list]',
-        '', ],
-            blacklist,
-            ['', '[bypass_list]', ''],
-            whitelist):
-        print(i)
+    print(ACL_TEMPLATE.format(
+        date=datetime.now(ChinaTimezone()).isoformat(),
+        filename='gfwlist.acl',
+        default_action='bypass_all',
+        blacklist='\n'.join(blacklist),
+        whitelist='\n'.join(whitelist),
+    ))
 
 
 if __name__ == '__main__':

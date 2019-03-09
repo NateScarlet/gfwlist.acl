@@ -11,7 +11,7 @@ from itertools import chain
 from tempfile import mkstemp
 from typing import List
 
-from gfwlist2acl import ChinaTimezone, get_acl_rules
+from gfwlist2acl import ChinaTimezone, get_acl_rules, ACL_TEMPLATE
 
 DOWNLOAD_URL = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 
@@ -51,43 +51,24 @@ def main():
     now = datetime.now(ChinaTimezone())
     blacklist, whitelist = (get_acl_rules(download().splitlines()))
 
-    common_header = ['# Home: https://github.com/NateScarlet/gfwlist.acl',
-                     '# Date: {}'.format(now.isoformat())]
-
     filenames = []
     with open(_file_path('gfwlist.acl'), 'w', encoding='utf-8', newline='\n') as f:
-        f.write('\n'.join(chain(
-            ['#'],
-            common_header,
-            ['# URL: https://raw.githubusercontent.com/'
-             'NateScarlet/gfwlist.acl/master/gfwlist.acl',
-             '#',
-             '',
-             '[bypass_all]',
-             '',
-             '[proxy_list]',
-             '', ],
-            blacklist,
-            ['', '[bypass_list]', ''],
-            whitelist,
-            [''])))
+        f.write(ACL_TEMPLATE.format(
+            date=now.isoformat(),
+            filename='gfwlist.acl',
+            default_action='bypass_all',
+            blacklist='\n'.join(blacklist),
+            whitelist='\n'.join(whitelist),
+        ))
         filenames.append('gfwlist.acl')
     with open(_file_path('gfwlist.white.acl'), 'w', encoding='utf-8', newline='\n') as f:
-        f.write('\n'.join(chain(
-            ['#'],
-            common_header,
-            ['# URL: https://raw.githubusercontent.com/'
-             'NateScarlet/gfwlist.acl/master/gfwlist.white.acl',
-             '#',
-             '',
-             '[proxy_all]',
-             '',
-             '[proxy_list]',
-             '', ],
-            blacklist,
-            ['', '[bypass_list]', ''],
-            whitelist,
-            [''])))
+        f.write(ACL_TEMPLATE.format(
+            date=now.isoformat(),
+            filename='gfwlist.white.acl',
+            default_action='proxy_all',
+            blacklist='\n'.join(blacklist),
+            whitelist='\n'.join(whitelist),
+        ))
         filenames.append('gfwlist.white.acl')
     with open(_file_path('gfwlist.acl.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump({'blacklist': blacklist,
