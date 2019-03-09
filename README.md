@@ -1,4 +1,4 @@
-# gfwlist.acl [![Build Status](https://travis-ci.org/NateScarlet/gfwlist.acl.svg?branch=master)](https://travis-ci.org/NateScarlet/gfwlist.acl) [![Release](https://img.shields.io/github/release/NateScarlet/gfwlist.acl.svg)](https://github.com/NateScarlet/gfwlist.acl/releases/latest) [![CalVer](https://img.shields.io/badge/calver-YYYY.0M.0D-22bfda.svg)](http://calver.org)
+# gfwlist.acl [![Build Status](https://travis-ci.org/NateScarlet/gfwlist.acl.svg?branch=master)](https://travis-ci.org/NateScarlet/gfwlist.acl) [![Release](https://img.shields.io/github/release/NateScarlet/gfwlist.acl.svg)](https://github.com/NateScarlet/gfwlist.acl/releases/latest) [![gfwlist updated](https://img.shields.io/github/last-commit/gfwlist/gfwlist.svg?label=gfwlist%20updated)](https://github.com/gfwlist/gfwlist) [![CalVer](https://img.shields.io/badge/calver-YYYY.0M.0D-22bfda.svg)](http://calver.org)
 
 [gfwlist] in acl format
 
