@@ -104,7 +104,7 @@ def main():
         print('Already up to date')
         return
     subprocess.run(
-        ['git', 'commit', '-m', 'update acl files [skip ci]\n\n'+diff], check=True)
+        ['git', 'commit', '-m', 'Update acl files [skip ci]\n\n'+diff], check=True)
     subprocess.run(['git', 'tag', now.strftime('%Y.%m.%d')], check=True)
     subprocess.run(['git', 'push'], check=True)
     subprocess.run(['git', 'push', '--tags'], check=True)
