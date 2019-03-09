@@ -114,7 +114,7 @@ def main():
 
     temp_fd, temp_name = mkstemp()
     with open(temp_fd, 'w', encoding='utf-8') as f:
-        f.write(now.strftime('%Y.%m.%d') + '\n\n```diff' + diff + '\n```')
+        f.write(now.strftime('%Y.%m.%d') + '\n\n```diff\n' + diff + '\n```')
 
     subprocess.run(['hub', 'release', 'create', '-F', temp_name,
                     *chain(*(['-a', i] for i in filenames)),
