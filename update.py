@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
+"""Script for CI update. """
 
+import argparse
 import base64
-import errno
-import hashlib
 import json
 import os
 import subprocess
@@ -32,33 +32,27 @@ def download() -> List[str]:
     """
 
     return (base64.b64decode(
-        subprocess.check_output(['curl', DOWNLOAD_URL], encoding='utf-8'))
-        .decode('utf-8')
-        .splitlines())
+        subprocess.run(['curl', DOWNLOAD_URL],
+                       encoding='utf-8',
+                       stdout=subprocess.PIPE,
+                       check=True).stdout)
+            .decode('utf-8'))
 
 
 def main():
-    blacklist, whitelist = (get_acl_rules(download()))
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--release', action='store_true',
+                        help='create new release if repository data is not up to date')
 
-    h = hashlib.sha1()
-    for i in chain(blacklist, ['\n\n'], whitelist):
-        h.update(i.encode('utf-8'))
-    result_hash = h.hexdigest()
+    args = parser.parse_args()
+    is_release = args.release
 
-    is_release = True
-    try:
-        with open(HASH_FILE, 'r', encoding='utf-8') as f:
-            if f.read() == result_hash:
-                is_release = False
-    except OSError as ex:
-        if ex.errno != errno.ENOENT:
-            raise
+    now = datetime.now(ChinaTimezone())
+    blacklist, whitelist = (get_acl_rules(download().splitlines()))
 
-    common_header = ['# Home Page: https://github.com/NateScarlet/gfwlist.acl',
-                     '# Date: {}'.format(datetime.now(
-                         ChinaTimezone()).isoformat()),
-                     '# Hash: {}'.format(result_hash)]
-    with open(_file_path('gfwlist.acl'), 'w', encoding='utf-8') as f:
+    common_header = ['# Home: https://github.com/NateScarlet/gfwlist.acl',
+                     '# Date: {}'.format(now.isoformat())]
+    with open(_file_path('gfwlist.acl'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(chain(
             ['#'],
             common_header,
@@ -74,7 +68,7 @@ def main():
             ['', '[bypass_list]', ''],
             whitelist,
             [''])))
-    with open(_file_path('gfwlist.white.acl'), 'w', encoding='utf-8') as f:
+    with open(_file_path('gfwlist.white.acl'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(chain(
             ['#'],
             common_header,
@@ -90,25 +84,30 @@ def main():
             ['', '[bypass_list]', ''],
             whitelist,
             [''])))
-    with open(_file_path('gfwlist.acl.json'), 'w', encoding='utf-8') as f:
-        json.dump({'hash': result_hash,
-                   'blacklist': blacklist,
+    with open(_file_path('gfwlist.acl.json'), 'w', encoding='utf-8', newline='\n') as f:
+        json.dump({'blacklist': blacklist,
                    'whitelist': whitelist},
                   f,
                   indent=4,)
-    with open(HASH_FILE, 'w', encoding='utf-8') as f:
-        f.write(result_hash)
 
     if not is_release:
+        print('Updated repository data, skip release since not specified `--release`')
         return
-    assert subprocess.call(
-        ['git', 'add', 'hash.txt', 'gfwlist.acl', 'gfwlist.white.acl', 'gfwlist.acl.json']) == 0
-    assert subprocess.call(
-        ['git', 'commit', '-m', 'update acl files [skip ci]']) == 0
-    assert subprocess.call(['git', 'tag', datetime.now(
-        ChinaTimezone()).strftime('%Y.%m.%d')]) == 0
-    assert subprocess.call(['git', 'push']) == 0
-    assert subprocess.call(['git', 'push', '--tags']) == 0
+
+    subprocess.run(['git', 'add', 'gfwlist.acl',
+                    'gfwlist.white.acl', 'gfwlist.acl.json'], check=True)
+    diff = subprocess.run(['git', 'diff', '--cached', 'gfwlist.acl.json'],
+                          encoding='utf-8',
+                          stdout=subprocess.PIPE,
+                          check=True).stdout
+    if not diff:
+        print('Already up to date')
+        return
+    subprocess.run(
+        ['git', 'commit', '-m', 'update acl files [skip ci]\n\n'+diff], check=True)
+    subprocess.run(['git', 'tag', now.strftime('%Y.%m.%d')], check=True)
+    subprocess.run(['git', 'push'], check=True)
+    subprocess.run(['git', 'push', '--tags'], check=True)
 
 
 if __name__ == '__main__':
