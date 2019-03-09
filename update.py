@@ -52,6 +52,8 @@ def main():
 
     common_header = ['# Home: https://github.com/NateScarlet/gfwlist.acl',
                      '# Date: {}'.format(now.isoformat())]
+
+    filenames = []
     with open(_file_path('gfwlist.acl'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(chain(
             ['#'],
@@ -68,6 +70,7 @@ def main():
             ['', '[bypass_list]', ''],
             whitelist,
             [''])))
+        filenames.append('gfwlist.acl')
     with open(_file_path('gfwlist.white.acl'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(chain(
             ['#'],
@@ -84,18 +87,19 @@ def main():
             ['', '[bypass_list]', ''],
             whitelist,
             [''])))
+        filenames.append('gfwlist.white.acl')
     with open(_file_path('gfwlist.acl.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump({'blacklist': blacklist,
                    'whitelist': whitelist},
                   f,
                   indent=4,)
+        filenames.append('gfwlist.acl.json')
 
     if not is_release:
         print('Updated repository data, skip release since not specified `--release`')
         return
 
-    subprocess.run(['git', 'add', 'gfwlist.acl',
-                    'gfwlist.white.acl', 'gfwlist.acl.json'], check=True)
+    subprocess.run(['git', 'add', *filenames], check=True)
     diff = subprocess.run(['git', 'diff', '--cached', 'gfwlist.acl.json'],
                           encoding='utf-8',
                           stdout=subprocess.PIPE,
@@ -104,10 +108,12 @@ def main():
         print('Already up to date')
         return
     subprocess.run(
-        ['git', 'commit', '-m', 'Update acl files [skip ci]\n\n'+diff], check=True)
-    subprocess.run(['git', 'tag', now.strftime('%Y.%m.%d')], check=True)
+        ['git', 'commit', '-m', 'Update acl files [skip ci]'], check=True)
     subprocess.run(['git', 'push'], check=True)
-    subprocess.run(['git', 'push', '--tags'], check=True)
+    subprocess.run(['hub', 'release', 'create', '-m',
+                    now.strftime('%Y.%m.%d') + '\n\n' + diff,
+                    *chain(*(['-a', i] for i in filenames)),
+                    now.strftime('%Y.%m.%d')], check=True)
 
 
 if __name__ == '__main__':
