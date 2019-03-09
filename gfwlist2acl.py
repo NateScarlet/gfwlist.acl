@@ -44,6 +44,23 @@ def get_regexp(line):
     return ret
 
 
+def _split_long_regexp(regexp):
+    match = len(regexp) > 80 and re.match(r'(.*)\((.*)\)(.*)', regexp)
+    if not match:
+        return [regexp]
+
+    ret = []
+    prefix = match.group(1)
+    items = match.group(2).split('|')
+    suffix = match.group(3)
+    size = 10
+    for i in range(0, len(items), size):
+        chunk = items[i:i+size]
+        ret.append('{}({}){}'.format(prefix, '|'.join(chunk), suffix))
+
+    return ret
+
+
 def get_rules(regexp):
     """Get acl rules from regular expression.
 
@@ -59,18 +76,7 @@ def get_rules(regexp):
     if '/' in re.sub(r'(\[\^.*)/(.*\])', lambda match: match.group(1) + match.group(2), regexp):
         return []
 
-    ret = [regexp]
-    # Split long line by `|`
-    match = len(regexp) > 80 and re.match(r'(.*)\((.*)\)(.*)', regexp)
-    if match:
-        prefix = match.group(1)
-        items = match.group(2).split('|')
-        suffix = match.group(3)
-        ret = []
-        size = 10
-        for i in range(0, len(items), size):
-            chunk = items[i:i+size]
-            ret.append('{}({}){}'.format(prefix, '|'.join(chunk), suffix))
+    ret = _split_long_regexp(regexp)
 
     # SSR can not deal with too long rule in one line
     ret = [i for i in ret if len(i) < 500]
@@ -134,21 +140,21 @@ def main():
     blacklist, whitelist = get_acl_rules(fileinput.input())
 
     for i in chain([
-            '#',
-            '# Date: {}'.format(datetime.now(ChinaTimezone()).isoformat()),
-            '# Home Page: {}'.format(
-                'https://github.com/NateScarlet/gfwlist.acl'),
-            '# URL: {}'.format(
-                'https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl'),
-            '#',
-            '',
-            '[bypass_all]',
-            '',
-            '[proxy_list]',
-            '',],
-                   blacklist,
-                   ['', '[bypass_list]', ''],
-                   whitelist):
+        '#',
+        '# Date: {}'.format(datetime.now(ChinaTimezone()).isoformat()),
+        '# Home Page: {}'.format(
+            'https://github.com/NateScarlet/gfwlist.acl'),
+        '# URL: {}'.format(
+            'https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl'),
+        '#',
+        '',
+        '[bypass_all]',
+        '',
+        '[proxy_list]',
+        '', ],
+            blacklist,
+            ['', '[bypass_list]', ''],
+            whitelist):
         print(i)
 
 
