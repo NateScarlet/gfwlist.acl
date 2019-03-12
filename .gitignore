@@ -1,5 +1,10 @@
-__pycache__
-.pytest_cache
 .vscode
 /gfwlist.txt
 test.acl
+
+# Python
+__pycache__
+.pytest_cache
+.coverage
+.venv
+coverage.xml
