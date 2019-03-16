@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-03-12T02:13:20.854209+08:00
+# Date: 2019-03-17T02:16:28.186190+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -248,6 +248,7 @@ share\.dmhy\.org
 (^|\.)cmcn\.org
 (^|\.)cmx\.im
 (^|\.)dailyview\.tw
+(^|\.)daum\.net
 (^|\.)depositphotos\.com
 (^|\.)doubibackup\.com
 (^|\.)doubmirror\.cf
@@ -304,6 +305,7 @@ share\.dmhy\.org
 (^|\.)pincong\.rocks
 (^|\.)pixiv\.net
 (^|\.)premproxy\.com
+(^|\.)prism-break\.org
 (^|\.)protonvpn\.com
 (^|\.)api\.pureapk\.com
 (^|\.)quora\.com
@@ -675,6 +677,7 @@ cdninstagram\.com
 (^|\.)1e100\.net
 (^|\.)466453\.com
 (^|\.)abc\.xyz
+(^|\.)about\.google
 (^|\.)admob\.com
 (^|\.)adsense\.com
 (^|\.)agoogleaday\.com
@@ -720,6 +723,7 @@ blogspot\.com
 (^|\.)g\.co
 (^|\.)gcr\.io
 (^|\.)get\.app
+(^|\.)get\.dev
 (^|\.)get\.how
 (^|\.)get\.page
 (^|\.)getmdl\.io
@@ -748,6 +752,7 @@ blogspot\.com
 \.google\.co\.uk
 \.google\.com
 \.google\.de
+(^|\.)google\.dev
 \.google\.dj
 \.google\.dk
 \.google\.es
@@ -872,6 +877,7 @@ blogspot\.com
 (^|\.)synergyse\.com
 (^|\.)teachparentstech\.org
 (^|\.)tensorflow\.org
+(^|\.)tfhub\.dev
 (^|\.)thinkwithgoogle\.com
 (^|\.)tiltbrush\.com
 (^|\.)urchin\.com
@@ -1262,6 +1268,8 @@ aniscartujo\.com
 anonymise\.us
 \.anonymitynetwork\.com
 \.anonymizer\.com
+\.anonymouse\.org
+(^|\.)anonymouse\.org
 anontext\.com
 \.anpopo\.com
 \.answering-islam\.org
@@ -2461,7 +2469,6 @@ nytimes\.map\.fastly\.net
 (^|\.)faststone\.org
 favstar\.fm
 (^|\.)favstar\.fm
-(^|\.)fbsbx\.com
 \.fc2\.com
 \.fc2china\.com
 \.fc2cn\.com
@@ -3507,6 +3514,8 @@ bbs\.kimy\.com\.tw
 kinghost\.com
 (^|\.)kingstone\.com\.tw
 \.kink\.com
+\.kinokuniya\.com
+(^|\.)kinokuniya\.com
 killwall\.com
 (^|\.)killwall\.com
 (^|\.)kinmen\.travel
