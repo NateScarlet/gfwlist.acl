@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-03-17T02:16:28.186190+08:00
+# Date: 2019-04-04T02:26:00.875697+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -235,6 +235,7 @@ share\.dmhy\.org
 (^|\.)agro\.hk
 (^|\.)apkmirror\.com
 (^|\.)arte\.tv
+(^|\.)artstation\.com
 (^|\.)bangdream\.space
 (^|\.)behance\.net
 (^|\.)bird\.so
@@ -328,6 +329,7 @@ share\.dmhy\.org
 (^|\.)tn3\.shemalez\.com
 (^|\.)static\.shemalez\.com
 (^|\.)six-degrees\.io
+(^|\.)softfamous\.com
 (^|\.)softsmirror\.cf
 (^|\.)sosreader\.com
 (^|\.)sspanel\.net
@@ -355,6 +357,7 @@ share\.dmhy\.org
 (^|\.)wenzhao\.ca
 (^|\.)whatsonweibo\.com
 (^|\.)wire\.com
+(^|\.)blog\.workflow\.is
 (^|\.)xm\.com
 (^|\.)xuehua\.us
 (^|\.)yes-news\.com
@@ -1411,6 +1414,7 @@ bannedbook\.org
 ^baramangaonline\.com
 \.barenakedislam\.com
 (^|\.)barnabu\.co\.uk
+(^|\.)barton\.de
 bartvpn\.com
 \.bastillepost\.com
 bayvoice\.net
@@ -2652,6 +2656,8 @@ fucd\.com
 \.fuckcnnic\.net
 (^|\.)fuckcnnic\.net
 fuckgfw\.org
+\.fulione\.com
+^fulione\.com
 (^|\.)fullerconsideration\.com
 fulue\.com
 \.funf\.tw
@@ -3255,6 +3261,8 @@ imageshack\.us
 ^imb\.org
 \.img\.ly
 (^|\.)img\.ly
+\.imgur\.com
+(^|\.)imgur\.com
 \.imkev\.com
 (^|\.)imkev\.com
 \.imlive\.com
