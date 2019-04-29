@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-04-04T02:26:00.875697+08:00
+# Date: 2019-04-30T02:38:39.973481+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -6069,15 +6069,7 @@ wildammo\.com
 ^zh\.wikisource\.org
 (^|\.)zh\.wikinews\.org
 (^|\.)ja\.wikipedia\.org
-zh\.wikipedia\.org
-(^|\.)ug\.m\.wikipedia\.org
-zh\.m\.wikipedia\.org
-^zh\.m\.wikipedia\.org
-^zh\.wikipedia\.org
-wuu\.wikipedia\.org
-^wuu\.wikipedia\.org
-zh-yue\.wikipedia\.org
-^zh-yue\.wikipedia\.org
+(^|\.)wikipedia\.org
 (^|\.)wikiwiki\.jp
 (^|\.)casino\.williamhill\.com
 (^|\.)sports\.williamhill\.com
