@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-04-30T02:38:39.973481+08:00
+# Date: 2019-05-23T02:51:18.161365+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -217,7 +217,6 @@ share\.dmhy\.org
 (^|\.)zattoo\.com
 (^|\.)zim\.vn
 (^|\.)zozotown\.com
-1.1.1.1
 14.102.250.18
 14.102.250.19
 50.7.31.230:8898
@@ -232,7 +231,9 @@ share\.dmhy\.org
 ^.+\.s3\.amazonaws\.com
 (^|\.)s3-ap-southeast-2\.amazonaws\.com
 (^|\.)43110\.cf
+(^|\.)9gag\.com
 (^|\.)agro\.hk
+(^|\.)share\.america\.gov
 (^|\.)apkmirror\.com
 (^|\.)arte\.tv
 (^|\.)artstation\.com
@@ -275,6 +276,7 @@ share\.dmhy\.org
 (^|\.)jinx\.com
 (^|\.)joinmastodon\.org
 (^|\.)liangzhichuanmei\.com
+(^|\.)lighti\.me
 (^|\.)lihkg\.com
 (^|\.)line-scdn\.net
 (^|\.)i\.lithium\.com
@@ -305,6 +307,7 @@ share\.dmhy\.org
 (^|\.)picacomic\.com
 (^|\.)pincong\.rocks
 (^|\.)pixiv\.net
+(^|\.)potato\.im
 (^|\.)premproxy\.com
 (^|\.)prism-break\.org
 (^|\.)protonvpn\.com
@@ -861,6 +864,7 @@ blogspot\.com
 (^|\.)panoramio\.com
 (^|\.)picasaweb\.com
 (^|\.)pki\.goog
+(^|\.)plus\.codes
 (^|\.)polymer-project\.org
 (^|\.)pride\.google
 (^|\.)questvisual\.com
@@ -1226,7 +1230,7 @@ allgirlsallowed\.org
 \.allgravure\.com
 alliance\.org\.hk
 \.allinfa\.com
-^allinfa\.com
+(^|\.)allinfa\.com
 \.alljackpotscasino\.com
 (^|\.)allmovie\.com
 (^|\.)almasdarnews\.com
@@ -1828,6 +1832,8 @@ chinalawandpolicy\.com
 \.chinamule\.com
 (^|\.)chinamule\.com
 chinamz\.org
+\.chinanewscenter\.com
+^chinanewscenter\.com
 \.chinapress\.com\.my
 (^|\.)chinapress\.com\.my
 \.china-review\.com\.ua
@@ -3448,6 +3454,7 @@ weiboscope\.jmsc\.hku\.hk
 \.joymiihub\.com
 \.joyourself\.com
 jpopforum\.net
+(^|\.)fiddle\.jshell\.net
 \.jubushoushen\.com
 (^|\.)jubushoushen\.com
 \.juhuaren\.com
@@ -4082,6 +4089,7 @@ ngensis\.com
 \.nhentai\.net
 ^nhentai\.net
 \.nhk-ondemand\.jp
+(^|\.)nicovideo\.jp
 (^|\.)nighost\.org
 av\.nightlife141\.com
 ninecommentaries\.com
@@ -4355,6 +4363,7 @@ picturesocial\.com
 \.pinkrod\.com
 (^|\.)pinoy-n\.com
 (^|\.)pinterest\.at
+(^|\.)pinterest\.ca
 (^|\.)pinterest\.co\.kr
 (^|\.)pinterest\.co\.uk
 \.pinterest\.com
@@ -5479,7 +5488,6 @@ tsquare\.tv
 \.tsu\.org\.tw
 tsunagarumon\.com
 \.tsctv\.net
-(^|\.)tt-rss\.org
 (^|\.)tt1069\.com
 \.tttan\.com
 (^|\.)tttan\.com
@@ -6534,6 +6542,7 @@ ultrasurf
 (^|\.)chinaso\.com
 (^|\.)chinaz\.com
 ^nrch\.culture\.tw$
+(^|\.)adservice\.google\.com
 (^|\.)dl\.google\.com
 (^|\.)kh\.google\.com
 (^|\.)khm\.google\.com
