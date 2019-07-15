@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-05-23T02:51:18.161365+08:00
+# Date: 2019-07-16T03:19:20.263339+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -246,14 +246,17 @@ share\.dmhy\.org
 (^|\.)boomssr\.com
 (^|\.)bwgyhw\.com
 (^|\.)castbox\.fm
+(^|\.)chinatimes\.com
 (^|\.)clyp\.it
 (^|\.)cmcn\.org
 (^|\.)cmx\.im
 (^|\.)dailyview\.tw
 (^|\.)daum\.net
 (^|\.)depositphotos\.com
+(^|\.)disconnect\.me
 (^|\.)doubibackup\.com
 (^|\.)doubmirror\.cf
+(^|\.)encyclopedia\.com
 (^|\.)fangeqiang\.com
 (^|\.)cloud\.feedly\.com
 (^|\.)flyzy2005\.com
@@ -721,6 +724,7 @@ blogspot\.com
 (^|\.)deja\.com
 (^|\.)design\.google
 (^|\.)digisfera\.com
+(^|\.)dns\.google
 (^|\.)domains\.google
 (^|\.)duck\.com
 (^|\.)environment\.google
@@ -1635,6 +1639,8 @@ brucewang\.net
 bunbunhk\.com
 \.busayari\.com
 ^busayari\.com
+\.businesstoday\.com\.tw
+(^|\.)businesstoday\.com\.tw
 \.businessweek\.com
 busytrade\.com
 \.buugaa\.com
@@ -2140,7 +2146,6 @@ dharmakara\.net
 (^|\.)furl\.net
 \.dipity\.com
 (^|\.)directcreative\.com
-^search\.disconnect\.me
 \.discuss\.com\.hk
 (^|\.)discuss\.com\.hk
 \.discuss4u\.com
