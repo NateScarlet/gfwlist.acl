@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-07-16T03:19:20.263339+08:00
+# Date: 2019-08-10T03:32:05.194892+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -682,7 +682,8 @@ cdninstagram\.com
 (^|\.)thefacebook\.com
 (^|\.)whatsapp\.com
 (^|\.)whatsapp\.net
-^www\.ftchinese\.com
+\.ftchinese\.com
+(^|\.)ftchinese\.com
 (^|\.)1e100\.net
 (^|\.)466453\.com
 (^|\.)abc\.xyz
