@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-08-10T03:32:05.194892+08:00
+# Date: 2019-10-28T04:06:50.480602+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -262,6 +262,7 @@ share\.dmhy\.org
 (^|\.)flyzy2005\.com
 (^|\.)foreignpolicy\.com
 (^|\.)free-ss\.site
+(^|\.)freehongkong\.org
 (^|\.)blog\.fuckgfw233\.org
 (^|\.)g0v\.social
 (^|\.)globalvoices\.org
@@ -360,6 +361,7 @@ share\.dmhy\.org
 (^|\.)steemit\.com
 (^|\.)taiwanjustice\.net
 (^|\.)tinc-vpn\.org
+(^|\.)u15\.info
 (^|\.)wenzhao\.ca
 (^|\.)whatsonweibo\.com
 (^|\.)wire\.com
@@ -367,6 +369,7 @@ share\.dmhy\.org
 (^|\.)xm\.com
 (^|\.)xuehua\.us
 (^|\.)yes-news\.com
+(^|\.)yigeni\.com
 (^|\.)you-get\.org
 (^|\.)zzcloud\.me
 (^|\.)aex\.com
@@ -1068,6 +1071,7 @@ zhao\.1984\.city
 \.2008xianzhang\.info
 (^|\.)2008xianzhang\.info
 (^|\.)2017\.hk
+\.21join\.com
 \.21pron\.com
 21sextury\.com
 \.228\.net\.tw
@@ -2126,6 +2130,8 @@ dcmilitary\.com
 (^|\.)delcamp\.net
 \.democrats\.org
 (^|\.)democrats\.org
+\.demosisto\.hk
+(^|\.)demosisto\.hk
 (^|\.)desc\.se
 (^|\.)dessci\.com
 \.destroy-china\.jp
@@ -4611,6 +4617,7 @@ ranyunfei\.com
 (^|\.)rapidmoviez\.com
 rapidvpn\.com
 (^|\.)rapidvpn\.com
+(^|\.)rarbgprx\.org
 \.raremovie\.cc
 ^raremovie\.cc
 \.raremovie\.net
