@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-10-28T04:06:50.480602+08:00
+# Date: 2019-10-29T04:07:29.358176+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -258,6 +258,7 @@ share\.dmhy\.org
 (^|\.)doubmirror\.cf
 (^|\.)encyclopedia\.com
 (^|\.)fangeqiang\.com
+(^|\.)fanqiangdang\.com
 (^|\.)cloud\.feedly\.com
 (^|\.)flyzy2005\.com
 (^|\.)foreignpolicy\.com
@@ -4175,6 +4176,7 @@ nuzcom\.com
 ^nvtongzhisheng\.org
 \.nwtca\.org
 ^nyaa\.eu
+(^|\.)nyaa\.si
 \.nydus\.ca
 nylon-angel\.com
 nylonstockingsonline\.com
@@ -6101,7 +6103,7 @@ wildammo\.com
 (^|\.)windscribe\.com
 (^|\.)community\.windy\.com
 (^|\.)wingy\.site
-winning11\.com
+\.winning11\.com
 winwhispers\.info
 (^|\.)wiredbytes\.com
 (^|\.)wiredpen\.com
