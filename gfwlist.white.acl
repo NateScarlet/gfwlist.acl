@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-10-29T04:07:29.358176+08:00
+# Date: 2019-11-04T04:10:52.676274+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -254,6 +254,7 @@ share\.dmhy\.org
 (^|\.)daum\.net
 (^|\.)depositphotos\.com
 (^|\.)disconnect\.me
+(^|\.)documentingreality\.com
 (^|\.)doubibackup\.com
 (^|\.)doubmirror\.cf
 (^|\.)encyclopedia\.com
@@ -269,6 +270,7 @@ share\.dmhy\.org
 (^|\.)globalvoices\.org
 (^|\.)glorystar\.me
 (^|\.)goregrish\.com
+(^|\.)guangnianvpn\.com
 (^|\.)hbo\.com
 (^|\.)spaces\.hightail\.com
 (^|\.)hkgalden\.com
@@ -282,6 +284,7 @@ share\.dmhy\.org
 (^|\.)joinmastodon\.org
 (^|\.)liangzhichuanmei\.com
 (^|\.)lighti\.me
+(^|\.)lightyearvpn\.com
 (^|\.)lihkg\.com
 (^|\.)line-scdn\.net
 (^|\.)i\.lithium\.com
