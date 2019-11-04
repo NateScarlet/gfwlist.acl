@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-11-04T04:10:52.676274+08:00
+# Date: 2019-11-05T04:11:22.479424+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -53,6 +53,7 @@
 ^img\.dlsite\.jp$
 (^|\.)dm530\.net
 share\.dmhy\.org
+(^|\.)dmhy\.org
 (^|\.)dmm\.co\.jp
 (^|\.)dnvod\.tv
 (^|\.)dvdpac\.com
@@ -261,6 +262,7 @@ share\.dmhy\.org
 (^|\.)fangeqiang\.com
 (^|\.)fanqiangdang\.com
 (^|\.)cloud\.feedly\.com
+(^|\.)feedx\.net
 (^|\.)flyzy2005\.com
 (^|\.)foreignpolicy\.com
 (^|\.)free-ss\.site
@@ -271,6 +273,7 @@ share\.dmhy\.org
 (^|\.)glorystar\.me
 (^|\.)goregrish\.com
 (^|\.)guangnianvpn\.com
+(^|\.)hanime\.tv
 (^|\.)hbo\.com
 (^|\.)spaces\.hightail\.com
 (^|\.)hkgalden\.com
@@ -322,6 +325,7 @@ share\.dmhy\.org
 (^|\.)api\.pureapk\.com
 (^|\.)quora\.com
 (^|\.)quoracdn\.net
+(^|\.)qz\.com
 (^|\.)cdn\.seatguru\.com
 (^|\.)secure\.raxcdn\.com
 (^|\.)redd\.it
@@ -366,6 +370,7 @@ share\.dmhy\.org
 (^|\.)taiwanjustice\.net
 (^|\.)tinc-vpn\.org
 (^|\.)u15\.info
+(^|\.)washingtonpost\.com
 (^|\.)wenzhao\.ca
 (^|\.)whatsonweibo\.com
 (^|\.)wire\.com
@@ -1117,9 +1122,10 @@ taiwannation\.50webs\.com
 64wiki\.com
 \.66\.ca
 666kb\.com
-6park\.com
+\.6park\.com
 (^|\.)6park\.com
 (^|\.)6parker\.com
+(^|\.)6parknews\.com
 (^|\.)7capture\.com
 \.7cow\.com
 \.8-d\.com
@@ -1389,6 +1395,7 @@ avaaz\.org
 \.avdb\.tv
 (^|\.)avdb\.tv
 \.avfantasy\.com
+(^|\.)avg\.com
 \.avgle\.com
 (^|\.)avgle\.com
 (^|\.)avidemux\.org
@@ -2807,6 +2814,7 @@ hahaxixi\.github\.io
 (^|\.)toutyrater\.github\.io
 wsgzao\.github\.io
 ^wsgzao\.github\.io
+(^|\.)raw\.githubusercontent\.com
 \.gizlen\.net
 (^|\.)gizlen\.net
 \.gjczz\.com
@@ -3732,7 +3740,7 @@ lsforum\.net
 (^|\.)lsmkorean\.org
 \.lsmwebcast\.com
 \.ltn\.com\.tw
-^ltn\.com\.tw
+(^|\.)ltn\.com\.tw
 \.luke54\.com
 \.luke54\.org
 \.lupm\.org
@@ -6458,7 +6466,6 @@ ultrasurf
 
 [bypass_list]
 
-^share\.dmhy\.org
 ^blog\.ontrac\.com
 ^store\.sprite\.org
 ^xx\.wwwhost\.biz
