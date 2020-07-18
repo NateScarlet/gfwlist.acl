@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2019-11-05T04:11:22.479424+08:00
+# Date: 2020-07-19T02:54:33.841058+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -47,6 +47,8 @@
 (^|\.)deezer\.com
 (^|\.)desipro\.de
 (^|\.)dingchin\.com\.tw
+(^|\.)discord\.com
+(^|\.)discord\.gg
 (^|\.)discordapp\.com
 (^|\.)discordapp\.net
 (^|\.)dish\.com
@@ -261,7 +263,7 @@ share\.dmhy\.org
 (^|\.)encyclopedia\.com
 (^|\.)fangeqiang\.com
 (^|\.)fanqiangdang\.com
-(^|\.)cloud\.feedly\.com
+(^|\.)feedly\.com
 (^|\.)feedx\.net
 (^|\.)flyzy2005\.com
 (^|\.)foreignpolicy\.com
@@ -307,6 +309,7 @@ share\.dmhy\.org
 (^|\.)go\.nesnode\.com
 (^|\.)international-news\.newsmagazine\.asia
 (^|\.)nikkei\.com
+(^|\.)nitter\.net
 (^|\.)niu\.moe
 (^|\.)nofile\.io
 (^|\.)now\.com
@@ -1308,6 +1311,8 @@ antichristendom\.com
 \.anyporn\.com
 \.anysex\.com
 ^anysex\.com
+\.ao3\.org
+(^|\.)ao3\.org
 (^|\.)aobo\.com\.au
 \.aofriend\.com
 ^aofriend\.com
@@ -1346,6 +1351,8 @@ appledaily\.com\.tw
 (^|\.)archive\.org
 archive\.today
 ^archive\.today
+(^|\.)archiveofourown\.com
+(^|\.)archiveofourown\.org
 \.arctosia\.com
 ^arctosia\.com
 (^|\.)areca-backup\.org
@@ -1680,6 +1687,8 @@ bwsj\.hk
 (^|\.)cactusvpn\.com
 \.cafepress\.com
 \.cahr\.org\.tw
+\.caijinglengyan\.com
+(^|\.)caijinglengyan\.com
 cn\.calameo\.com
 ^cn\.calameo\.com
 \.calgarychinese\.ca
@@ -2712,6 +2721,8 @@ fzlm\.com
 (^|\.)gabocorp\.com
 \.gaeproxy\.com
 \.gaforum\.org
+\.gagaoolala\.com
+(^|\.)gagaoolala\.com
 \.galaxymacau\.com
 (^|\.)galenwu\.com
 \.galstars\.net
@@ -2804,17 +2815,9 @@ gigporno\.ru
 (^|\.)git\.io
 ^softwaredownload\.gitbooks\.io
 ^gist\.github\.com
-hahaxixi\.github\.io
-^hahaxixi\.github\.io
-(^|\.)haoel\.github\.io
-(^|\.)rg3\.github\.io
-(^|\.)sikaozhe1997\.github\.io
-(^|\.)sodatea\.github\.io
-(^|\.)terminus2049\.github\.io
-(^|\.)toutyrater\.github\.io
-wsgzao\.github\.io
-^wsgzao\.github\.io
-(^|\.)raw\.githubusercontent\.com
+\.github\.io
+(^|\.)github\.io
+(^|\.)githubusercontent\.com
 \.gizlen\.net
 (^|\.)gizlen\.net
 \.gjczz\.com
@@ -3192,6 +3195,8 @@ huaxin\.ph
 (^|\.)hugoroy\.eu
 (^|\.)huhaitai\.com
 (^|\.)huhamhire\.com
+\.huhangfei\.com
+(^|\.)huhangfei\.com
 huiyi\.in
 \.hulkshare\.com
 humanrightsbriefing\.org
@@ -4313,6 +4318,7 @@ paper\.li
 paperb\.us
 \.paradisehill\.cc
 \.paradisepoker\.com
+(^|\.)parsevideo\.com
 \.partycasino\.com
 \.partypoker\.com
 \.passion\.com
@@ -4606,6 +4612,7 @@ qxbbs\.org
 \.radicalparty\.org
 (^|\.)rael\.org
 radicalparty\.org
+(^|\.)radio\.garden
 radioaustralia\.net\.au
 \.radiohilight\.net
 (^|\.)radiohilight\.net
@@ -4879,6 +4886,7 @@ shizhao\.org
 (^|\.)shodanhq\.com
 (^|\.)shooshtime\.com
 \.shop2000\.com\.tw
+(^|\.)shopee\.tw
 \.shopping\.com
 \.showhaotu\.com
 \.showtime\.jp
@@ -5790,7 +5798,7 @@ tor\.updatestar\.com
 \.upornia\.com
 ^upornia\.com
 (^|\.)uproxy\.org
-^tor\.cn\.uptodown\.com$
+(^|\.)uptodown\.com
 \.upwill\.org
 ur7s\.com
 (^|\.)urbansurvival\.com
