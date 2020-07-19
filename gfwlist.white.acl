@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-07-19T02:54:33.841058+08:00
+# Date: 2020-07-20T02:55:28.725756+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -3506,6 +3506,7 @@ juziyue\.com
 \.jyxf\.net
 (^|\.)k-doujin\.net
 (^|\.)ka-wai\.com
+(^|\.)kadokawa\.co\.jp
 \.kagyu\.org
 (^|\.)kagyu\.org\.za
 \.kagyumonlam\.org
