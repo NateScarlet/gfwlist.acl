@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-09-20T03:25:58.382466+08:00
+# Date: 2020-09-24T03:28:55.585534+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4057,6 +4057,7 @@ uighur\.narod\.ru
 (^|\.)nat\.moe
 cyberghost\.natado\.com
 (^|\.)national-lottery\.co\.uk
+(^|\.)nationalawakening\.org
 (^|\.)line\.naver\.jp
 (^|\.)navyfamily\.navy\.mil
 (^|\.)navyreserve\.navy\.mil
