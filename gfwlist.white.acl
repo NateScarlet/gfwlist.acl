@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-09-24T03:28:55.585534+08:00
+# Date: 2020-10-08T03:37:20.334753+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -2841,6 +2841,7 @@ gmbd\.cn
 ^www\.gmiddle\.net
 \.gmll\.org
 (^|\.)gnci\.org\.hk
+(^|\.)gnews\.org
 go-pki\.com
 (^|\.)goagent\.biz
 (^|\.)goagentplus\.com
@@ -3878,6 +3879,7 @@ mimiai\.net
 \.mimivv\.com
 \.mindrolling\.org
 ^mindrolling\.org
+(^|\.)mingdemedia\.org
 \.minghui\.or\.kr
 ^minghui\.or\.kr
 minghui\.org
@@ -4696,6 +4698,7 @@ subacme\.rerouted\.org
 (^|\.)reuters\.com
 (^|\.)reutersmedia\.net
 \.revleft\.com
+(^|\.)resistchina\.org
 retweetist\.com
 (^|\.)retweetrank\.com
 revver\.com
