@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-10-08T03:37:20.334753+08:00
+# Date: 2020-10-09T03:38:16.783141+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1244,6 +1244,7 @@ alexlur\.org
 \.alicejapan\.co\.jp
 aliengu\.com
 (^|\.)alkasir\.com
+(^|\.)all4mom\.org
 (^|\.)allconnected\.co
 \.alldrawnsex\.com
 (^|\.)alldrawnsex\.com
@@ -1705,6 +1706,7 @@ falun\.caltech\.edu
 \.cam4\.sg
 \.camfrog\.com
 (^|\.)camfrog\.com
+(^|\.)campaignforuyghurs\.org
 (^|\.)cams\.com
 \.cams\.org\.sg
 canadameet\.com
@@ -2637,6 +2639,7 @@ whitebear\.freebearblog\.org
 \.freegao\.com
 (^|\.)freegao\.com
 freeilhamtohti\.org
+(^|\.)freekazakhs\.org
 \.freekwonpyong\.org
 (^|\.)saveliuxiaobo\.com
 \.freelotto\.com
@@ -3014,6 +3017,7 @@ have8\.com
 ^hegre-art\.com
 (^|\.)cdn\.helixstudios\.net
 (^|\.)helplinfen\.com
+(^|\.)helpuyghursnow\.org
 (^|\.)helloandroid\.com
 (^|\.)helloqueer\.com
 \.helloss\.pw
@@ -3285,6 +3289,7 @@ ifjc\.org
 (^|\.)ihakka\.net
 (^|\.)iicns\.com
 \.ikstar\.com
+(^|\.)ilhamtohtiinstitute\.org
 (^|\.)illusionfactory\.com
 (^|\.)ilove80\.be
 (^|\.)im\.tv
@@ -5088,6 +5093,7 @@ sstmlt\.net
 \.stage64\.hk
 (^|\.)stage64\.hk
 (^|\.)standupfortibet\.org
+(^|\.)standwithhk\.org
 usinfo\.state\.gov
 (^|\.)statueofdemocracy\.org
 \.starfishfx\.com
@@ -5360,8 +5366,6 @@ tibet\.org\.tw
 (^|\.)tibet-envoy\.eu
 \.tibet-foundation\.org
 \.tibet-house-trust\.co\.uk
-tibet-info\.net
-tibet-initiative\.de
 (^|\.)tibet-initiative\.de
 \.tibet-munich\.de
 \.tibet3rdpole\.org
@@ -5415,8 +5419,7 @@ tibethouse\.org
 \.tibetinfonet\.net
 \.tibetjustice\.org
 \.tibetkomite\.dk
-^tibetmuseum\.org
-tibetnetwork\.org
+(^|\.)tibetmuseum\.org
 (^|\.)tibetnetwork\.org
 \.tibetoffice\.ch
 ^tibetoffice\.ch
@@ -5589,6 +5592,7 @@ tuitwit\.com
 ^turbobit\.net
 \.turbohide\.com
 (^|\.)turbohide\.com
+(^|\.)turkistantimes\.com
 \.tushycash\.com
 ^tushycash\.com
 (^|\.)app\.tutanota\.com
