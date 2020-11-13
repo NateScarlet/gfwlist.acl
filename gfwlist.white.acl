@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-10-21T03:44:08.363178+08:00
+# Date: 2020-11-14T03:56:25.264827+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4335,6 +4335,7 @@ paper\.li
 paperb\.us
 \.paradisehill\.cc
 \.paradisepoker\.com
+(^|\.)parler\.com
 (^|\.)parsevideo\.com
 \.partycasino\.com
 \.partypoker\.com
