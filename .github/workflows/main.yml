@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install -r dev-requirements.txt
+      - name: Test
+        run: coverage run -m pytest 
+      - name: Update(master)
+        if: ${{ github.ref == 'refs/heads/master' && github.event_name != 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: coverage run -a ./update.py --release
+      - name: Update
+        if: ${{ !(github.ref == 'refs/heads/master' && github.event_name != 'pull_request') }}
+        run: coverage run -a ./update.py 
+      - name: Report coverage
+        env:
+          CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
+        run: |
+          coverage xml && coverage report
+          curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+          chmod +x ./cc-test-reporter
+          ./cc-test-reporter after-build
