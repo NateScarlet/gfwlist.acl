@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-11-20T03:59:39.935760+08:00
+# Date: 2020-12-07T10:11:31.903037+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -3333,7 +3333,7 @@ website\.informer\.com
 \.inmediahk\.net
 (^|\.)inmediahk\.net
 (^|\.)innermongolia\.org
-^blog\.inoreader\.com
+(^|\.)inoreader\.com
 \.inote\.tw
 \.insecam\.org
 ^insecam\.org

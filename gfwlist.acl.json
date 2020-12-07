@@ -3325,7 +3325,7 @@
         "\\.inmediahk\\.net",
         "(^|\\.)inmediahk\\.net",
         "(^|\\.)innermongolia\\.org",
-        "^blog\\.inoreader\\.com",
+        "(^|\\.)inoreader\\.com",
         "\\.inote\\.tw",
         "\\.insecam\\.org",
         "^insecam\\.org",
