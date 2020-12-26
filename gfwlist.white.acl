@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-12-07T10:11:31.903037+08:00
+# Date: 2020-12-26T10:33:01.029148+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -108,6 +108,7 @@ share\.dmhy\.org
 (^|\.)javlibrary\.com
 (^|\.)jcpenney\.com
 (^|\.)jims\.net
+(^|\.)tv\.jtbc\.joins\.com
 (^|\.)jukujo-club\.com
 (^|\.)juliepost\.com
 (^|\.)kawaiikawaii\.jp
@@ -1184,6 +1185,7 @@ abclite\.net
 \.acg18\.me
 ^acg18\.me
 (^|\.)acgkj\.com
+(^|\.)acgnx\.se
 \.acmedia365\.com
 \.acnw\.com\.au
 actfortibet\.org
@@ -1929,8 +1931,8 @@ christiantimes\.org\.hk
 (^|\.)cirosantilli\.com
 \.citizencn\.com
 (^|\.)citizencn\.com
-^citizenlab\.org
-^www\.citizenlab\.org
+(^|\.)citizenlab\.ca
+(^|\.)citizenlab\.org
 (^|\.)citizenscommission\.hk
 \.citizenlab\.org
 citizensradio\.org
@@ -2862,6 +2864,7 @@ godsdirectcontact\.org\.tw
 \.gokbayrak\.com
 \.goldbet\.com
 (^|\.)goldbetsports\.com
+(^|\.)golden-ages\.org
 (^|\.)goldeneyevault\.com
 \.goldenfrog\.com
 (^|\.)goldenfrog\.com
@@ -2940,6 +2943,7 @@ greatfirewallofchina\.org
 \.gts-vpn\.com
 ^gts-vpn\.com
 (^|\.)gtv\.org
+(^|\.)gtv1\.org
 \.gu-chu-sum\.org
 ^gu-chu-sum\.org
 \.guaguass\.com
@@ -3147,6 +3151,7 @@ holyspiritspeaks\.org
 (^|\.)hongkongfp\.com
 hongmeimei\.com
 (^|\.)hongzhi\.li
+(^|\.)honven\.xyz
 \.hootsuite\.com
 (^|\.)hootsuite\.com
 \.hopedialogue\.org
@@ -3241,6 +3246,7 @@ iask\.ca
 iask\.bz
 (^|\.)iask\.bz
 \.iav19\.com
+(^|\.)ibit\.am
 \.iblist\.com
 (^|\.)iblogserv-f\.net
 ibros\.org
@@ -3605,6 +3611,7 @@ kun\.im
 (^|\.)kurtmunger\.com
 kusocity\.com
 (^|\.)kwcg\.ca
+(^|\.)kwok7\.com
 kwongwah\.com\.my
 \.kxsw\.life
 (^|\.)kxsw\.life
@@ -3629,6 +3636,7 @@ ladbrokes\.com
 \.lamnia\.co\.uk
 (^|\.)lamnia\.co\.uk
 lamrim\.com
+(^|\.)landofhope\.tv
 \.lanterncn\.cn
 ^lanterncn\.cn
 \.lantosfoundation\.org
@@ -3667,6 +3675,7 @@ blog\.lester850\.info
 \.letou\.com
 letscorp\.net
 (^|\.)letscorp\.net
+(^|\.)ocsp\.int-x3\.letsencrypt\.org
 (^|\.)ss\.levyhsu\.com
 (^|\.)cdn\.assets\.lfpcontent\.com
 \.lhakar\.org
@@ -3760,6 +3769,7 @@ lsforum\.net
 \.lsmwebcast\.com
 \.ltn\.com\.tw
 (^|\.)ltn\.com\.tw
+(^|\.)luckydesigner\.space
 \.luke54\.com
 \.luke54\.org
 \.lupm\.org
@@ -4230,6 +4240,7 @@ officeoftibet\.com
 twtr2src\.ogaoga\.org
 \.ogate\.org
 (^|\.)ogate\.org
+(^|\.)ohmyrss\.com
 \.oiktv\.com
 oizoblog\.com
 \.ok\.ru
@@ -4744,6 +4755,7 @@ riku\.me$
 \.rsf-chinese\.org
 (^|\.)rsf-chinese\.org
 \.rsgamen\.org
+(^|\.)rsshub\.app
 (^|\.)phosphation13\.rssing\.com
 \.rssmeme\.com
 (^|\.)rssmeme\.com
@@ -4813,10 +4825,10 @@ savevid\.com
 \.scribd\.com
 (^|\.)scribd\.com
 (^|\.)scriptspot\.com
-seapuff\.com
-domainhelp\.search\.com
+(^|\.)search\.com
 \.searchtruth\.com
-secretchina\.com
+(^|\.)searx\.me
+\.secretchina\.com
 (^|\.)secretchina\.com
 (^|\.)secretgarden\.no
 \.secretsline\.biz
@@ -5130,6 +5142,7 @@ sthoo\.com
 (^|\.)stoweboyd\.com
 stranabg\.com
 (^|\.)straplessdildo\.com
+(^|\.)streamate\.com
 (^|\.)streamingthe\.net
 cn2\.streetvoice\.com
 tw\.streetvoice\.com
@@ -5298,6 +5311,7 @@ theblemish\.com
 \.thedalailamamovie\.com
 ^thedalailamamovie\.com
 (^|\.)thedw\.us
+(^|\.)theguardian\.com
 cn\.thegay\.com
 ^thegioitinhoc\.vn$
 \.thegly\.com
@@ -6320,6 +6334,7 @@ xyy69\.info
 yangjianli\.com
 \.yasni\.co\.uk
 (^|\.)yasni\.co\.uk
+(^|\.)news\.ycombinator\.com
 \.ydy\.com
 \.yeahteentube\.com
 (^|\.)yeahteentube\.com
@@ -6372,6 +6387,7 @@ youngspiration\.hk
 (^|\.)yourprivatevpn\.com
 \.yousendit\.com
 (^|\.)yousendit\.com
+(^|\.)youthforfreechina\.org
 blog\.youthwant\.com\.tw
 me\.youthwant\.com\.tw
 share\.youthwant\.com\.tw
