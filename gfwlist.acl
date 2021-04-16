@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2020-12-26T10:33:01.029148+08:00
+# Date: 2021-04-16T10:20:58.232783+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -79,6 +79,7 @@ share\.dmhy\.org
 (^|\.)g-area\.org
 (^|\.)gettyimages\.com
 (^|\.)getuploader\.com
+(^|\.)ghidra-sre\.org
 (^|\.)glass8\.eu
 (^|\.)glype\.com
 (^|\.)go141\.com
@@ -1746,6 +1747,7 @@ cari\.com\.my
 catholic\.org\.tw
 (^|\.)catholic\.org\.tw
 \.cathvoice\.org\.tw
+(^|\.)cato\.org
 (^|\.)cattt\.com
 \.cbc\.ca
 (^|\.)cbc\.ca
@@ -1960,6 +1962,7 @@ clinica-tibet\.ru
 \.clipfish\.de
 cloakpoint\.com
 (^|\.)club1069\.com
+(^|\.)joinclubhouse\.com
 cmi\.org\.tw
 ^www\.cmoinc\.org
 cmp\.hku\.hk
@@ -3497,6 +3500,7 @@ weiboscope\.jmsc\.hku\.hk
 (^|\.)joachims\.org
 (^|\.)jobso\.tv
 \.sunwinism\.joinbbs\.net
+(^|\.)joinclubhouse\.com
 \.journalchretien\.net
 (^|\.)journalofdemocracy\.org
 \.joymiihub\.com
@@ -3959,6 +3963,7 @@ wiki\.moegirl\.org
 \.mofaxiehui\.com
 \.mofos\.com
 (^|\.)mog\.com
+(^|\.)mohu\.rocks
 molihua\.org
 (^|\.)mondex\.org
 \.money-link\.com\.tw
@@ -4132,6 +4137,7 @@ newstarnet\.com
 \.newtaiwan\.com\.tw
 newtalk\.tw
 (^|\.)newtalk\.tw
+(^|\.)newyorker\.com
 newyorktimes\.com
 (^|\.)nexon\.com
 \.next11\.co\.jp
@@ -5102,6 +5108,7 @@ spem\.at
 \.ssrshare\.com
 (^|\.)ssrshare\.com
 (^|\.)sss\.camp
+(^|\.)sstm\.moe
 (^|\.)sstmlt\.moe
 sstmlt\.net
 (^|\.)sstmlt\.net
@@ -5302,6 +5309,7 @@ teensinasia\.com
 (^|\.)tenzinpalmo\.com
 \.tew\.org
 \.thaicn\.com
+(^|\.)theatlantic\.com
 (^|\.)theatrum-belli\.com
 theblemish\.com
 (^|\.)thebcomplex\.com
