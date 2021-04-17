@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-04-16T10:20:58.232783+08:00
+# Date: 2021-04-17T10:17:51.205040+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -197,6 +197,7 @@ share\.dmhy\.org
 (^|\.)gsp\.target\.com
 (^|\.)login\.target\.com
 (^|\.)rcam\.target\.com
+(^|\.)technews\.tw
 (^|\.)thinkgeek\.com
 (^|\.)thebodyshop-usa\.com
 (^|\.)tma\.co\.jp
@@ -1008,7 +1009,6 @@ cn\.nytstyle\.com
 (^|\.)teco-hk\.org
 (^|\.)teco-mo\.org
 (^|\.)kinmen\.org\.tw
-\.v2ex\.com
 (^|\.)data\.flurry\.com
 page\.bid\.yahoo\.com
 tw\.bid\.yahoo\.com
@@ -1332,10 +1332,12 @@ video\.ap\.org
 (^|\.)apigee\.com
 (^|\.)apk-dl\.com
 (^|\.)apkcombo\.com
+(^|\.)apkmonk\.com
 (^|\.)apkplz\.com
 apkpure\.com
 (^|\.)apkpure\.com
 \.aplusvpn\.com
+(^|\.)appbrain\.com
 \.appledaily\.com
 (^|\.)appledaily\.com
 appledaily\.com\.hk
@@ -1421,6 +1423,7 @@ avaaz\.org
 azerimix\.com
 boxun.+\.azurewebsites\.net
 (^|\.)boxun.+\.azurewebsites\.net
+(^|\.)b-ok\.cc
 forum\.baby-kingdom\.com
 babynet\.com\.hk
 backchina\.com
@@ -1813,6 +1816,7 @@ cdpwu\.org
 (^|\.)changp\.com
 \.changsa\.net
 ^changsa\.net
+(^|\.)channelnewsasia\.com
 \.chapm25\.com
 \.chaturbate\.com
 \.chuang-yen\.org
@@ -2056,7 +2060,10 @@ csdparty\.com
 \.ctao\.org
 \.ctfriend\.net
 \.ctitv\.com\.tw
-cts\.com\.tw
+(^|\.)ctowc\.org
+\.cts\.com\.tw
+(^|\.)cts\.com\.tw
+(^|\.)ctwant\.com
 ^library\.usc\.cuhk\.edu\.hk$
 ^mjlsh\.usc\.cuhk\.edu\.hk$
 \.cuihua\.org
@@ -2167,6 +2174,8 @@ dcmilitary\.com
 (^|\.)dessci\.com
 \.destroy-china\.jp
 (^|\.)deutsche-welle\.de
+(^|\.)deviantart\.com
+(^|\.)deviantart\.net
 (^|\.)devio\.us
 (^|\.)devpn\.com
 (^|\.)dfas\.mil
@@ -2370,8 +2379,7 @@ englishforeveryone\.org
 englishpen\.org
 \.enlighten\.org\.tw
 (^|\.)entermap\.com
-\.entnt\.com
-^entnt\.com
+(^|\.)app\.evozi\.com
 \.episcopalchurch\.org
 \.epochhk\.com
 ^epochhk\.com
@@ -2440,6 +2448,7 @@ etvonline\.hk
 \.exchristian\.hk
 (^|\.)exchristian\.hk
 ^blog\.excite\.co\.jp
+(^|\.)exhentai\.org
 (^|\.)exmormon\.org
 (^|\.)expatshield\.com
 \.expecthim\.com
@@ -2464,6 +2473,7 @@ eyevio\.jp
 \.faithfuleye\.com
 (^|\.)faiththedog\.info
 \.fakku\.net
+(^|\.)fallenark\.com
 \.falsefire\.com
 (^|\.)falsefire\.com
 falun-co\.org
@@ -2730,6 +2740,7 @@ fzlm\.com
 \.g6hentai\.com
 ^g6hentai\.com
 (^|\.)g-queen\.com
+(^|\.)gab\.com
 (^|\.)gabocorp\.com
 \.gaeproxy\.com
 \.gaforum\.org
@@ -2918,6 +2929,7 @@ greatzhonghua\.org
 \.greenvpn\.org
 (^|\.)grotty-monday\.com
 gs-discuss\.com
+(^|\.)gsearch\.media
 (^|\.)gtricks\.com
 guancha\.org
 guaneryu\.com
@@ -3219,7 +3231,6 @@ huaxin\.ph
 (^|\.)huhangfei\.com
 huiyi\.in
 \.hulkshare\.com
-humanrightsbriefing\.org
 (^|\.)hung-ya\.com
 (^|\.)hungerstrikeforaids\.org
 (^|\.)huping\.net
@@ -3266,7 +3277,6 @@ icams\.com
 (^|\.)warbler\.iconfactory\.net
 (^|\.)iconpaper\.org
 (^|\.)icu-project\.org
-(^|\.)iddddg\.com
 idemocracy\.asia
 \.identi\.ca
 (^|\.)identi\.ca
@@ -3521,6 +3531,7 @@ jpopforum\.net
 justfreevpn\.com
 \.justicefortenzin\.org
 justpaste\.it
+(^|\.)justmysocks1\.net
 justtristan\.com
 juyuange\.org
 juziyue\.com
@@ -3672,6 +3683,7 @@ leisurecafe\.ca
 (^|\.)lematin\.ch
 \.lemonde\.fr
 (^|\.)lenwhite\.com
+(^|\.)leorockwell\.com
 lerosua\.org
 (^|\.)lerosua\.org
 blog\.lester850\.info
@@ -3712,6 +3724,7 @@ linkuswell\.com
 \.lipuman\.com
 (^|\.)liquidvpn\.com
 (^|\.)greatfire\.us7\.list-manage\.com
+(^|\.)listennotes\.com
 (^|\.)listentoyoutube\.com
 listorious\.com
 \.liu-xiaobo\.org
@@ -3861,6 +3874,7 @@ meirixiaochao\.com
 memorybbs\.com
 \.memri\.org
 \.memrijttm\.org
+(^|\.)mercdn\.net
 \.mercyprophet\.org
 ^mercyprophet\.org
 (^|\.)mergersandinquisitions\.org
@@ -3872,11 +3886,13 @@ memorybbs\.com
 ^meripet\.com
 merit-times\.com\.tw
 meshrep\.com
+(^|\.)metafilter\.com
 (^|\.)meteorshowersonline\.com
 ^www\.metro\.taipei$
 (^|\.)metrolife\.ca
 \.metroradio\.com\.hk
 ^metroradio\.com\.hk
+(^|\.)mewe\.com
 meyou\.jp
 \.meyul\.com
 (^|\.)mgoon\.com
@@ -4099,6 +4115,7 @@ nccwatch\.org\.tw
 \.ndr\.de
 \.ned\.org
 (^|\.)nekoslovakia\.net
+(^|\.)neowin\.net
 (^|\.)nepusoku\.com
 (^|\.)net-fits\.pro
 bbs\.netbig\.com
@@ -4269,6 +4286,7 @@ showbiz\.omy\.sg
 (^|\.)onion\.city
 \.onlinecha\.com
 (^|\.)onlineyoutube\.com
+(^|\.)onlygayvideo\.com
 \.onlytweets\.com
 ^onlytweets\.com
 onmoon\.net
@@ -4752,7 +4770,9 @@ riku\.me$
 (^|\.)rocket-inc\.net
 (^|\.)rojo\.com
 (^|\.)ronjoneswriter\.com
+(^|\.)rolfoundation\.org
 (^|\.)rolia\.net
+(^|\.)rolsociety\.org
 \.roodo\.com
 \.rosechina\.net
 \.rotten\.com
@@ -4772,6 +4792,7 @@ riku\.me$
 ^rthk\.org\.hk
 \.rti\.org\.tw
 (^|\.)rti\.org\.tw
+(^|\.)rti\.tw
 \.rtycminnesota\.org
 rukor\.org
 \.runbtx\.com
@@ -5478,6 +5499,7 @@ tibettimes\.net
 \.time\.com
 ^time\.com
 \.timsah\.com
+(^|\.)timtales\.com
 (^|\.)blog\.tiney\.com
 tintuc101\.com
 \.tiny\.cc
@@ -5886,8 +5908,10 @@ uyghur\.co\.uk
 ^uyghurstudies\.org
 uygur\.org
 ^uymaarip\.com$
+(^|\.)v2fly\.org
 \.v2ray\.com
 (^|\.)v2ray\.com
+(^|\.)v2raytech\.com
 \.van001\.com
 \.van698\.com
 \.vanemu\.cn
@@ -6064,6 +6088,7 @@ www\.wangruowang\.org
 want-daily\.com
 (^|\.)waselpro\.com
 \.watchinese\.com
+(^|\.)watchout\.tw
 \.wattpad\.com
 (^|\.)wattpad\.com
 \.makzhou\.warehouse333\.com
@@ -6171,6 +6196,7 @@ winwhispers\.info
 (^|\.)wionews\.com
 (^|\.)wiredbytes\.com
 (^|\.)wiredpen\.com
+(^|\.)wireguard\.com
 \.wisdompubs\.org
 \.wisevid\.com
 (^|\.)wisevid\.com
@@ -6320,7 +6346,10 @@ xuchao\.net
 xvideo\.cc
 \.xvideos\.com
 (^|\.)xvideos\.com
+(^|\.)xvideos-cdn\.com
 (^|\.)xvideos\.es
+(^|\.)xvbelink\.com
+(^|\.)xvinlink\.com
 \.xkiwi\.tk$
 \.xxbbx\.com
 \.xxlmovies\.com
@@ -6338,6 +6367,7 @@ xyy69\.info
 (^|\.)yakbutterblues\.com
 (^|\.)yam\.com
 (^|\.)yam\.org\.tw
+(^|\.)yande\.re
 \.yanghengjun\.com
 yangjianli\.com
 \.yasni\.co\.uk
