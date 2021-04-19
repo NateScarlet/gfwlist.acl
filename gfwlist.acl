@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-04-17T10:17:51.205040+08:00
+# Date: 2021-04-19T10:21:10.521523+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -23,7 +23,6 @@
 (^|\.)azubu\.tv
 (^|\.)bankmobilevibe\.com
 (^|\.)banorte\.com
-(^|\.)bash-hackers\.org
 (^|\.)beeg\.com
 (^|\.)global\.bing\.com
 (^|\.)bloombergview\.com
@@ -41,6 +40,7 @@
 (^|\.)counter\.social
 (^|\.)costco\.com
 (^|\.)crossfire\.co\.kr
+(^|\.)crunchyroll\.com
 (^|\.)d2pass\.com
 (^|\.)darpa\.mil
 (^|\.)dawangidc\.com
@@ -1087,6 +1087,7 @@ zhao\.1984\.city
 \.2008xianzhang\.info
 (^|\.)2008xianzhang\.info
 (^|\.)2017\.hk
+(^|\.)2047\.name
 \.21join\.com
 \.21pron\.com
 21sextury\.com
@@ -1106,6 +1107,7 @@ zhao\.1984\.city
 \.3proxy\.ru
 \.3ren\.ca
 \.3tui\.net
+(^|\.)404museum\.com
 (^|\.)4bluestones\.biz
 \.4chan\.com
 \.4everproxy\.com
@@ -1131,6 +1133,7 @@ taiwannation\.50webs\.com
 666kb\.com
 \.6park\.com
 (^|\.)6park\.com
+(^|\.)6parkbbs\.com
 (^|\.)6parker\.com
 (^|\.)6parknews\.com
 (^|\.)7capture\.com
@@ -1163,6 +1166,7 @@ taiwannation\.50webs\.com
 ^99cn\.info
 (^|\.)9bis\.com
 (^|\.)9bis\.net
+(^|\.)9news\.com\.au
 \.tibet\.a\.se
 ^tibet\.a\.se
 (^|\.)a-normal-day\.com
@@ -1246,6 +1250,7 @@ alexlur\.org
 \.alhayat\.com
 \.alicejapan\.co\.jp
 aliengu\.com
+(^|\.)alive\.bar
 (^|\.)alkasir\.com
 (^|\.)all4mom\.org
 (^|\.)allconnected\.co
@@ -1418,6 +1423,7 @@ avaaz\.org
 (^|\.)avidemux\.org
 (^|\.)avoision\.com
 \.avyahoo\.com
+(^|\.)axios\.com
 (^|\.)axureformac\.com
 \.azerbaycan\.tv
 azerimix\.com
@@ -1443,11 +1449,13 @@ badoo\.com
 \.banana-vpn\.com
 (^|\.)banana-vpn\.com
 \.band\.us
+(^|\.)bandcamp\.com
 \.bandwagonhost\.com
 (^|\.)bandwagonhost\.com
 \.bangbrosnetwork\.com
 \.bangchen\.net
 ^bangchen\.net
+(^|\.)bangkokpost\.com
 (^|\.)bangyoulater\.com
 bannedbook\.org
 (^|\.)bannedbook\.org
@@ -1457,7 +1465,6 @@ bannedbook\.org
 \.barenakedislam\.com
 (^|\.)barnabu\.co\.uk
 (^|\.)barton\.de
-bartvpn\.com
 \.bastillepost\.com
 bayvoice\.net
 (^|\.)bayvoice\.net
@@ -1524,6 +1531,7 @@ biantailajiao\.in
 \.biblesforamerica\.org
 ^biblesforamerica\.org
 \.bic2011\.org
+(^|\.)biedian\.me
 bigfools\.com
 (^|\.)bigjapanesesex\.com
 \.bignews\.org
@@ -1629,6 +1637,7 @@ boyangu\.com
 (^|\.)br\.st
 (^|\.)brandonhutchinson\.com
 (^|\.)braumeister\.org
+(^|\.)brave\.com
 \.bravotube\.net
 (^|\.)bravotube\.net
 \.brazzers\.com
@@ -2244,6 +2253,7 @@ dongtaiwang\.com
 (^|\.)douhokanko\.net
 (^|\.)doujincafe\.com
 dowei\.org
+^bartender\.dowjones\.com
 dphk\.org
 dpp\.org\.tw
 (^|\.)dpp\.org\.tw
@@ -2287,6 +2297,7 @@ duping\.net
 dupola\.com
 dupola\.net
 \.dushi\.ca
+(^|\.)duyaoss\.com
 (^|\.)dvorak\.org
 \.dw\.com
 (^|\.)dw\.com
@@ -2329,6 +2340,7 @@ eastern-ark\.com
 (^|\.)eastturkistangovernmentinexile\.us
 \.easyca\.ca
 \.easypic\.com
+(^|\.)fnc\.ebc\.net\.tw
 \.ebony-beauty\.com
 ebookbrowse\.com
 ebookee\.com
@@ -2508,6 +2520,7 @@ fanqianghou\.com
 (^|\.)fanqianghou\.com
 \.fanqiangzhe\.com
 (^|\.)fanqiangzhe\.com
+(^|\.)fantv\.hk
 fapdu\.com
 faproxy\.com
 \.fawanghuihui\.org
@@ -2799,6 +2812,7 @@ gdzf\.org
 \.geocities\.co\.jp
 hk\.geocities\.com
 geocities\.jp
+(^|\.)geph\.io
 \.gerefoundation\.org
 (^|\.)getastrill\.com
 \.getchu\.com
@@ -2873,6 +2887,7 @@ godsdirectcontact\.co\.uk
 \.godsdirectcontact\.org
 godsdirectcontact\.org\.tw
 \.godsimmediatecontact\.com
+(^|\.)gofundme\.com
 \.gogotunnel\.com
 (^|\.)gohappy\.com\.tw
 \.gokbayrak\.com
@@ -3138,7 +3153,8 @@ hkjc\.com
 \.hklft\.com
 \.hklts\.org\.hk
 (^|\.)hklts\.org\.hk
-news\.hkpeanut\.com
+(^|\.)hkopentv\.com
+(^|\.)hkpeanut\.com
 hkptu\.org
 \.hkreporter\.com
 (^|\.)hkreporter\.com
@@ -3290,7 +3306,8 @@ forum\.idsam\.com
 ^ieasy5\.com
 \.ied2k\.net
 \.ienergy1\.com
-^if\.ttt$
+(^|\.)iepl\.us
+(^|\.)ift\.tt
 ifanqiang\.com
 \.ifcss\.org
 (^|\.)ifcss\.org
@@ -3342,6 +3359,7 @@ in-disguise\.com
 \.incloak\.com
 (^|\.)incloak\.com
 (^|\.)incredibox\.fr
+(^|\.)independent\.co\.uk
 (^|\.)indiandefensenews\.in
 \.indiemerch\.com
 (^|\.)indiemerch\.com
@@ -3443,6 +3461,7 @@ iyouport\.com
 (^|\.)j\.mp
 blog\.jackjia\.com
 jamaat\.org
+(^|\.)jamestown\.org
 \.jamyangnorbu\.com
 ^jamyangnorbu\.com
 \.jandyx\.com
@@ -3815,6 +3834,7 @@ my\.mail\.ru
 makkahnewspaper\.com
 \.mamingzhe\.com
 manicur4ik\.ru
+(^|\.)manyvoices\.news
 \.maplew\.com
 ^maplew\.com
 (^|\.)marc\.info
@@ -3987,7 +4007,7 @@ molihua\.org
 ^www\.monlamit\.org
 \.moonbbs\.com
 (^|\.)moonbbs\.com
-c1522\.mooo\.com
+(^|\.)moptt\.tw
 (^|\.)monitorchina\.org
 bbs\.morbell\.com
 (^|\.)morningsun\.org
@@ -4001,10 +4021,11 @@ motor4ik\.ru
 (^|\.)moviefap\.com
 (^|\.)www\.moztw\.org
 \.mp3buscador\.com
-mp3ye\.eu
 (^|\.)mpettis\.com
-mpfinance\.com
-mpinews\.com
+\.mpfinance\.com
+(^|\.)mpfinance\.com
+\.mpinews\.com
+(^|\.)mpinews\.com
 mponline\.hk
 \.mqxd\.org
 ^mqxd\.org
@@ -4098,6 +4119,7 @@ uighur\.narod\.ru
 cyberghost\.natado\.com
 (^|\.)national-lottery\.co\.uk
 (^|\.)nationalawakening\.org
+(^|\.)nationalinterest\.org
 (^|\.)line\.naver\.jp
 (^|\.)navyfamily\.navy\.mil
 (^|\.)navyreserve\.navy\.mil
@@ -4151,6 +4173,7 @@ newschinacomment\.org
 (^|\.)newstamago\.com
 (^|\.)newstapa\.org
 newstarnet\.com
+(^|\.)newsweek\.com
 \.newtaiwan\.com\.tw
 newtalk\.tw
 (^|\.)newtalk\.tw
@@ -4247,6 +4270,7 @@ nuzcom\.com
 \.nydus\.ca
 nylon-angel\.com
 nylonstockingsonline\.com
+(^|\.)nypost\.com
 \.nzchinese\.com
 (^|\.)nzchinese\.net\.nz
 observechina\.net
@@ -4932,6 +4956,7 @@ sheikyermami\.com
 shenyun\.com
 shenyunperformingarts\.org
 (^|\.)shenyunperformingarts\.org
+(^|\.)shenyunshop\.com
 shenzhoufilm\.com
 (^|\.)shenzhoufilm\.com
 (^|\.)sherabgyaltsen\.com
@@ -5168,6 +5193,7 @@ sthoo\.com
 (^|\.)storify\.com
 \.stormmediagroup\.com
 (^|\.)stoweboyd\.com
+(^|\.)straitstimes\.com
 stranabg\.com
 (^|\.)straplessdildo\.com
 (^|\.)streamate\.com
@@ -5319,6 +5345,7 @@ tcnynj\.org
 \.tcsovi\.org
 \.tdm\.com\.mo
 teamamericany\.com
+(^|\.)static\.techspot\.com
 (^|\.)techviz\.net
 (^|\.)teck\.in
 \.teeniefuck\.net
@@ -5329,6 +5356,8 @@ teensinasia\.com
 \.tenacy\.com
 (^|\.)tenzinpalmo\.com
 \.tew\.org
+(^|\.)tew\.org
+(^|\.)tfiflve\.com
 \.thaicn\.com
 (^|\.)theatlantic\.com
 (^|\.)theatrum-belli\.com
@@ -5337,6 +5366,7 @@ theblemish\.com
 \.thebobs\.com
 (^|\.)thebobs\.com
 \.thechinabeat\.org
+(^|\.)theconversation\.com
 \.thedalailamamovie\.com
 ^thedalailamamovie\.com
 (^|\.)thedw\.us
@@ -5857,6 +5887,7 @@ unpo\.org
 ^untraceable\.us
 (^|\.)uocn\.org
 tor\.updatestar\.com
+(^|\.)upghsbc\.com
 \.upholdjustice\.org
 \.upload4u\.info
 \.upmedia\.mg
@@ -5911,6 +5942,7 @@ uygur\.org
 (^|\.)v2fly\.org
 \.v2ray\.com
 (^|\.)v2ray\.com
+(^|\.)v2raycn\.com
 (^|\.)v2raytech\.com
 \.van001\.com
 \.van698\.com
@@ -6114,6 +6146,7 @@ webs-tv\.net
 \.webwarper\.net
 ^webwarper\.net
 webworkerdaily\.com
+(^|\.)wechatlawsuit\.com
 \.weekmag\.info
 (^|\.)wefightcensorship\.org
 \.wefong\.com
@@ -6181,6 +6214,8 @@ wildammo\.com
 (^|\.)zh\.wikinews\.org
 (^|\.)ja\.wikipedia\.org
 (^|\.)wikipedia\.org
+\.wikiwand\.com
+(^|\.)wikiwand\.com
 (^|\.)wikiwiki\.jp
 (^|\.)casino\.williamhill\.com
 (^|\.)sports\.williamhill\.com
@@ -6453,8 +6488,9 @@ yuanming\.net
 yx51\.net
 \.yyii\.org
 (^|\.)yyii\.org
+(^|\.)yyjlymb\.xyz
 \.yzzk\.com
-^yzzk\.com
+(^|\.)yzzk\.com
 zacebook\.com
 \.zalmos\.com
 (^|\.)zalmos\.com
