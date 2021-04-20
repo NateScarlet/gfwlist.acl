@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-04-19T10:21:10.521523+08:00
+# Date: 2021-04-20T10:20:00.705129+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -184,6 +184,7 @@ share\.dmhy\.org
 (^|\.)shiksha\.com
 (^|\.)slacker\.com
 (^|\.)sm-miracle\.com
+(^|\.)softnology\.biz
 (^|\.)soylentnews\.org
 (^|\.)spotify\.com
 (^|\.)spreadshirt\.es
@@ -394,8 +395,10 @@ share\.dmhy\.org
 (^|\.)bcex\.ca
 (^|\.)bibox\.com
 (^|\.)big\.one
+(^|\.)bigone\.com
 (^|\.)binance\.com
 (^|\.)bit-z\.com
+(^|\.)bitz\.ai
 (^|\.)bitcoinworld\.com
 (^|\.)bitfinex\.com
 (^|\.)bithumb\.com
@@ -421,6 +424,7 @@ share\.dmhy\.org
 (^|\.)dragonex\.io
 (^|\.)ebtcbank\.com
 (^|\.)etherdelta\.com
+(^|\.)etherscan\.io
 (^|\.)exmo\.com
 (^|\.)exrates\.me
 (^|\.)exx\.com
@@ -430,6 +434,7 @@ share\.dmhy\.org
 (^|\.)hbg\.com
 (^|\.)hitbtc\.com
 (^|\.)huobi\.com
+(^|\.)huobi\.me
 (^|\.)huobi\.pro
 (^|\.)huobipro\.com
 (^|\.)bx\.in\.th
@@ -673,8 +678,10 @@ d3c33hcgiwev3\.cloudfront\.net
 \.dynu\.com
 \.dynu\.net
 \.freeddns\.org
+(^|\.)accountkit\.com
 cdninstagram\.com
 (^|\.)cdninstagram\.com
+(^|\.)f8\.com
 (^|\.)facebook\.br
 \.facebook\.com
 (^|\.)facebook\.com
@@ -698,9 +705,12 @@ cdninstagram\.com
 (^|\.)oculus\.com
 (^|\.)oculuscdn\.com
 (^|\.)rocksdb\.org
+(^|\.)parse\.com
 (^|\.)thefacebook\.com
 (^|\.)whatsapp\.com
 (^|\.)whatsapp\.net
+(^|\.)auntology\.fandom\.com
+(^|\.)hongkong\.fandom\.com
 \.ftchinese\.com
 (^|\.)ftchinese\.com
 (^|\.)1e100\.net
@@ -817,27 +827,27 @@ blogspot\.com
 \.google\.tt
 \.google\.vu
 \.google\.ws
-^([^/]+\.)*google\.(ac|ad|ae|af|al|am|as|at|az|ba)$
-^([^/]+\.)*google\.(be|bf|bg|bi|bj|bs|bt|by|ca|cat)$
-^([^/]+\.)*google\.(cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck)$
-^([^/]+\.)*google\.(co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com)$
-^([^/]+\.)*google\.(com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br)$
-^([^/]+\.)*google\.(com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh)$
-^([^/]+\.)*google\.(com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt)$
-^([^/]+\.)*google\.(com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe)$
-^([^/]+\.)*google\.(com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl)$
-^([^/]+\.)*google\.(com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz)$
-^([^/]+\.)*google\.(co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw)$
-^([^/]+\.)*google\.(cv|cz|de|dj|dk|dm|dz|ee|es|eu)$
-^([^/]+\.)*google\.(fi|fm|fr|ga|ge|gg|gl|gm|gp|gr)$
-^([^/]+\.)*google\.(gy|hk|hn|hr|ht|hu|ie|im|iq|is)$
-^([^/]+\.)*google\.(it|it.ao|je|jo|kg|ki|kz|la|li|lk)$
-^([^/]+\.)*google\.(lt|lu|lv|md|me|mg|mk|ml|mn|ms)$
-^([^/]+\.)*google\.(mu|mv|mw|mx|ne|nl|no|nr|nu|org)$
-^([^/]+\.)*google\.(pl|pn|ps|pt|ro|rs|ru|rw|sc|se)$
-^([^/]+\.)*google\.(sh|si|sk|sm|sn|so|sr|st|td|tg)$
-^([^/]+\.)*google\.(tk|tl|tm|tn|to|tt|us|vg|vn|vu)$
-^([^/]+\.)*google\.(ws)$
+^([^/]+\.)*google\.(ac|ad|ae|af|ai|al|am|as|at|az)$
+^([^/]+\.)*google\.(ba|be|bf|bg|bi|bj|bs|bt|by|ca)$
+^([^/]+\.)*google\.(cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw)$
+^([^/]+\.)*google\.(co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma)$
+^([^/]+\.)*google\.(com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo)$
+^([^/]+\.)*google\.(com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj)$
+^([^/]+\.)*google\.(com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm)$
+^([^/]+\.)*google\.(com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa)$
+^([^/]+\.)*google\.(com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg)$
+^([^/]+\.)*google\.(com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz)$
+^([^/]+\.)*google\.(co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm)$
+^([^/]+\.)*google\.(co.zw|cv|cz|de|dj|dk|dm|dz|ee|es)$
+^([^/]+\.)*google\.(eu|fi|fm|fr|ga|ge|gg|gl|gm|gp)$
+^([^/]+\.)*google\.(gr|gy|hk|hn|hr|ht|hu|ie|im|iq)$
+^([^/]+\.)*google\.(is|it|it.ao|je|jo|kg|ki|kz|la|li)$
+^([^/]+\.)*google\.(lk|lt|lu|lv|md|me|mg|mk|ml|mn)$
+^([^/]+\.)*google\.(ms|mu|mv|mw|mx|ne|nl|no|nr|nu)$
+^([^/]+\.)*google\.(org|pl|pn|ps|pt|ro|rs|ru|rw|sc)$
+^([^/]+\.)*google\.(se|sh|si|sk|sm|sn|so|sr|st|td)$
+^([^/]+\.)*google\.(tg|tk|tl|tm|tn|to|tt|us|vg|vn)$
+^([^/]+\.)*google\.(vu|ws)$
 (^|\.)googleapis\.cn
 (^|\.)googleapis\.com
 (^|\.)googleapps\.com
@@ -861,7 +871,7 @@ blogspot\.com
 (^|\.)googlepagecreator\.com
 (^|\.)googleplay\.com
 (^|\.)googleplus\.com
-(^|\.)googlescholar\.com
+(^|\.)googlescholar\.comUSA
 (^|\.)googlesource\.com
 (^|\.)googleusercontent\.com
 \.googlevideo\.com
@@ -1009,6 +1019,20 @@ cn\.nytstyle\.com
 (^|\.)teco-hk\.org
 (^|\.)teco-mo\.org
 (^|\.)kinmen\.org\.tw
+^www\.americorps\.gov
+(^|\.)jpl\.nasa\.gov
+(^|\.)pds\.nasa\.gov
+(^|\.)solarsystem\.nasa\.gov
+(^|\.)v2ex\.com
+(^|\.)zh\.ecdm\.wikia\.com
+(^|\.)evchk\.wikia\.com
+fq\.wikia\.com
+cn\.uncyclopedia\.wikia\.com
+zh\.uncyclopedia\.wikia\.com
+^zh\.wikisource\.org
+(^|\.)zh\.wikinews\.org
+(^|\.)ja\.wikipedia\.org
+(^|\.)wikipedia\.org
 (^|\.)data\.flurry\.com
 page\.bid\.yahoo\.com
 tw\.bid\.yahoo\.com
@@ -1054,6 +1078,7 @@ video\.yahoo\.com
 \.12vpn\.net
 (^|\.)12vpn\.com
 (^|\.)12vpn\.net
+(^|\.)1337x\.to
 \.138\.com
 (^|\.)141jj\.com
 \.141tube\.com
@@ -1189,6 +1214,7 @@ abclite\.net
 (^|\.)acevpn\.com
 \.acg18\.me
 ^acg18\.me
+(^|\.)acgbox\.org
 (^|\.)acgkj\.com
 (^|\.)acgnx\.se
 \.acmedia365\.com
@@ -1279,7 +1305,6 @@ alwaysdata\.com
 ameblo\.jp
 (^|\.)ameblo\.jp
 (^|\.)americangreencard\.com
-^www\.americorps\.gov
 (^|\.)amiblockedornot\.com
 \.amigobbs\.net
 \.amitabhafoundation\.us
@@ -1331,10 +1356,12 @@ antichristendom\.com
 \.aojiao\.org
 (^|\.)aomiwang\.com
 video\.ap\.org
+(^|\.)apat1989\.org
 \.apetube\.com
 (^|\.)apiary\.io
 \.apigee\.com
 (^|\.)apigee\.com
+(^|\.)apk\.support
 (^|\.)apk-dl\.com
 (^|\.)apkcombo\.com
 (^|\.)apkmonk\.com
@@ -1392,6 +1419,7 @@ asianews\.it
 (^|\.)askstudent\.com
 \.askynz\.net
 (^|\.)askynz\.net
+(^|\.)aspi\.org\.au
 (^|\.)assembla\.com
 (^|\.)astrill\.com
 (^|\.)atc\.org\.au
@@ -1466,6 +1494,7 @@ bannedbook\.org
 (^|\.)barnabu\.co\.uk
 (^|\.)barton\.de
 \.bastillepost\.com
+(^|\.)bastillepost\.com
 bayvoice\.net
 (^|\.)bayvoice\.net
 dajusha\.baywords\.com
@@ -1740,13 +1769,15 @@ caochangqing\.com
 \.carabinasypistolas\.com
 cardinalkungfoundation\.org
 carmotorshow\.com
+(^|\.)carrd\.co
 ss\.carryzhou\.com
 \.cartoonmovement\.com
 (^|\.)cartoonmovement\.com
 \.casadeltibetbcn\.org
 \.casatibet\.org\.mx
 ^casatibet\.org\.mx
-cari\.com\.my
+\.cari\.com\.my
+(^|\.)cari\.com\.my
 (^|\.)caribbeancom\.com
 \.casinoking\.com
 \.casinoriva\.com
@@ -1764,6 +1795,7 @@ catholic\.org\.tw
 \.cbc\.ca
 (^|\.)cbc\.ca
 \.cbtc\.org\.hk
+(^|\.)southpark\.cc\.com
 (^|\.)cccat\.cc
 (^|\.)cccat\.co
 \.ccdtr\.org
@@ -1919,6 +1951,7 @@ chinese-memorial\.org
 (^|\.)chinesen\.de
 \.chinesenews\.net\.au$
 \.chinesepen\.org
+(^|\.)chineseradioseattle\.com
 (^|\.)chineseupress\.com
 \.chingcheong\.com
 (^|\.)chingcheong\.com
@@ -1935,7 +1968,7 @@ christianstudy\.com
 \.chubold\.com
 chubun\.com
 chuizi\.net
-christiantimes\.org\.hk
+(^|\.)christiantimes\.org\.hk
 \.chrlawyers\.hk
 ^chrlawyers\.hk
 \.chushigangdrug\.ch
@@ -1975,7 +2008,7 @@ clinica-tibet\.ru
 \.clipfish\.de
 cloakpoint\.com
 (^|\.)club1069\.com
-(^|\.)joinclubhouse\.com
+(^|\.)clubhouseapi\.com
 cmi\.org\.tw
 ^www\.cmoinc\.org
 cmp\.hku\.hk
@@ -2047,6 +2080,7 @@ crackle\.com
 (^|\.)crackle\.com
 \.crazys\.cc
 \.crazyshit\.com
+(^|\.)crazyshit\.com
 (^|\.)crchina\.org
 crd-net\.org
 creaders\.net
@@ -2062,6 +2096,7 @@ creaders\.net
 (^|\.)crucial\.com
 csdparty\.com
 (^|\.)csdparty\.com
+(^|\.)csis\.org
 (^|\.)csuchen\.de
 \.csw\.org\.uk
 \.ct\.org\.tw
@@ -2083,9 +2118,11 @@ csdparty\.com
 \.cumlouder\.com
 (^|\.)cumlouder\.com
 (^|\.)curvefish\.com
+(^|\.)cusp\.hk
 \.cusu\.hk
 (^|\.)cusu\.hk
 \.cutscenes\.net
+(^|\.)cutscenes\.net
 \.cw\.com\.tw
 (^|\.)cw\.com\.tw
 ^forum\.cyberctm\.com
@@ -2480,6 +2517,7 @@ eyevio\.jp
 (^|\.)faceless\.me
 ^facesoftibetanselfimmolators\.info
 (^|\.)facesofnyfw\.com
+(^|\.)factpedia\.org
 \.faith100\.org
 ^faith100\.org
 \.faithfuleye\.com
@@ -2685,7 +2723,8 @@ cn\.freeones\.com
 free4u\.com\.ar
 \.free-ssh\.com
 (^|\.)free-ssh\.com
-\.freechina\.news$
+(^|\.)freebeacon\.com
+\.freechina\.news
 (^|\.)freechinaforum\.org
 (^|\.)freechinaweibo\.com
 \.freeforums\.org
@@ -2725,6 +2764,8 @@ freeyellow\.com
 (^|\.)fscked\.org
 \.fsurf\.com
 \.ftv\.com\.tw
+(^|\.)ftv\.com\.tw
+(^|\.)ftvnews\.com\.tw
 fucd\.com
 \.fuckcnnic\.net
 (^|\.)fuckcnnic\.net
@@ -2919,6 +2960,7 @@ gongminliliang\.com
 \.gopetition\.com
 (^|\.)gopetition\.com
 \.goproxing\.net
+(^|\.)goreforum\.com
 \.gotrusted\.com
 (^|\.)gotrusted\.com
 (^|\.)gotw\.ca
@@ -3008,6 +3050,7 @@ h1n1china\.org
 \.hacg\.red
 ^hacg\.red
 \.hacker\.org
+(^|\.)hackmd\.io
 (^|\.)hackthatphone\.net
 hahlo\.com
 (^|\.)hakkatv\.org\.tw
@@ -3068,6 +3111,8 @@ hentaitube\.tv
 \.hentaivideoworld\.com
 (^|\.)id\.heroku\.com
 heqinglian\.net
+(^|\.)heqinglian\.net
+(^|\.)heritage\.org
 (^|\.)heungkongdiscuss\.com
 \.hexieshe\.com
 (^|\.)hexieshe\.com
@@ -3103,6 +3148,7 @@ highpeakspureearth\.com
 (^|\.)hikinggfw\.org
 \.hilive\.tv
 \.himalayan-foundation\.org
+(^|\.)himalayan-foundation\.org
 himalayanglacier\.com
 \.himemix\.com
 (^|\.)himemix\.com
@@ -3134,6 +3180,7 @@ hkci\.org\.hk
 (^|\.)hkcoc\.com
 (^|\.)hkctu\.org\.hk
 hkday\.net
+(^|\.)hkdc\.us
 hkdf\.org
 \.hkej\.com
 china\.hket\.com
@@ -3142,6 +3189,7 @@ hkfreezone\.com
 hkfront\.org
 m\.hkgalden\.com
 ^m\.hkgalden\.com
+(^|\.)hkgpao\.com
 \.hkheadline\.com.+blog
 hkhkhk\.com
 hkhrc\.org\.hk
@@ -3185,12 +3233,14 @@ hongmeimei\.com
 (^|\.)honven\.xyz
 \.hootsuite\.com
 (^|\.)hootsuite\.com
+(^|\.)hoover\.org
 \.hopedialogue\.org
 ^hopedialogue\.org
 \.hopto\.org
 \.hornygamer\.com
 \.hornytrip\.com
 ^hornytrip\.com
+(^|\.)hotair\.com
 \.hotav\.tv
 \.hotels\.cn
 hotfrog\.com\.tw
@@ -3636,6 +3686,7 @@ killwall\.com
 (^|\.)koornk\.com
 (^|\.)koranmandarin\.com
 \.korenan2\.com
+(^|\.)kqes\.net
 ^gojet\.krtco\.com\.tw
 \.ksdl\.org
 \.ksnews\.com\.tw
@@ -3646,7 +3697,8 @@ kun\.im
 kusocity\.com
 (^|\.)kwcg\.ca
 (^|\.)kwok7\.com
-kwongwah\.com\.my
+\.kwongwah\.com\.my
+(^|\.)kwongwah\.com\.my
 \.kxsw\.life
 (^|\.)kxsw\.life
 \.kyofun\.com
@@ -3689,7 +3741,7 @@ laomiu\.com
 ^lastcombat\.com
 (^|\.)lastfm\.es
 latelinenews\.com
-\.latibet\.org
+(^|\.)lausan\.hk
 (^|\.)le-vpn\.com
 \.leafyvpn\.net
 (^|\.)leafyvpn\.net
@@ -3817,6 +3869,7 @@ lvhai\.org
 (^|\.)lvv2\.com
 \.lyfhk\.net
 ^lyfhk\.net
+(^|\.)lzjscript\.com
 \.lzmtnews\.org
 (^|\.)lzmtnews\.org
 ^.+\.m-team\.cc
@@ -3968,6 +4021,7 @@ minzhuzhanxian\.com
 minzhuzhongguo\.org
 (^|\.)miroguide\.com
 mirrorbooks\.com
+(^|\.)mirrormedia\.mg
 \.mist\.vip
 (^|\.)thecenter\.mit\.edu
 (^|\.)scratch\.mit\.edu
@@ -4096,6 +4150,8 @@ mysinablog\.com
 (^|\.)naacoalition\.org
 old\.nabble\.com
 (^|\.)naitik\.net
+\.nakido\.com
+(^|\.)nakido\.com
 (^|\.)nalandabodhi\.org
 (^|\.)nalandawest\.org
 \.namgyal\.org
@@ -4106,11 +4162,6 @@ namgyalmonastery\.org
 \.nanyangpost\.com
 (^|\.)nanyangpost\.com
 \.nanzao\.com
-(^|\.)jpl\.nasa\.gov
-(^|\.)pds\.nasa\.gov
-(^|\.)solarsystem\.nasa\.gov
-\.nakido\.com
-(^|\.)nakido\.com
 \.naol\.ca
 \.naol\.cc
 uighur\.narod\.ru
@@ -4120,6 +4171,7 @@ cyberghost\.natado\.com
 (^|\.)national-lottery\.co\.uk
 (^|\.)nationalawakening\.org
 (^|\.)nationalinterest\.org
+(^|\.)nationalreview\.com
 (^|\.)line\.naver\.jp
 (^|\.)navyfamily\.navy\.mil
 (^|\.)navyreserve\.navy\.mil
@@ -4134,6 +4186,7 @@ nccwatch\.org\.tw
 (^|\.)ncn\.org
 (^|\.)etools\.ncol\.com
 \.nde\.de
+(^|\.)ndi\.org
 \.ndr\.de
 \.ned\.org
 (^|\.)nekoslovakia\.net
@@ -4172,7 +4225,7 @@ newschinacomment\.org
 \.newsdh\.com
 (^|\.)newstamago\.com
 (^|\.)newstapa\.org
-newstarnet\.com
+newstarnet\.com--NN--
 (^|\.)newsweek\.com
 \.newtaiwan\.com\.tw
 newtalk\.tw
@@ -4281,7 +4334,7 @@ oclp\.hk
 \.ocreampies\.com
 (^|\.)october-review\.org
 offbeatchina\.com
-officeoftibet\.com
+(^|\.)officeoftibet\.com
 ^ofile\.org
 (^|\.)ogaoga\.org
 twtr2src\.ogaoga\.org
@@ -4743,6 +4796,7 @@ rcinet\.ca
 (^|\.)recoveryversion\.com\.tw
 (^|\.)red-lang\.org
 redballoonsolidarity\.org
+(^|\.)redbubble\.com
 \.redchinacn\.net
 ^redchinacn\.net
 redchinacn\.org
@@ -4863,6 +4917,7 @@ savetibet\.nl
 savetibet\.ru
 \.savetibetstore\.org
 (^|\.)savetibetstore\.org
+(^|\.)saveuighur\.org
 savevid\.com
 (^|\.)say2\.info
 \.sbme\.me
@@ -4879,6 +4934,7 @@ savevid\.com
 (^|\.)search\.com
 \.searchtruth\.com
 (^|\.)searx\.me
+(^|\.)seattlefdc\.com
 \.secretchina\.com
 (^|\.)secretchina\.com
 (^|\.)secretgarden\.no
@@ -4976,6 +5032,7 @@ shizhao\.org
 \.shopping\.com
 \.showhaotu\.com
 \.showtime\.jp
+(^|\.)showwe\.tw
 \.shutterstock\.com
 (^|\.)shutterstock\.com
 ch\.shvoong\.com
@@ -4986,6 +5043,7 @@ ch\.shvoong\.com
 \.siddharthasintent\.org
 (^|\.)sidelinesnews\.com
 \.sidelinessportseatery\.com
+(^|\.)signal\.org
 \.sijihuisuo\.club
 \.sijihuisuo\.com
 \.silkbook\.com
@@ -5021,6 +5079,7 @@ sinomontreal\.ca
 \.sinopitt\.info
 \.sinoants\.com
 (^|\.)sinoants\.com
+(^|\.)sinoinsider\.com
 \.sinoquebec\.com
 \.sierrafriendsoftibet\.org
 sis\.xxx
@@ -5172,6 +5231,7 @@ usinfo\.state\.gov
 \.startuplivingchina\.com
 ^startuplivingchina\.com
 (^|\.)static-economist\.com
+(^|\.)stboy\.net
 (^|\.)stc\.com\.sa
 (^|\.)steel-storm\.com
 \.steganos\.com
@@ -5279,6 +5339,7 @@ tahr\.org\.tw
 \.taiwandaily\.net
 (^|\.)taiwandaily\.net
 \.taiwandc\.org
+(^|\.)taiwanhot\.net
 \.taiwanjustice\.com
 taiwankiss\.com
 taiwannation\.com
@@ -5363,12 +5424,14 @@ teensinasia\.com
 (^|\.)theatrum-belli\.com
 theblemish\.com
 (^|\.)thebcomplex\.com
+(^|\.)theblaze\.com
 \.thebobs\.com
 (^|\.)thebobs\.com
 \.thechinabeat\.org
 (^|\.)theconversation\.com
 \.thedalailamamovie\.com
 ^thedalailamamovie\.com
+(^|\.)thediplomat\.com
 (^|\.)thedw\.us
 (^|\.)theguardian\.com
 cn\.thegay\.com
@@ -5386,9 +5449,10 @@ thehousenews\.com
 \.theporndude\.com
 (^|\.)theporndude\.com
 (^|\.)theportalwiki\.com
+(^|\.)theprint\.in
 thereallove\.kr
 therock\.net\.nz
-thespeeder\.com
+(^|\.)thesaturdaypaper\.com\.au
 (^|\.)thestandnews\.com
 thetibetcenter\.org
 thetibetconnection\.org
@@ -5402,6 +5466,7 @@ thevivekspot\.com
 \.theync\.com
 ^theync\.com
 \.thinkingtaiwan\.com
+(^|\.)thinkingtaiwan\.com
 \.thisav\.com
 ^thisav\.com
 \.thlib\.org
@@ -5489,8 +5554,8 @@ tibetfund\.org
 (^|\.)tibetgermany\.de
 \.tibethaus\.com
 \.tibetheritagefund\.org
-tibethouse\.jp
-tibethouse\.org
+(^|\.)tibethouse\.jp
+(^|\.)tibethouse\.org
 (^|\.)tibethouse\.us
 \.tibetinfonet\.net
 \.tibetjustice\.org
@@ -5500,7 +5565,7 @@ tibethouse\.org
 \.tibetoffice\.ch
 ^tibetoffice\.ch
 tibetoffice\.eu
-tibetoffice\.org
+(^|\.)tibetoffice\.org
 tibetonline\.com
 (^|\.)tibetonline\.com
 \.tibetoffice\.com\.au
@@ -5528,6 +5593,7 @@ tibettimes\.net
 ^timdir\.com
 \.time\.com
 ^time\.com
+(^|\.)timesnownews\.com
 \.timsah\.com
 (^|\.)timtales\.com
 (^|\.)blog\.tiney\.com
@@ -5817,6 +5883,7 @@ twiyia\.com
 \.twtkr\.com
 ^twtkr\.com
 \.twnorth\.org\.tw
+(^|\.)twreporter\.org
 twskype\.com
 twtrland\.com
 twurl\.nl
@@ -5898,6 +5965,7 @@ tor\.updatestar\.com
 (^|\.)uptodown\.com
 \.upwill\.org
 ur7s\.com
+(^|\.)urbandictionary\.com
 (^|\.)urbansurvival\.com
 myshare\.url\.com\.tw$
 (^|\.)urlborg\.com
@@ -5914,6 +5982,7 @@ iipdigital\.usembassy\.gov
 \.usocctn\.com
 ^tarr\.uspto\.gov$
 (^|\.)tsdr\.uspto\.gov
+(^|\.)ustibetcommittee\.org
 \.ustream\.tv
 (^|\.)ustream\.tv
 \.usunitednews\.com
@@ -6022,6 +6091,8 @@ voatibetan\.com
 (^|\.)voatibetanenglish\.com
 \.vocativ\.com
 vocn\.tv
+(^|\.)vocus\.cc
+(^|\.)voicettank\.org
 \.vot\.org
 (^|\.)vot\.org
 \.vovo2000\.com
@@ -6191,11 +6262,6 @@ wezhiyong\.org
 whotalking\.com
 whylover\.com
 (^|\.)whyx\.org
-^zh\.ecdm\.wikia\.com
-^evchk\.wikia\.com
-fq\.wikia\.com
-cn\.uncyclopedia\.wikia\.com
-zh\.uncyclopedia\.wikia\.com
 (^|\.)wikileaks\.ch
 (^|\.)wikileaks\.com
 (^|\.)wikileaks\.de
@@ -6210,10 +6276,6 @@ wildammo\.com
 (^|\.)collateralmurder\.com
 (^|\.)collateralmurder\.org
 (^|\.)wikimapia\.org
-^zh\.wikisource\.org
-(^|\.)zh\.wikinews\.org
-(^|\.)ja\.wikipedia\.org
-(^|\.)wikipedia\.org
 \.wikiwand\.com
 (^|\.)wikiwand\.com
 (^|\.)wikiwiki\.jp
@@ -6346,6 +6408,7 @@ xhamster\.com
 (^|\.)xiaolan\.me
 (^|\.)xiaoma\.org
 (^|\.)xiaohexie\.com
+(^|\.)xiaxiaoqiang\.net
 xiezhua\.com
 \.xihua\.es
 \.xing\.com
@@ -6399,6 +6462,7 @@ xys\.org
 xysblogs\.org
 xyy69\.com
 xyy69\.info
+(^|\.)y2mate\.com
 (^|\.)yakbutterblues\.com
 (^|\.)yam\.com
 (^|\.)yam\.org\.tw
@@ -6435,6 +6499,7 @@ xa\.yimg\.com
 \.yingsuoss\.com
 \.yipub\.com
 (^|\.)yipub\.com
+(^|\.)yiyechat\.com
 \.yizhihongxing\.com
 \.yobt\.com
 \.yobt\.tv
@@ -6540,6 +6605,7 @@ zhongguotese\.net
 (^|\.)zhuatieba\.com
 zhuichaguoji\.org
 (^|\.)zhuichaguoji\.org
+(^|\.)zi\.media
 ^book\.zi5\.me
 (^|\.)zillionk\.com
 \.zinio\.com
