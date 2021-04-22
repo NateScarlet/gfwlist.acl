@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-04-21T10:20:44.822611+08:00
+# Date: 2021-04-22T10:20:56.094157+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -982,6 +982,7 @@ cn\.nytstyle\.com
 (^|\.)nytstyle\.com
 \.steamcommunity\.com
 (^|\.)steamcommunity\.com
+^store\.steampowered\.com
 (^|\.)t\.me
 (^|\.)updates\.tdesktop\.com
 (^|\.)telegram\.dog
@@ -1460,6 +1461,7 @@ asg\.to
 \.asia-gaming\.com
 \.asiaharvest\.org
 (^|\.)asiaharvest\.org
+(^|\.)asianage\.com
 asianews\.it
 ^japanfirst\.asianfreeforum\.com$
 (^|\.)asiansexdiary\.com
@@ -1898,6 +1900,7 @@ cdpwu\.org
 ^centurys\.net
 \.cfhks\.org\.hk
 \.cfos\.de
+(^|\.)cfr\.org
 \.cftfc\.com
 \.cgst\.edu
 \.change\.org
@@ -5398,6 +5401,7 @@ summify\.com
 \.sumrando\.com
 (^|\.)sumrando\.com
 sun1911\.com
+(^|\.)sundayguardianlive\.com
 \.sunporno\.com
 (^|\.)sunmedia\.ca
 (^|\.)sunporno\.com
@@ -6567,6 +6571,7 @@ xyy69\.info
 (^|\.)yam\.com
 (^|\.)yam\.org\.tw
 (^|\.)yande\.re
+(^|\.)disk\.yandex\.com
 \.yanghengjun\.com
 yangjianli\.com
 \.yasni\.co\.uk
