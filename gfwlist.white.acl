@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-04-22T10:20:56.094157+08:00
+# Date: 2021-04-23T10:24:49.770437+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -2937,9 +2937,10 @@ geocities\.jp
 (^|\.)getgom\.com
 \.geti2p\.net
 (^|\.)geti2p\.net
+getiton\.com
 \.getlantern\.org
 (^|\.)getlantern\.org
-getiton\.com
+(^|\.)getmalus\.com
 \.getsocialscope\.com
 (^|\.)getsync\.com
 gfbv\.de
@@ -4512,6 +4513,7 @@ oursogo\.com
 xinqimeng\.over-blog\.com
 (^|\.)overdaily\.org
 (^|\.)overplay\.net
+(^|\.)ovpn\.com
 ^owl\.li
 ^ht\.ly
 ^htl\.li
@@ -4661,6 +4663,7 @@ piraattilahti\.org
 (^|\.)playno1\.com
 (^|\.)playpcesor\.com
 plays\.com\.tw
+(^|\.)plexvpn\.pro
 (^|\.)m\.plixi\.com
 plm\.org\.hk
 plunder\.com
