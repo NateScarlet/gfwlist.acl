@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-04-23T10:24:49.770437+08:00
+# Date: 2021-04-27T10:21:40.388189+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1108,6 +1108,7 @@ upcoming\.yahoo\.com
 video\.yahoo\.com
 (^|\.)yahoo\.com\.hk
 (^|\.)duckduckgo-owned-server\.yahoo\.net
+(^|\.)000webhost\.com
 \.030buy\.com
 \.0rz\.tw
 ^0rz\.tw
@@ -1275,6 +1276,7 @@ activpn\.com
 (^|\.)activpn\.com
 (^|\.)aculo\.us
 (^|\.)addictedtocoffee\.de
+(^|\.)addyoutube\.com
 \.adpl\.org\.hk
 ^adpl\.org\.hk
 \.adult-sex-games\.com
@@ -1371,13 +1373,13 @@ ameblo\.jp
 \.amtb-taipei\.org
 \.andygod\.com
 ^andygod\.com
+(^|\.)anchor\.fm
 (^|\.)anchorfree\.com
 (^|\.)ancsconf\.org
 (^|\.)andfaraway\.net
 (^|\.)android-x86\.org
 (^|\.)angularjs\.org
 animecrazy\.net
-\.animeshippuuden\.com
 aniscartujo\.com
 (^|\.)aniscartujo\.com
 (^|\.)anobii\.com
@@ -2272,6 +2274,7 @@ dcmilitary\.com
 \.ddhw\.info
 (^|\.)de-sci\.org
 \.de-sci\.org
+(^|\.)deadline\.com
 (^|\.)decodet\.co
 \.definebabe\.com
 (^|\.)delcamp\.net
@@ -3711,6 +3714,7 @@ juziyue\.com
 kanzhongguo\.com
 kanzhongguo\.eu
 \.kaotic\.com
+(^|\.)kaotic\.com
 (^|\.)karayou\.com
 karkhung\.com
 \.karmapa\.org
@@ -4612,7 +4616,8 @@ perfectvpn\.net
 \.persiankitty\.com
 pfd\.org\.hk
 phapluan\.org
-phayul\.com
+\.phayul\.com
+(^|\.)phayul\.com
 philborges\.com
 philly\.com
 (^|\.)phncdn\.com
@@ -5220,6 +5225,7 @@ sis001\.us
 (^|\.)sjum\.cn
 (^|\.)sketchappsources\.com
 (^|\.)skimtube\.com
+(^|\.)lab\.skk\.moe
 (^|\.)skybet\.com
 \.skyking\.com\.tw
 bbs\.skykiwi\.com
@@ -5305,6 +5311,7 @@ soundofhope\.org
 (^|\.)soundofhope\.org
 (^|\.)soupofmedia\.com
 \.sourcewadio\.com
+(^|\.)south-plus\.org
 southnews\.com\.tw
 sowers\.org\.hk
 (^|\.)wlx\.sowiki\.net
