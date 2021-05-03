@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-04-27T10:21:40.388189+08:00
+# Date: 2021-05-03T10:39:56.165218+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1914,6 +1914,7 @@ cdpwu\.org
 (^|\.)channelnewsasia\.com
 \.chapm25\.com
 \.chaturbate\.com
+(^|\.)chaturbate\.com
 \.chuang-yen\.org
 (^|\.)checkgfw\.com
 chengmingmag\.com
@@ -2100,6 +2101,7 @@ news\.cnyes\.com
 ^goagent\.codeplex\.com
 (^|\.)codeshare\.io
 (^|\.)codeskulptor\.org
+(^|\.)conoha\.jp
 ^tosh\.comedycentral\.com
 comefromchina\.com
 (^|\.)comefromchina\.com
@@ -2550,6 +2552,7 @@ erabaru\.net
 etaiwannews\.com
 (^|\.)etizer\.org
 (^|\.)etokki\.com
+(^|\.)etsy\.com
 etvonline\.hk
 \.eu\.org
 (^|\.)eu\.org
@@ -4027,6 +4030,7 @@ mcreasite\.com
 (^|\.)meetup\.com
 mefeedia\.com
 jihadintel\.meforum\.org
+(^|\.)mega\.co\.nz
 (^|\.)mega\.nz
 (^|\.)megaproxy\.com
 (^|\.)megarotic\.com
@@ -4123,6 +4127,7 @@ mirrorbooks\.com
 mitbbsau\.com
 \.mixero\.com
 (^|\.)mixero\.com
+(^|\.)mixi\.jp
 mixpod\.com
 \.mixx\.com
 (^|\.)mixx\.com
@@ -4322,7 +4327,7 @@ newschinacomment\.org
 \.newsdh\.com
 (^|\.)newstamago\.com
 (^|\.)newstapa\.org
-newstarnet\.com--NN--
+newstarnet\.com
 (^|\.)newsweek\.com
 \.newtaiwan\.com\.tw
 newtalk\.tw
@@ -6839,17 +6844,6 @@ ultrasurf
 (^|\.)wanfang\.gov\.tw
 (^|\.)yatsen\.gov\.tw
 (^|\.)yda\.gov\.tw
-^v2ex\.com
-^cdn\.v2ex\.com
-^cn\.v2ex\.com
-^hk\.v2ex\.com
-^i\.v2ex\.com
-^lax\.v2ex\.com
-^neue\.v2ex\.com
-^pagespeed\.v2ex\.com
-^static\.v2ex\.com
-^workspace\.v2ex\.com
-^www\.v2ex\.com
 (^|\.)bianlei\.com
 (^|\.)jpush\.cn
 (^|\.)www\.exblog\.jp
