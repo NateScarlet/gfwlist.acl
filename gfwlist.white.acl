@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-05-03T10:39:56.165218+08:00
+# Date: 2021-05-11T10:39:00.988773+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4293,6 +4293,7 @@ nccwatch\.org\.tw
 (^|\.)neowin\.net
 (^|\.)nepusoku\.com
 (^|\.)net-fits\.pro
+(^|\.)netalert\.me
 bbs\.netbig\.com
 \.netbirds\.com
 netcolony\.com
