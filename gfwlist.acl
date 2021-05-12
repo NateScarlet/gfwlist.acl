@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-05-11T10:39:00.988773+08:00
+# Date: 2021-05-12T10:41:05.229383+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -6139,6 +6139,7 @@ uygur\.org
 (^|\.)v2ray\.com
 (^|\.)v2raycn\.com
 (^|\.)v2raytech\.com
+(^|\.)valeursactuelles\.com
 \.van001\.com
 \.van698\.com
 \.vanemu\.cn
