@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-05-12T10:41:05.229383+08:00
+# Date: 2021-05-17T10:45:27.980508+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1583,6 +1583,7 @@ beijingspring\.com
 ^bell\.wiki
 bemywife\.cc
 beric\.me
+(^|\.)berlinerbericht\.de
 \.berlintwitterwall\.com
 (^|\.)berlintwitterwall\.com
 \.berm\.co\.nz
