@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-05-17T10:45:27.980508+08:00
+# Date: 2021-05-26T11:20:54.809204+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4032,6 +4032,7 @@ mcreasite\.com
 mefeedia\.com
 jihadintel\.meforum\.org
 (^|\.)mega\.co\.nz
+(^|\.)mega\.io
 (^|\.)mega\.nz
 (^|\.)megaproxy\.com
 (^|\.)megarotic\.com
