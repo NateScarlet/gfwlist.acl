@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-05-26T11:20:54.809204+08:00
+# Date: 2021-05-31T12:44:32.281403+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1464,7 +1464,7 @@ asg\.to
 \.asiaharvest\.org
 (^|\.)asiaharvest\.org
 (^|\.)asianage\.com
-asianews\.it
+(^|\.)asianews\.it
 ^japanfirst\.asianfreeforum\.com$
 (^|\.)asiansexdiary\.com
 (^|\.)asianwomensfilm\.de
@@ -1514,6 +1514,7 @@ boxun.+\.azurewebsites\.net
 (^|\.)boxun.+\.azurewebsites\.net
 (^|\.)b-ok\.cc
 forum\.baby-kingdom\.com
+(^|\.)babylonbee\.com
 babynet\.com\.hk
 backchina\.com
 (^|\.)backchina\.com
@@ -3498,12 +3499,15 @@ in-disguise\.com
 (^|\.)incloak\.com
 (^|\.)incredibox\.fr
 (^|\.)independent\.co\.uk
+(^|\.)indiablooms\.com
 (^|\.)indiandefensenews\.in
+(^|\.)indianarrative\.com
+(^|\.)timesofindia\.indiatimes\.com
 \.indiemerch\.com
 (^|\.)indiemerch\.com
 info-graf\.fr
 website\.informer\.com
-\.initiativesforchina\.org
+(^|\.)initiativesforchina\.org
 \.inkui\.com
 \.inmediahk\.net
 (^|\.)inmediahk\.net
