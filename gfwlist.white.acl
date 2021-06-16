@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-05-31T12:44:32.281403+08:00
+# Date: 2021-06-16T10:32:38.929221+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -5793,8 +5793,10 @@ top81\.ws
 (^|\.)toptip\.ca
 tora\.to
 \.torcn\.com
+(^|\.)torlock\.com
 \.torproject\.org
 (^|\.)torproject\.org
+(^|\.)torrentkitty\.tv
 torrentprivacy\.com
 (^|\.)torrentprivacy\.com
 ^torrentproject\.se
