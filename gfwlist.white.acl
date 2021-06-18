@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-06-16T10:32:38.929221+08:00
+# Date: 2021-06-18T10:33:11.184371+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4343,6 +4343,7 @@ newtalk\.tw
 newyorktimes\.com
 (^|\.)nexon\.com
 \.next11\.co\.jp
+(^|\.)nextdigital\.com\.hk
 \.nextmag\.com\.tw
 \.nextmedia\.com
 (^|\.)nexton-net\.jp
