@@ -2967,7 +2967,7 @@
         "(^|\\.)git\\.io",
         "^softwaredownload\\.gitbooks\\.io",
         "(^|\\.)github\\.blog",
-        "^gist\\.github\\.com",
+        "(^|\\.)github\\.com",
         "\\.github\\.io",
         "(^|\\.)github\\.io",
         "(^|\\.)githubusercontent\\.com",

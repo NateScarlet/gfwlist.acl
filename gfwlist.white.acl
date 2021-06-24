@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-06-18T10:33:11.184371+08:00
+# Date: 2021-06-24T10:15:12.796339+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -2975,7 +2975,7 @@ gigporno\.ru
 (^|\.)git\.io
 ^softwaredownload\.gitbooks\.io
 (^|\.)github\.blog
-^gist\.github\.com
+(^|\.)github\.com
 \.github\.io
 (^|\.)github\.io
 (^|\.)githubusercontent\.com
