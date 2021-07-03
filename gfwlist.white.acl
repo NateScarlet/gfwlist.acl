@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-06-24T10:15:12.796339+08:00
+# Date: 2021-07-03T10:16:27.926998+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -2951,6 +2951,7 @@ getiton\.com
 (^|\.)getmalus\.com
 \.getsocialscope\.com
 (^|\.)getsync\.com
+(^|\.)gettr\.com
 gfbv\.de
 \.gfgold\.com\.hk
 \.gfsale\.com
