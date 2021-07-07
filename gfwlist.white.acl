@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-07-03T10:16:27.926998+08:00
+# Date: 2021-07-07T10:21:12.801144+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -760,6 +760,7 @@ blogspot\.com
 (^|\.)certificate-transparency\.org
 (^|\.)chrome\.com
 (^|\.)chromecast\.com
+(^|\.)chromeenterprise\.google
 (^|\.)chromeexperiments\.com
 (^|\.)chromercise\.com
 (^|\.)chromestatus\.com
@@ -931,6 +932,7 @@ blogspot\.com
 (^|\.)api-verify\.recaptcha\.net
 (^|\.)redhotlabs\.com
 (^|\.)registry\.google
+(^|\.)research\.google
 (^|\.)safety\.google
 (^|\.)savethedate\.foo
 (^|\.)schema\.org
@@ -944,6 +946,7 @@ blogspot\.com
 (^|\.)tfhub\.dev
 (^|\.)thinkwithgoogle\.com
 (^|\.)tiltbrush\.com
+(^|\.)tv\.google
 (^|\.)urchin\.com
 (^|\.)waveprotocol\.org
 (^|\.)waymo\.com
@@ -2920,6 +2923,7 @@ gati\.org\.tw
 (^|\.)gazotube\.com
 (^|\.)gcc\.org\.hk
 (^|\.)gclooney\.com
+(^|\.)gclubs\.com
 (^|\.)gcmasia\.com
 \.gcpnews\.com
 ^gcpnews\.com
@@ -4911,6 +4915,7 @@ rapidvpn\.com
 ^raremovie\.cc
 \.raremovie\.net
 ^raremovie\.net
+(^|\.)rationalwiki\.org
 (^|\.)rawgit\.com
 (^|\.)rawgithub\.com
 (^|\.)razyboard\.com
@@ -6090,6 +6095,7 @@ underwoodammo\.com
 (^|\.)unknownspace\.org
 \.unodedos\.com
 unpo\.org
+(^|\.)unstable\.icu
 \.untraceable\.us
 ^untraceable\.us
 (^|\.)uocn\.org
