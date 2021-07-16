@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-07-07T10:21:12.801144+08:00
+# Date: 2021-07-16T10:23:11.416174+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1487,6 +1487,8 @@ atgfw\.org
 \.atlaspost\.com
 (^|\.)atlaspost\.com
 (^|\.)atdmt\.com
+\.atlanta168\.com
+(^|\.)atlanta168\.com
 \.atnext\.com
 (^|\.)atnext\.com
 ice\.audionow\.com
