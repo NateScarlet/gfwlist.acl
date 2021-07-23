@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-07-16T10:23:11.416174+08:00
+# Date: 2021-07-23T10:23:07.630717+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -946,6 +946,7 @@ blogspot\.com
 (^|\.)tfhub\.dev
 (^|\.)thinkwithgoogle\.com
 (^|\.)tiltbrush\.com
+(^|\.)translate\.google
 (^|\.)tv\.google
 (^|\.)urchin\.com
 (^|\.)waveprotocol\.org
@@ -1636,6 +1637,7 @@ bigfools\.com
 ^bit\.do
 \.bit\.ly
 ^bit\.ly
+(^|\.)bitchute\.com
 (^|\.)bitcointalk\.org
 \.bitshare\.com
 (^|\.)bitshare\.com
