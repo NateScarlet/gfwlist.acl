@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-08-04T10:23:24.395378+08:00
+# Date: 2021-08-05T10:19:39.777178+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1231,6 +1231,7 @@ taiwannation\.50webs\.com
 89\.64\.charter\.constitutionalism\.solutions
 89-64\.org
 (^|\.)89-64\.org
+(^|\.)8964museum\.com
 \.8news\.com\.tw
 \.8z1\.net
 (^|\.)8z1\.net
