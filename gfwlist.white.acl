@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-08-05T10:19:39.777178+08:00
+# Date: 2021-08-10T10:23:59.292015+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4849,6 +4849,7 @@ psblog\.name
 \.pussyspace\.com
 \.putihome\.org
 pwned\.com
+(^|\.)pximg\.net
 python\.com
 \.python\.com\.tw
 ^python\.com\.tw
@@ -5045,6 +5046,7 @@ cdn1\.lp\.saboom\.com
 sacom\.hk
 (^|\.)sacom\.hk
 (^|\.)sadpanda\.us
+(^|\.)safechat\.com
 \.safervpn\.com
 (^|\.)safervpn\.com
 \.saintyculture\.com
@@ -5770,6 +5772,7 @@ tintuc101\.com
 ^tiny\.cc
 tinychat\.com
 (^|\.)tinypaste\.com
+(^|\.)tipas\.net
 \.tistory\.com
 (^|\.)tkcs-collins\.com
 \.tmagazine\.com
@@ -6522,6 +6525,7 @@ wukangrui\.net
 (^|\.)wuyanblog\.com
 \.wwitv\.com
 (^|\.)wwitv\.com
+(^|\.)x\.co
 \.x-berry\.com
 (^|\.)x-berry\.com
 (^|\.)x-art\.com
