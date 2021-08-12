@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-08-10T10:23:59.292015+08:00
+# Date: 2021-08-12T10:19:47.374852+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4345,6 +4345,7 @@ newschinacomment\.org
 (^|\.)newsancai\.com
 \.newsdetox\.ca
 \.newsdh\.com
+(^|\.)newsmax\.com
 (^|\.)newstamago\.com
 (^|\.)newstapa\.org
 newstarnet\.com
