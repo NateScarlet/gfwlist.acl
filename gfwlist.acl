@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-08-12T10:19:47.374852+08:00
+# Date: 2021-08-28T10:19:50.931913+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -4724,6 +4724,7 @@ politicalconsultation\.org
 ^polymerhk\.com
 \.popo\.tw
 (^|\.)popvote\.hk
+(^|\.)popxi\.click
 \.popyard\.com
 (^|\.)popyard\.org
 \.porn\.com
