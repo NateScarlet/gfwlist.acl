@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-08-28T10:19:50.931913+08:00
+# Date: 2021-09-08T10:19:57.910444+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -204,6 +204,7 @@ share\.dmhy\.org
 (^|\.)login\.target\.com
 (^|\.)rcam\.target\.com
 (^|\.)technews\.tw
+(^|\.)terabox\.com
 (^|\.)thinkgeek\.com
 (^|\.)thebodyshop-usa\.com
 (^|\.)tma\.co\.jp
@@ -1474,6 +1475,7 @@ asg\.to
 ^japanfirst\.asianfreeforum\.com$
 (^|\.)asiansexdiary\.com
 (^|\.)asianwomensfilm\.de
+(^|\.)asiaone\.com
 \.asiatgp\.com
 \.asiatoday\.us
 (^|\.)askstudent\.com
@@ -3217,6 +3219,7 @@ heqinglian\.net
 (^|\.)hexieshe\.com
 (^|\.)hexieshe\.xyz
 (^|\.)hexxeh\.net
+(^|\.)heyuedi\.com
 app\.heywire\.com
 \.heyzo\.com
 \.hgseav\.com
