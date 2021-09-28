@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-09-20T10:23:20.636301+08:00
+# Date: 2021-09-28T10:23:24.438875+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -143,6 +143,7 @@ share\.dmhy\.org
 (^|\.)mvg\.jp
 \.mybet\.com
 (^|\.)mybet\.com
+(^|\.)mypikpak\.com
 (^|\.)nationwide\.com
 (^|\.)neo-miracle\.com
 (^|\.)netflix\.com
