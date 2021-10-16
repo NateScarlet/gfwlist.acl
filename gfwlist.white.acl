@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-10-12T10:25:14.018924+08:00
+# Date: 2021-10-16T10:29:54.503544+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1170,6 +1170,7 @@ zhao\.1984\.city
 \.2008xianzhang\.info
 (^|\.)2008xianzhang\.info
 (^|\.)2017\.hk
+(^|\.)2021hkcharter\.com
 (^|\.)2047\.name
 \.21join\.com
 \.21pron\.com
@@ -1668,6 +1669,7 @@ blinw\.com
 (^|\.)blip\.tv$
 \.blockcn\.com
 (^|\.)blockcn\.com
+(^|\.)blockedbyhk\.com
 (^|\.)blockless\.com
 (^|\.)blog\.de
 \.blog\.jp
@@ -1706,6 +1708,7 @@ bonbonme\.com
 \.bongacams\.com
 (^|\.)boobstagram\.com
 (^|\.)book\.com\.tw
+(^|\.)bookdepository\.com
 bookepub\.com
 (^|\.)books\.com\.tw
 (^|\.)botanwang\.com
@@ -3051,7 +3054,8 @@ gongminliliang\.com
 \.gongwt\.com
 ^gongwt\.com
 \.gooday\.xyz
-^gooday\.xyz
+(^|\.)gooday\.xyz
+(^|\.)goodhope\.school
 \.goodreads\.com
 (^|\.)goodreads\.com
 \.goodreaders\.com
