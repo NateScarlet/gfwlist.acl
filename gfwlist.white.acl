@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-10-16T10:29:54.503544+08:00
+# Date: 2021-10-19T10:25:43.725149+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -417,6 +417,7 @@ share\.dmhy\.org
 (^|\.)btc98\.com
 (^|\.)btcbank\.bank
 (^|\.)btctrade\.im
+(^|\.)bybit\.com
 (^|\.)c2cx\.com
 (^|\.)chaoex\.com
 (^|\.)cobinhood\.com
@@ -425,7 +426,9 @@ share\.dmhy\.org
 \.coinegg\.com
 (^|\.)coinegg\.com
 (^|\.)coinex\.com
+(^|\.)coingecko\.com
 (^|\.)coingi\.com
+(^|\.)coinmarketcap\.com
 (^|\.)coinrail\.co\.kr
 (^|\.)cointiger\.com
 (^|\.)cointobe\.com
@@ -439,6 +442,7 @@ share\.dmhy\.org
 (^|\.)exrates\.me
 (^|\.)exx\.com
 (^|\.)fatbtc\.com
+(^|\.)ftx\.com
 (^|\.)gate\.io
 (^|\.)gatecoin\.com
 (^|\.)hbg\.com
@@ -2119,7 +2123,6 @@ news\.cnyes\.com
 ^goagent\.codeplex\.com
 (^|\.)codeshare\.io
 (^|\.)codeskulptor\.org
-(^|\.)coinmarketcap\.com
 (^|\.)conoha\.jp
 ^tosh\.comedycentral\.com
 comefromchina\.com
@@ -2862,7 +2865,6 @@ freeyellow\.com
 (^|\.)frootvpn\.com
 (^|\.)fscked\.org
 \.fsurf\.com
-(^|\.)ftp\.com
 \.ftv\.com\.tw
 (^|\.)ftv\.com\.tw
 (^|\.)ftvnews\.com\.tw
@@ -5854,8 +5856,9 @@ trendsmap\.com
 \.trialofccp\.org
 (^|\.)trialofccp\.org
 \.trouw\.nl
-^trouw\.nl
+(^|\.)trouw\.nl
 \.trt\.net\.tr
+(^|\.)trt\.net\.tr
 trtc\.com\.tw
 \.truebuddha-md\.org
 ^truebuddha-md\.org
@@ -5899,6 +5902,7 @@ bbs\.tuitui\.info
 \.tunein\.com
 ^tunein\.com
 (^|\.)tunnelbear\.com
+(^|\.)tunnelblick\.net
 \.tunnelr\.com
 (^|\.)tunnelr\.com
 (^|\.)tunsafe\.com
@@ -6328,6 +6332,7 @@ vraiesagesse\.net
 \.wahas\.com
 \.waigaobu\.com
 \.wailaike\.net
+(^|\.)wainao\.me
 \.waiwaier\.com
 ^waiwaier\.com
 (^|\.)wallmama\.com
@@ -6630,6 +6635,7 @@ xysblogs\.org
 xyy69\.com
 xyy69\.info
 (^|\.)y2mate\.com
+(^|\.)yadi\.sk
 (^|\.)yakbutterblues\.com
 (^|\.)yam\.com
 (^|\.)yam\.org\.tw
