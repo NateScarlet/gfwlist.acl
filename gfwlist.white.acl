@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-10-19T10:25:43.725149+08:00
+# Date: 2021-10-25T10:25:46.836155+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -2998,6 +2998,7 @@ gigporno\.ru
 \.git\.io
 (^|\.)git\.io
 ^softwaredownload\.gitbooks\.io
+(^|\.)raw\.githack\.com
 (^|\.)github\.blog
 (^|\.)github\.com
 \.github\.io
@@ -4419,6 +4420,7 @@ noodlevpn\.com
 \.norbulingka\.org
 nordvpn\.com
 (^|\.)nordvpn\.com
+(^|\.)notepad-plus-plus\.org
 (^|\.)novelasia\.com
 \.news\.now\.com
 ^news\.now\.com
