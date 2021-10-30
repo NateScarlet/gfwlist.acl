@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-10-25T10:25:46.836155+08:00
+# Date: 2021-10-30T23:43:14.276933+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -5631,6 +5631,7 @@ thehousenews\.com
 (^|\.)thehun\.net
 \.theinitium\.com
 (^|\.)theinitium\.com
+(^|\.)themoviedb\.org
 \.thenewslens\.com
 (^|\.)thenewslens\.com
 \.thepiratebay\.org
@@ -5650,6 +5651,7 @@ thetibetconnection\.org
 (^|\.)thetibetpost\.com
 (^|\.)thetinhat\.com
 thetrotskymovie\.com
+(^|\.)thetvdb\.com
 thevivekspot\.com
 (^|\.)thewgo\.org
 \.theync\.com
