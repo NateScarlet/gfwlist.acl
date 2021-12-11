@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-12-03T10:25:30.900046+08:00
+# Date: 2021-12-11T10:28:35.187052+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -2349,6 +2349,7 @@ djangosnippets\.org
 (^|\.)dlive\.tv
 (^|\.)dlsite\.com
 (^|\.)dlyoutube\.com
+(^|\.)dmc\.nico
 (^|\.)dmcdn\.net
 \.dnscrypt\.org
 (^|\.)dnscrypt\.org
