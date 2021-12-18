@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-12-11T10:28:35.187052+08:00
+# Date: 2021-12-18T10:33:21.859288+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -208,6 +208,7 @@ share\.dmhy\.org
 (^|\.)terabox\.com
 (^|\.)thinkgeek\.com
 (^|\.)thebodyshop-usa\.com
+(^|\.)tiktok\.com
 (^|\.)tma\.co\.jp
 (^|\.)tracfone\.com
 (^|\.)tryheart\.jp
@@ -5598,7 +5599,7 @@ tcnynj\.org
 \.tcsovi\.org
 \.tdm\.com\.mo
 teamamericany\.com
-(^|\.)static\.techspot\.com
+(^|\.)techspot\.com
 (^|\.)techviz\.net
 (^|\.)teck\.in
 \.teeniefuck\.net
@@ -6084,8 +6085,7 @@ twurl\.nl
 (^|\.)legaltech\.law\.com
 (^|\.)blogs\.tampabay\.com
 (^|\.)contests\.twilio\.com
-\.embr\.in
-(^|\.)embr\.in
+(^|\.)typora\.io
 \.u9un\.com
 (^|\.)u9un\.com
 \.ubddns\.org
