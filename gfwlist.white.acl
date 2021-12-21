@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-12-18T10:33:21.859288+08:00
+# Date: 2021-12-21T10:31:49.420626+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -5054,6 +5054,7 @@ rukor\.org
 (^|\.)rule34\.xxx
 \.runbtx\.com
 \.rushbee\.com
+(^|\.)rusvpn\.com
 \.ruten\.com\.tw
 (^|\.)ruten\.com\.tw
 rutube\.ru
