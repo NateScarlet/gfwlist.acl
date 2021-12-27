@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-12-21T10:31:49.420626+08:00
+# Date: 2021-12-27T10:32:36.826229+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -470,6 +470,7 @@ share\.dmhy\.org
 (^|\.)paxful\.com
 (^|\.)rightbtc\.com
 (^|\.)topbtc\.com
+(^|\.)tronscan\.org
 (^|\.)xbtce\.com
 (^|\.)yobit\.net
 (^|\.)zb\.com
@@ -996,7 +997,7 @@ cn\.nytstyle\.com
 (^|\.)nytstyle\.com
 \.steamcommunity\.com
 (^|\.)steamcommunity\.com
-^store\.steampowered\.com
+(^|\.)store\.steampowered\.com
 (^|\.)t\.me
 (^|\.)updates\.tdesktop\.com
 (^|\.)telegram\.dog
@@ -1699,13 +1700,14 @@ blogtd\.net
 (^|\.)assets\.bwbx\.io
 (^|\.)bloomfortune\.com
 blueangellive\.com
+(^|\.)blubrry\.com
 \.bmfinn\.com
 \.bnews\.co
 (^|\.)bnews\.co
 (^|\.)bnrmetal\.com
 (^|\.)boardreader\.com
 \.bod\.asia
-^bod\.asia
+(^|\.)bod\.asia
 \.bodog88\.com
 \.bolehvpn\.net
 (^|\.)bolehvpn\.net
@@ -4860,6 +4862,7 @@ psblog\.name
 (^|\.)pt\.im
 \.ptt\.cc
 (^|\.)ptt\.cc
+(^|\.)pttgame\.com
 \.puffstore\.com
 \.puuko\.com
 (^|\.)pullfolio\.com
@@ -5718,8 +5721,10 @@ tibetalk\.com
 tibetan-alliance\.org
 \.tibetanarts\.org
 \.tibetanbuddhistinstitute\.org
-^tibetanbuddhistinstitute\.org
-tibetancommunity\.org
+(^|\.)tibetanbuddhistinstitute\.org
+(^|\.)tibetancommunity\.org
+(^|\.)tibetanentrepreneurs\.org
+(^|\.)tibetanhealth\.org
 \.tibetanjournal\.com
 \.tibetanlanguage\.org
 \.tibetanliberation\.org
