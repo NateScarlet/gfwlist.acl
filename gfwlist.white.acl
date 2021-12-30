@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2021-12-27T10:32:36.826229+08:00
+# Date: 2021-12-30T10:29:31.721066+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -469,6 +469,7 @@ share\.dmhy\.org
 (^|\.)otcbtc\.com
 (^|\.)paxful\.com
 (^|\.)rightbtc\.com
+(^|\.)solv\.finance
 (^|\.)topbtc\.com
 (^|\.)tronscan\.org
 (^|\.)xbtce\.com
@@ -2654,6 +2655,7 @@ familyfed\.org
 (^|\.)fanglizhi\.info
 (^|\.)fangong\.org
 fangongheike\.com
+(^|\.)fanhaolou\.com
 \.fanqiang\.tk
 fanqianghou\.com
 (^|\.)fanqianghou\.com
@@ -3026,7 +3028,7 @@ globalmuseumoncommunism\.org
 (^|\.)globalvoicesonline\.org
 (^|\.)globalvpn\.net
 \.glock\.com
-gmbd\.cn
+(^|\.)gmgard\.com
 (^|\.)gmhz\.org
 ^www\.gmiddle\.com
 ^www\.gmiddle\.net
@@ -3611,6 +3613,7 @@ oversea\.istarshine\.com
 \.istockphoto\.com
 isunaffairs\.com
 isuntv\.com
+(^|\.)isupportuyghurs\.org
 itaboo\.info
 (^|\.)itaboo\.info
 \.italiatibet\.org
@@ -3821,6 +3824,7 @@ killwall\.com
 \.ksdl\.org
 \.ksnews\.com\.tw
 (^|\.)ktzhk\.com
+(^|\.)kukuku\.uk
 kun\.im
 \.kurashsultan\.com
 (^|\.)kurtmunger\.com
@@ -5749,11 +5753,10 @@ tibetanfeministcollective\.org
 tibetcharity\.in
 \.tibetchild\.org
 \.tibetcity\.com
-\.tibetcorps\.org
-\.tibetexpress\.net
-^tibetexpress\.net
-tibetfocus\.com
-tibetfund\.org
+(^|\.)tibetcorps\.org
+(^|\.)tibetexpress\.net
+(^|\.)tibetfocus\.com
+(^|\.)tibetfund\.org
 \.tibetgermany\.com
 (^|\.)tibetgermany\.de
 \.tibethaus\.com
@@ -6186,6 +6189,7 @@ usus\.cc
 \.uwants\.net
 uyghur\.co\.uk
 ^uyghur-j\.org
+(^|\.)uyghuraa\.org
 (^|\.)uyghuramerican\.org
 (^|\.)uyghurbiz\.org
 \.uyghurcanadiansociety\.org
