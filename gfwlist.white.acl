@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-01-09T10:33:35.552544+08:00
+# Date: 2022-01-10T10:33:55.642849+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -124,6 +124,7 @@ share\.dmhy\.org
 ^www\.m-sport\.co\.uk
 (^|\.)macgamestore\.com
 (^|\.)madonna-av\.com
+(^|\.)mandiant\.com
 (^|\.)mangafox\.com
 (^|\.)mangafox\.me
 (^|\.)manta\.com
@@ -243,6 +244,7 @@ share\.dmhy\.org
 (^|\.)xn--i2ru8q2qg\.com
 (^|\.)xn--oiq\.cc
 (^|\.)xn--p8j9a0d9c9a\.xn--q9jyb4c
+(^|\.)xn--9pr62r24a\.com
 (^|\.)abebooks\.com
 ^.+\.s3\.amazonaws\.com
 (^|\.)s3-ap-southeast-2\.amazonaws\.com
@@ -1214,7 +1216,7 @@ taiwannation\.50webs\.com
 (^|\.)51jav\.org
 \.51luoben\.com
 (^|\.)51luoben\.com
-\.5278\.cc
+(^|\.)5278\.cc
 \.5299\.tv
 5aimiku\.com
 5i01\.com
@@ -4514,6 +4516,7 @@ old-cat\.net
 (^|\.)olevod\.com
 (^|\.)olumpo\.com
 \.olympicwatch\.org
+(^|\.)omct\.org
 omgili\.com
 (^|\.)omnitalk\.com
 (^|\.)omnitalk\.org
@@ -5085,6 +5088,7 @@ sacom\.hk
 (^|\.)sacom\.hk
 (^|\.)sadpanda\.us
 (^|\.)safechat\.com
+(^|\.)safeguarddefenders\.com
 \.safervpn\.com
 (^|\.)safervpn\.com
 \.saintyculture\.com
@@ -5540,6 +5544,7 @@ tagwalk\.com
 tahr\.org\.tw
 \.taipeisociety\.org
 (^|\.)taipeisociety\.org
+(^|\.)taipeitimes\.com
 \.taiwanbible\.com
 \.taiwancon\.com
 \.taiwandaily\.net
@@ -6182,8 +6187,6 @@ dalailama\.usc\.edu
 (^|\.)ustibetcommittee\.org
 \.ustream\.tv
 (^|\.)ustream\.tv
-\.usunitednews\.com
-^usunitednews\.com
 usus\.cc
 \.utopianpal\.com
 (^|\.)utopianpal\.com
@@ -6191,20 +6194,19 @@ usus\.cc
 \.uvwxyz\.xyz
 (^|\.)uvwxyz\.xyz
 \.uwants\.com
+(^|\.)uwants\.com
 \.uwants\.net
 uyghur\.co\.uk
 ^uyghur-j\.org
 (^|\.)uyghuraa\.org
 (^|\.)uyghuramerican\.org
 (^|\.)uyghurbiz\.org
-\.uyghurcanadiansociety\.org
-\.uyghurensemble\.co\.uk
+(^|\.)uyghurcanadian\.ca
 (^|\.)uyghurcongress\.org
-\.uyghurpen\.org
-\.uyghurpress\.com
-^uyghurpress\.com
-\.uyghurstudies\.org
-^uyghurstudies\.org
+(^|\.)uyghurpen\.org
+(^|\.)uyghurpress\.com
+(^|\.)uyghurstudies\.org
+(^|\.)uyghurtribunal\.com
 uygur\.org
 ^uymaarip\.com$
 (^|\.)v2fly\.org
@@ -6693,6 +6695,7 @@ yegle\.net
 \.yibaochina\.com
 \.yidio\.com
 (^|\.)yidio\.com
+(^|\.)yigeni\.com
 yilubbs\.com
 xa\.yimg\.com
 \.yingsuoss\.com
