@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-01-29T10:19:29.540570+08:00
+# Date: 2022-01-30T10:22:32.691508+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -2291,10 +2291,9 @@ dalianmeng\.org
 (^|\.)daliulian\.org
 \.danke4china\.net
 (^|\.)danke4china\.net
-\.danwei\.org
 daolan\.net
-\.daozhongxing\.org
 darktoy\.net
+(^|\.)darrenliuwei\.com
 (^|\.)dastrassi\.org
 (^|\.)daum\.net
 \.david-kilgour\.com
@@ -5374,6 +5373,7 @@ sokamonline\.com
 \.sonidodelaesperanza\.org
 \.sopcast\.com
 \.sopcast\.org
+(^|\.)nakedsecurity\.sophos\.com
 \.sorazone\.net
 (^|\.)sos\.org
 bbs\.sou-tong\.org
