@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-01-30T10:22:32.691508+08:00
+# Date: 2022-02-14T10:20:25.146598+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1237,6 +1237,7 @@ taiwannation\.50webs\.com
 (^|\.)6parknews\.com
 (^|\.)7capture\.com
 \.7cow\.com
+(^|\.)7-zip\.org
 \.8-d\.com
 ^8-d\.com
 85cc\.net
