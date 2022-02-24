@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-02-14T10:20:25.146598+08:00
+# Date: 2022-02-24T10:31:16.462418+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -5895,12 +5895,13 @@ trendsmap\.com
 (^|\.)trt\.net\.tr
 trtc\.com\.tw
 \.truebuddha-md\.org
-^truebuddha-md\.org
+(^|\.)truebuddha-md\.org
 trulyergonomic\.com
 \.truth101\.co\.tv
-^truth101\.co\.tv
+(^|\.)truth101\.co\.tv
 \.truthontour\.org
-^truthontour\.org
+(^|\.)truthontour\.org
+(^|\.)truthsocial\.com
 \.truveo\.com
 \.tsctv\.net
 \.tsemtulku\.com
