@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-03-02T10:35:12.680216+08:00
+# Date: 2022-03-13T10:28:02.776676+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -29,6 +29,7 @@
 (^|\.)booktopia\.com\.au
 (^|\.)boysmaster\.com
 (^|\.)bynet\.co\.il
+(^|\.)byrut\.org
 (^|\.)carfax\.com
 \.casinobellini\.com
 (^|\.)casinobellini\.com
@@ -89,6 +90,7 @@ share\.dmhy\.org
 (^|\.)wego\.here\.com
 (^|\.)gamer-cds\.cdn\.hinet\.net
 (^|\.)gamer2-cds\.cdn\.hinet\.net
+(^|\.)hmoegirl\.com
 (^|\.)hmvdigital\.ca
 (^|\.)hmvdigital\.com
 (^|\.)homedepot\.com
@@ -680,6 +682,7 @@ bloomberg\.de
 \.yourtrap\.com
 \.zyns\.com
 \.zzux\.com
+(^|\.)pages\.dev
 d1b183sg0nvnuh\.cloudfront\.net
 ^d1b183sg0nvnuh\.cloudfront\.net
 d1c37gjwa26taa\.cloudfront\.net
@@ -3640,8 +3643,9 @@ ithelp\.ithome\.com\.tw
 \.ivpn\.net
 (^|\.)ixquick\.com
 \.ixxx\.com
-iyouport\.com
+\.iyouport\.com
 (^|\.)iyouport\.com
+(^|\.)iyouport\.org
 \.izaobao\.us
 (^|\.)gmozomg\.izihost\.org
 \.izles\.net
@@ -5076,6 +5080,7 @@ rukor\.org
 (^|\.)rusvpn\.com
 \.ruten\.com\.tw
 (^|\.)ruten\.com\.tw
+(^|\.)rutracker\.net
 rutube\.ru
 \.ruyiseek\.com
 \.rxhj\.net
