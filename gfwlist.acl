@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-03-13T10:28:02.776676+08:00
+# Date: 2022-03-14T10:34:03.414341+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1768,6 +1768,7 @@ breaking911\.com
 \.breakingtweets\.com
 (^|\.)breakingtweets\.com
 (^|\.)breakwall\.net
+(^|\.)brill\.com
 brizzly\.com
 (^|\.)brizzly\.com
 (^|\.)brkmd\.com
