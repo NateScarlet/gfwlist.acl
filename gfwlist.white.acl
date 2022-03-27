@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-03-14T10:34:03.414341+08:00
+# Date: 2022-03-27T10:41:22.216122+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -3652,6 +3652,7 @@ ithelp\.ithome\.com\.tw
 \.izles\.net
 \.izlesem\.org
 (^|\.)j\.mp
+(^|\.)jable\.tv
 blog\.jackjia\.com
 jamaat\.org
 (^|\.)jamestown\.org
@@ -3933,6 +3934,7 @@ linkuswell\.com
 (^|\.)lingvodics\.com
 \.link-o-rama\.com
 ^link-o-rama\.com
+(^|\.)linkedin\.com
 \.linkideo\.com
 (^|\.)api\.linksalpha\.com
 (^|\.)apidocs\.linksalpha\.com
@@ -4203,6 +4205,7 @@ mnewstv\.com
 (^|\.)mobileways\.de
 \.mobypicture\.com
 ^moby\.to
+(^|\.)mod\.io
 (^|\.)modernchinastudies\.org
 (^|\.)moeerolibrary\.com
 wiki\.moegirl\.org
