@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-04-22T11:39:21.507802+08:00
+# Date: 2022-05-22T11:04:11.705721+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -817,6 +817,7 @@ blogspot\.com
 (^|\.)godoc\.org
 (^|\.)golang\.org
 (^|\.)goo\.gl
+(^|\.)goo\.gle
 \.google\.ae
 \.google\.as
 \.google\.am
@@ -2542,7 +2543,7 @@ englishpen\.org
 (^|\.)app\.evozi\.com
 \.episcopalchurch\.org
 \.epochhk\.com
-^epochhk\.com
+(^|\.)epochhk\.com
 epochtimes-bg\.com
 (^|\.)epochtimes-bg\.com
 epochtimes-romania\.com
@@ -2554,14 +2555,14 @@ epochtimes\.co\.kr
 epochtimes\.com
 (^|\.)epochtimes\.com
 \.epochtimes\.cz
-epochtimes\.de
-epochtimes\.fr
-\.epochtimes\.ie
-\.epochtimes\.it
-epochtimes\.jp
-epochtimes\.ru
-epochtimes\.se
-epochtimestr\.com
+(^|\.)epochtimes\.de
+(^|\.)epochtimes\.fr
+(^|\.)epochtimes\.ie
+(^|\.)epochtimes\.it
+(^|\.)epochtimes\.jp
+(^|\.)epochtimes\.ru
+(^|\.)epochtimes\.se
+(^|\.)epochtimestr\.com
 \.epochweek\.com
 (^|\.)epochweek\.com
 (^|\.)epochweekly\.com
@@ -3725,11 +3726,13 @@ weiboscope\.jmsc\.hku\.hk
 (^|\.)jobso\.tv
 \.sunwinism\.joinbbs\.net
 (^|\.)joinclubhouse\.com
+(^|\.)jornaldacidadeonline\.com\.br
 \.journalchretien\.net
 (^|\.)journalofdemocracy\.org
 \.joymiihub\.com
 \.joyourself\.com
 jpopforum\.net
+(^|\.)jsdelivr\.net
 (^|\.)fiddle\.jshell\.net
 \.jubushoushen\.com
 (^|\.)jubushoushen\.com
@@ -4097,7 +4100,8 @@ jihadintel\.meforum\.org
 (^|\.)megarotic\.com
 megavideo\.com
 (^|\.)megurineluka\.com
-meirixiaochao\.com
+(^|\.)meizhong\.blog
+(^|\.)meizhong\.report
 \.meltoday\.com
 \.memehk\.com
 (^|\.)memehk\.com
@@ -4106,19 +4110,19 @@ memorybbs\.com
 \.memrijttm\.org
 (^|\.)mercdn\.net
 \.mercyprophet\.org
-^mercyprophet\.org
+(^|\.)mercyprophet\.org
 (^|\.)mergersandinquisitions\.org
 \.meridian-trust\.org
-^meridian-trust\.org
+(^|\.)meridian-trust\.org
 \.meripet\.biz
-^meripet\.biz
+(^|\.)meripet\.biz
 \.meripet\.com
-^meripet\.com
-merit-times\.com\.tw
+(^|\.)meripet\.com
+(^|\.)merit-times\.com\.tw
 meshrep\.com
 (^|\.)metafilter\.com
 (^|\.)meteorshowersonline\.com
-^www\.metro\.taipei$
+(^|\.)metro\.taipei
 (^|\.)metrolife\.ca
 \.metroradio\.com\.hk
 ^metroradio\.com\.hk
@@ -4363,6 +4367,7 @@ netcolony\.com
 bolin\.netfirms\.com
 (^|\.)netflav\.com
 (^|\.)netme\.cc
+(^|\.)netsarang\.com
 netsneak\.com
 \.network54\.com
 networkedblogs\.com
@@ -4573,6 +4578,7 @@ www\.orchidbbs\.com
 organharvestinvestigation\.net
 \.orgasm\.com
 \.orgfree\.com
+(^|\.)oricon\.co\.jp
 (^|\.)orient-doll\.com
 orientaldaily\.com\.my
 (^|\.)orientaldaily\.com\.my
@@ -4592,6 +4598,7 @@ oursogo\.com
 \.oursweb\.net
 (^|\.)ourtv\.hk
 xinqimeng\.over-blog\.com
+(^|\.)overcast\.fm
 (^|\.)overdaily\.org
 (^|\.)overplay\.net
 (^|\.)ovpn\.com
@@ -5376,6 +5383,7 @@ sohfrance\.org
 (^|\.)sohfrance\.org
 chinese\.soifind\.com
 sokamonline\.com
+(^|\.)solana\.com
 \.solidaritetibet\.org
 \.solidfiles\.com
 (^|\.)somee\.com
@@ -5662,6 +5670,7 @@ theblemish\.com
 ^thedalailamamovie\.com
 (^|\.)thediplomat\.com
 (^|\.)thedw\.us
+(^|\.)theepochtimes\.com
 (^|\.)theguardian\.com
 (^|\.)thegay\.com
 ^thegioitinhoc\.vn$
@@ -6198,6 +6207,7 @@ us\.to
 \.usaip\.eu
 (^|\.)usaip\.eu
 dalailama\.usc\.edu
+(^|\.)uscnpm\.org
 (^|\.)usma\.edu
 \.usocctn\.com
 (^|\.)ustibetcommittee\.org
