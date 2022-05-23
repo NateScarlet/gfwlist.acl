@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-05-22T11:04:11.705721+08:00
+# Date: 2022-05-23T11:15:39.324581+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -4546,6 +4546,7 @@ showbiz\.omy\.sg
 (^|\.)on\.cc
 (^|\.)onedrive\.live\.com
 (^|\.)onion\.city
+(^|\.)onion\.ly
 \.onlinecha\.com
 (^|\.)onlineyoutube\.com
 (^|\.)onlygayvideo\.com
@@ -6540,6 +6541,7 @@ woopie\.tv
 (^|\.)workatruna\.com
 \.workerdemo\.org\.hk
 \.workerempowerment\.org
+(^|\.)workers\.dev
 (^|\.)workersthebig\.net
 \.worldcat\.org
 worldjournal\.com
