@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-05-23T11:15:39.324581+08:00
+# Date: 2022-05-29T11:22:36.866757+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -5185,6 +5185,7 @@ forum\.setty\.com\.tw
 \.sevenload\.com
 (^|\.)sevenload\.com
 \.sex\.com
+(^|\.)sex\.com
 \.sex-11\.com
 (^|\.)sex3\.com
 (^|\.)sex8\.cc
@@ -6419,6 +6420,7 @@ washeng\.net
 (^|\.)watchmygf\.net
 (^|\.)wav\.tv
 \.wdf5\.com
+(^|\.)wealth\.com\.tw
 \.wearehairy\.com
 \.wearn\.com
 (^|\.)wearn\.com
@@ -6638,6 +6640,7 @@ xiezhua\.com
 \.xihua\.es
 \.xing\.com
 ^xing\.com
+(^|\.)xinjiangpolicefiles\.org
 \.xinmiao\.com\.hk
 (^|\.)xinmiao\.com\.hk
 xinsheng\.net
