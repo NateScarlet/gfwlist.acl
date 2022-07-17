@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-05-29T11:22:36.866757+08:00
+# Date: 2022-07-17T11:37:12.013761+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -230,6 +230,7 @@ share\.dmhy\.org
 (^|\.)wheretowatch\.com
 (^|\.)wingamestore\.com
 (^|\.)wizcrafts\.net
+(^|\.)wowhead\.com
 (^|\.)vod\.wwe\.com
 (^|\.)xfinity\.com
 (^|\.)youwin\.com
@@ -778,6 +779,7 @@ blogspot\.com
 \.blogspot\.hk
 \.blogspot\.jp
 \.blogspot\.tw
+(^|\.)business\.page
 (^|\.)certificate-transparency\.org
 (^|\.)chrome\.com
 (^|\.)chromecast\.com
@@ -1762,6 +1764,7 @@ boyangu\.com
 (^|\.)bravotube\.net
 \.brazzers\.com
 (^|\.)brazzers\.com
+(^|\.)breached\.to
 \.break\.com
 (^|\.)break\.com
 breakgfw\.com
@@ -2751,6 +2754,7 @@ findmespot\.com
 finler\.net
 \.firearmsworld\.net
 ^firearmsworld\.net
+(^|\.)relay\.firefox\.com
 \.fireofliberty\.org
 (^|\.)fireofliberty\.org
 \.firetweet\.io
@@ -2871,6 +2875,7 @@ freeweibo\.com
 friendfeed\.com
 friends-of-tibet\.org
 \.friendsoftibet\.org
+(^|\.)friendsoftibet\.org
 freechina\.net
 ^www\.zensur\.freerk\.com$
 freevpn\.nl
@@ -5174,6 +5179,7 @@ seesmic\.com
 (^|\.)seezone\.net
 sejie\.com
 \.sendspace\.com
+(^|\.)sensortower\.com
 ^tweets\.seraph\.me$
 sesawe\.net
 (^|\.)sesawe\.net
