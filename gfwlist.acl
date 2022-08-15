@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-07-17T11:37:12.013761+08:00
+# Date: 2022-08-15T11:51:33.562055+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1416,7 +1416,6 @@ animecrazy\.net
 aniscartujo\.com
 (^|\.)aniscartujo\.com
 (^|\.)anobii\.com
-anonymise\.us
 \.anonymitynetwork\.com
 \.anonymizer\.com
 \.anonymouse\.org
@@ -2943,6 +2942,7 @@ gamejolt\.com
 \.gaoming\.net
 (^|\.)gaoming\.net
 ganges\.com
+(^|\.)ganjingworld\.com
 \.gaopi\.net
 ^gaopi\.net
 \.gaozhisheng\.org
@@ -4874,6 +4874,7 @@ privatetunnel\.com
 (^|\.)privoxy\.org
 (^|\.)procopytips\.com
 (^|\.)project-syndicate\.org
+(^|\.)proton\.me
 provideocoalition\.com
 (^|\.)prosiben\.de
 proxifier\.com
