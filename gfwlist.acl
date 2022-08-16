@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-08-15T11:51:33.562055+08:00
+# Date: 2022-08-17T03:30:17.839920+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -4659,6 +4659,7 @@ pastebin\.com
 \.pastie\.org
 (^|\.)pastie\.org
 (^|\.)blog\.pathtosharepoint\.com
+(^|\.)patreon\.com
 video\.pbs\.org
 pbwiki\.com
 (^|\.)pbworks\.com
