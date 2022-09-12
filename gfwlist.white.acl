@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-08-17T03:30:17.839920+08:00
+# Date: 2022-09-12T12:19:33.089493+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1690,6 +1690,7 @@ tor\.blingblingsquad\.net
 blinw\.com
 \.blip\.tv
 (^|\.)blip\.tv$
+(^|\.)blockcast\.it
 \.blockcn\.com
 (^|\.)blockcn\.com
 (^|\.)blockedbyhk\.com
@@ -2192,6 +2193,7 @@ creaders\.net
 (^|\.)creaders\.net
 \.creadersnet\.com
 (^|\.)cristyli\.com
+(^|\.)croxyproxy\.com
 \.crocotube\.com
 ^crocotube\.com
 \.crossthewall\.net
@@ -2535,7 +2537,7 @@ emilylau\.org\.hk
 (^|\.)encrypt\.me
 (^|\.)enewstree\.com
 \.enfal\.de
-chinese\.engadget\.com
+(^|\.)chinese\.engadget\.com
 (^|\.)engagedaily\.org
 englishforeveryone\.org
 (^|\.)englishfromengland\.co\.uk
@@ -3933,6 +3935,7 @@ letscorp\.net
 \.liaowangxizang\.net
 (^|\.)liberal\.org\.hk
 \.libertytimes\.com\.tw
+(^|\.)libredd\.it
 \.lighten\.org\.tw
 \.lightnovel\.cn
 limiao\.net
@@ -4534,7 +4537,7 @@ oizoblog\.com
 (^|\.)ok\.ru
 \.okayfreedom\.com
 (^|\.)okayfreedom\.com
-okk\.tw
+(^|\.)okk\.tw
 old-cat\.net
 (^|\.)olevod\.com
 (^|\.)olumpo\.com
@@ -5507,6 +5510,7 @@ tw\.streetvoice\.com
 (^|\.)studentsforafreetibet\.org
 (^|\.)stumbleupon\.com
 stupidvideos\.com
+(^|\.)substack\.com
 \.successfn\.com
 panamapapers\.sueddeutsche\.de
 \.sugarsync\.com
@@ -6303,6 +6307,7 @@ visibletweets\.com
 \.vital247\.org
 (^|\.)viu\.com
 \.vivahentai4u\.net
+(^|\.)vivaldi\.com
 \.vivatube\.com
 \.vivthomas\.com
 (^|\.)vivthomas\.com
