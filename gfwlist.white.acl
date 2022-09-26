@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-09-12T12:19:33.089493+08:00
+# Date: 2022-09-26T12:19:29.994514+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -3574,6 +3574,7 @@ website\.informer\.com
 \.inote\.tw
 \.insecam\.org
 ^insecam\.org
+(^|\.)inside\.com\.tw
 (^|\.)insidevoa\.com
 \.institut-tibetain\.org
 ^internet\.org$
@@ -3698,6 +3699,7 @@ jeanyim\.com
 \.jiangweiping\.com
 (^|\.)jiangweiping\.com
 (^|\.)jiaoyou8\.com
+(^|\.)jichangtj\.com
 \.jiehua\.cz
 (^|\.)hk\.jiepang\.com
 (^|\.)tw\.jiepang\.com
@@ -4515,6 +4517,7 @@ nylonstockingsonline\.com
 (^|\.)nypost\.com
 \.nzchinese\.com
 (^|\.)nzchinese\.net\.nz
+(^|\.)oann\.com
 observechina\.net
 \.obutu\.com
 ocaspro\.com
@@ -4705,10 +4708,9 @@ penisbot\.com
 (^|\.)peopo\.org
 \.percy\.in
 \.perfectgirls\.net
-perfectvpn\.net
+(^|\.)perfect-privacy\.com
 \.persecutionblog\.com
 \.persiankitty\.com
-pfd\.org\.hk
 phapluan\.org
 \.phayul\.com
 (^|\.)phayul\.com
@@ -6271,6 +6273,7 @@ vansky\.com
 \.venetianmacao\.com
 (^|\.)venetianmacao\.com
 veoh\.com
+(^|\.)vercel\.app
 mysite\.verizon\.net
 vermonttibet\.org
 \.versavpn\.com
@@ -6281,7 +6284,7 @@ vermonttibet\.org
 (^|\.)viber\.com
 \.vica\.info
 \.victimsofcommunism\.org
-^victimsofcommunism\.org
+(^|\.)victimsofcommunism\.org
 (^|\.)vid\.me
 (^|\.)vidble\.com
 videobam\.com
