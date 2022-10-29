@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-09-26T12:19:29.994514+08:00
+# Date: 2022-10-29T11:26:10.630934+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1292,6 +1292,7 @@ abclite\.net
 (^|\.)aboluowang\.com
 \.aboutgfw\.com
 \.abs\.edu
+(^|\.)acast\.com
 \.accim\.org
 \.aceros-de-hispania\.com
 \.acevpn\.com
@@ -1720,6 +1721,7 @@ blueangellive\.com
 \.bmfinn\.com
 \.bnews\.co
 (^|\.)bnews\.co
+(^|\.)bnext\.com\.tw
 (^|\.)bnrmetal\.com
 (^|\.)boardreader\.com
 \.bod\.asia
@@ -2761,6 +2763,7 @@ finler\.net
 \.firetweet\.io
 (^|\.)firetweet\.io
 (^|\.)firstpost\.com
+(^|\.)firstrade\.com
 \.flagsonline\.it
 fleshbot\.com
 \.fleursdeslettres\.com
@@ -7015,7 +7018,6 @@ ultrasurf
 (^|\.)khm3\.googleapis\.com
 (^|\.)khmdb\.googleapis\.com
 (^|\.)storage\.googleapis\.com
-(^|\.)translate\.googleapis\.com
 (^|\.)update\.googleapis\.com
 (^|\.)safebrowsing\.googleapis\.com
 (^|\.)cn\.gravatar\.com
