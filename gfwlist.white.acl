@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-10-29T11:26:10.630934+08:00
+# Date: 2022-10-30T11:47:08.951698+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -3758,6 +3758,7 @@ jpopforum\.net
 \.juoaa\.com
 ^juoaa\.com
 justfreevpn\.com
+(^|\.)justhost\.ru
 \.justicefortenzin\.org
 justpaste\.it
 (^|\.)justmysocks1\.net
