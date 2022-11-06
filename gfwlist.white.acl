@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-10-30T11:47:08.951698+08:00
+# Date: 2022-11-06T11:19:47.839228+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -3389,6 +3389,7 @@ hongmeimei\.com
 \.hornytrip\.com
 ^hornytrip\.com
 (^|\.)horrorporn\.com
+(^|\.)hostloc\.com
 (^|\.)hotair\.com
 \.hotav\.tv
 \.hotels\.cn
@@ -5061,15 +5062,16 @@ rfaweb\.org
 (^|\.)rferl\.org
 \.rfi\.fr
 (^|\.)rfi\.fr
-^rfi\.my$
+(^|\.)rfi\.my
 ^vds\.rightster\.com$
 \.rigpa\.org
 \.rileyguide\.com
-riku\.me$
+(^|\.)riku\.me
 \.ritouki\.jp
 (^|\.)ritter\.vg
 \.rlwlw\.com
 (^|\.)rlwlw\.com
+(^|\.)rmbl\.ws
 \.rmjdw\.com
 \.rmjdw132\.info
 \.roadshow\.hk
@@ -5104,6 +5106,7 @@ riku\.me$
 \.rtycminnesota\.org
 rukor\.org
 (^|\.)rule34\.xxx
+(^|\.)rumble\.com
 \.runbtx\.com
 \.rushbee\.com
 (^|\.)rusvpn\.com
