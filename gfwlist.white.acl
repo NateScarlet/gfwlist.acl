@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-11-06T11:19:47.839228+08:00
+# Date: 2022-11-15T11:09:40.474018+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1791,7 +1791,8 @@ brucewang\.net
 (^|\.)bt95\.com
 \.btaia\.com
 \.btbtav\.com
-^btdigg\.org
+(^|\.)btdig\.com
+(^|\.)btdigg\.org
 \.btku\.me
 (^|\.)btku\.me
 (^|\.)btku\.org
@@ -1799,9 +1800,7 @@ brucewang\.net
 \.btsynckeys\.com
 \.budaedu\.org
 (^|\.)budaedu\.org
-\.buddhistchannel\.tv
-\.buffered\.com
-^buffered\.com
+(^|\.)buffered\.com
 (^|\.)bullguard\.com
 \.bullog\.org
 (^|\.)bullog\.org
@@ -4582,6 +4581,7 @@ openid\.net
 (^|\.)openid\.net
 \.openleaks\.org
 (^|\.)openleaks\.org
+(^|\.)openstreetmap\.org
 (^|\.)opentech\.fund
 openvpn\.net
 (^|\.)openvpn\.net
