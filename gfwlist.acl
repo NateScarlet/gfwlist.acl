@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2022-11-15T11:09:40.474018+08:00
+# Date: 2023-01-08T10:40:34.756544+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1562,9 +1562,10 @@ badoo\.com
 ^.+2\.bahamut\.com\.tw
 (^|\.)baidu\.jp
 \.baijie\.org
-^baijie\.org
+(^|\.)baijie\.org
 (^|\.)bailandaily\.com
 (^|\.)baixing\.me
+(^|\.)baizhi\.org
 (^|\.)bakgeekhome\.tk
 \.banana-vpn\.com
 (^|\.)banana-vpn\.com
@@ -2946,6 +2947,7 @@ gamejolt\.com
 \.gaoming\.net
 (^|\.)gaoming\.net
 ganges\.com
+(^|\.)ganjing\.com
 (^|\.)ganjingworld\.com
 \.gaopi\.net
 ^gaopi\.net
