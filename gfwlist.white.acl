@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-01-08T10:40:34.756544+08:00
+# Date: 2023-01-10T10:41:25.131929+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -454,6 +454,7 @@ share\.dmhy\.org
 (^|\.)gatecoin\.com
 (^|\.)hbg\.com
 (^|\.)hitbtc\.com
+(^|\.)hotcoin\.com
 (^|\.)huobi\.co
 (^|\.)huobi\.com
 (^|\.)huobi\.me
@@ -463,6 +464,7 @@ share\.dmhy\.org
 (^|\.)bx\.in\.th
 (^|\.)jex\.com
 (^|\.)kex\.com
+(^|\.)kraken\.com
 (^|\.)kspcoin\.com
 (^|\.)kucoin\.com
 (^|\.)lbank\.info
@@ -978,6 +980,7 @@ blogspot\.com
 (^|\.)waymo\.com
 (^|\.)web\.dev
 (^|\.)webmproject\.org
+(^|\.)webpkgcache\.com
 (^|\.)webrtc\.org
 (^|\.)whatbrowser\.org
 (^|\.)widevine\.com
@@ -1290,6 +1293,7 @@ abclite\.net
 \.ablwang\.com
 \.aboluowang\.com
 (^|\.)aboluowang\.com
+(^|\.)about\.me
 \.aboutgfw\.com
 \.abs\.edu
 (^|\.)acast\.com
@@ -1807,6 +1811,7 @@ brucewang\.net
 (^|\.)bullog\.org
 \.bullogger\.com
 (^|\.)bullogger\.com
+(^|\.)bumingbai\.net
 (^|\.)bunbunhk\.com
 \.busayari\.com
 ^busayari\.com
@@ -2004,6 +2009,7 @@ chinachannel\.hk
 (^|\.)chinaelections\.org
 \.chinaeweekly\.com
 (^|\.)chinaeweekly\.com
+(^|\.)chinafile\.com
 (^|\.)chinafreepress\.org
 \.chinagate\.com
 chinageeks\.org
@@ -2403,6 +2409,7 @@ dongtaiwang\.com
 (^|\.)dotvpn\.com
 \.doub\.io
 (^|\.)doub\.io
+(^|\.)doublethinklab\.org
 (^|\.)dougscripts\.com
 (^|\.)douhokanko\.net
 (^|\.)doujincafe\.com
@@ -3271,6 +3278,7 @@ app\.heywire\.com
 \.hhdcb3office\.org
 \.hhthesakyatrizin\.org
 hi-on\.org\.tw
+(^|\.)hiccears\.com
 hidden-advent\.org
 (^|\.)hidden-advent\.org
 (^|\.)hide\.me
@@ -3367,6 +3375,7 @@ hkptu\.org
 hnjhj\.com
 (^|\.)hnjhj\.com
 \.hnntube\.com
+(^|\.)hojemacau\.com\.mo
 (^|\.)hola\.com
 (^|\.)hola\.org
 holymountaincn\.com
@@ -3449,6 +3458,7 @@ huaxin\.ph
 (^|\.)huhangfei\.com
 huiyi\.in
 \.hulkshare\.com
+(^|\.)humanrightspressawards\.org
 (^|\.)hung-ya\.com
 (^|\.)hungerstrikeforaids\.org
 (^|\.)huping\.net
@@ -4244,6 +4254,7 @@ molihua\.org
 (^|\.)moonbbs\.com
 (^|\.)moptt\.tw
 (^|\.)monitorchina\.org
+(^|\.)monocloud\.me
 bbs\.morbell\.com
 (^|\.)morningsun\.org
 (^|\.)moroneta\.com
@@ -4401,6 +4412,7 @@ newcenturynews\.com
 (^|\.)newhighlandvision\.com
 newipnow\.com
 \.newlandmagazine\.com\.au
+(^|\.)newmitbbs\.com
 \.newnews\.ca
 news100\.com\.tw
 newschinacomment\.org
@@ -4427,7 +4439,7 @@ newyorktimes\.com
 \.nextmag\.com\.tw
 \.nextmedia\.com
 (^|\.)nexton-net\.jp
-nexttv\.com\.tw
+(^|\.)nexttv\.com\.tw
 \.nfjtyd\.com
 (^|\.)co\.ng\.mil
 (^|\.)nga\.mil
@@ -4673,6 +4685,7 @@ pastebin\.com
 (^|\.)pastie\.org
 (^|\.)blog\.pathtosharepoint\.com
 (^|\.)patreon\.com
+(^|\.)pawoo\.net
 video\.pbs\.org
 pbwiki\.com
 (^|\.)pbworks\.com
@@ -5143,8 +5156,8 @@ sacom\.hk
 \.salvation\.org\.hk
 (^|\.)salvation\.org\.hk
 \.sambhota\.org
-\.cn\.sandscotaicentral\.com
-^cn\.sandscotaicentral\.com
+(^|\.)cn\.sandscotaicentral\.com
+(^|\.)sankakucomplex\.com
 (^|\.)sankei\.com
 \.sanmin\.com\.tw
 sapikachu\.net
@@ -5957,6 +5970,7 @@ tsunagarumon\.com
 (^|\.)tt1069\.com
 \.tttan\.com
 (^|\.)tttan\.com
+(^|\.)ttv\.com\.tw
 tu8964\.com
 \.tubaholic\.com
 \.tube\.com
@@ -7007,30 +7021,13 @@ ultrasurf
 ^nrch\.culture\.tw$
 (^|\.)adservice\.google\.com
 (^|\.)dl\.google\.com
-(^|\.)kh\.google\.com
-(^|\.)khm\.google\.com
-(^|\.)khm0\.google\.com
-(^|\.)khm1\.google\.com
-(^|\.)khm2\.google\.com
-(^|\.)khm3\.google\.com
-(^|\.)khmdb\.google\.com
 (^|\.)tools\.google\.com
 (^|\.)clientservices\.googleapis\.com
 (^|\.)fonts\.googleapis\.com
-(^|\.)khm\.googleapis\.com
-(^|\.)khm0\.googleapis\.com
-(^|\.)khm1\.googleapis\.com
-(^|\.)khm2\.googleapis\.com
-(^|\.)khm3\.googleapis\.com
-(^|\.)khmdb\.googleapis\.com
 (^|\.)storage\.googleapis\.com
 (^|\.)update\.googleapis\.com
 (^|\.)safebrowsing\.googleapis\.com
 (^|\.)cn\.gravatar\.com
-(^|\.)connectivitycheck\.gstatic\.com
-(^|\.)csi\.gstatic\.com
-(^|\.)fonts\.gstatic\.com
-(^|\.)ssl\.gstatic\.com
 (^|\.)haosou\.com
 (^|\.)ip\.cn
 (^|\.)jike\.com
