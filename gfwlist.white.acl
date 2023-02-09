@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-01-10T10:41:25.131929+08:00
+# Date: 2023-02-09T10:43:33.045763+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -172,6 +172,7 @@ share\.dmhy\.org
 (^|\.)omni7\.jp
 (^|\.)onapp\.com
 (^|\.)ontrac\.com
+(^|\.)openai\.com
 (^|\.)pandora\.com
 \.pandora\.tv
 (^|\.)parkansky\.com
@@ -3578,21 +3579,22 @@ in-disguise\.com
 (^|\.)timesofindia\.indiatimes\.com
 \.indiemerch\.com
 (^|\.)indiemerch\.com
-info-graf\.fr
+(^|\.)info-graf\.fr
 website\.informer\.com
 (^|\.)initiativesforchina\.org
-\.inkui\.com
-\.inmediahk\.net
+(^|\.)inkui\.com
+(^|\.)inmediahk\.net
 (^|\.)inmediahk\.net
 (^|\.)innermongolia\.org
 (^|\.)inoreader\.com
-\.inote\.tw
-\.insecam\.org
+(^|\.)inote\.tw
+(^|\.)insecam\.org
 ^insecam\.org
 (^|\.)inside\.com\.tw
 (^|\.)insidevoa\.com
-\.institut-tibetain\.org
-^internet\.org$
+(^|\.)institut-tibetain\.org
+(^|\.)interactivebrokers\.com
+(^|\.)internet\.org
 internetdefenseleague\.org
 internetfreedom\.org
 (^|\.)internetpopculture\.com
@@ -5465,7 +5467,8 @@ spem\.at
 \.spotflux\.com
 (^|\.)spotflux\.com
 \.spring4u\.info
-^spring4u\.info
+(^|\.)spring4u\.info
+(^|\.)springwood\.me
 (^|\.)sproutcore\.com
 (^|\.)sproxy\.info
 (^|\.)squirrelvpn\.com
@@ -5727,6 +5730,7 @@ thehousenews\.com
 (^|\.)theporndude\.com
 (^|\.)theportalwiki\.com
 (^|\.)theprint\.in
+(^|\.)threadreaderapp\.com
 thereallove\.kr
 therock\.net\.nz
 (^|\.)thesaturdaypaper\.com\.au
@@ -6782,6 +6786,7 @@ xa\.yimg\.com
 \.yomiuri\.co\.jp
 yong\.hu
 \.yorkbbs\.ca
+(^|\.)you\.com
 (^|\.)youxu\.info
 \.youjizz\.com
 (^|\.)youjizz\.com
@@ -7034,6 +7039,7 @@ ultrasurf
 ^translate\.google\.cn
 (^|\.)http2\.golang\.org
 (^|\.)gov\.cn
+(^|\.)ocsp\.pki\.goog
 (^|\.)qq\.com
 (^|\.)sina\.cn
 (^|\.)sina\.com\.cn
