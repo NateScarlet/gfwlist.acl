@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-02-09T10:43:33.045763+08:00
+# Date: 2023-03-02T10:49:00.649713+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1324,6 +1324,7 @@ adultfriendfinder\.com
 (^|\.)advanscene\.com
 (^|\.)advertfan\.com
 \.ae\.org
+(^|\.)aei\.org
 (^|\.)aenhancers\.com
 (^|\.)af\.mil
 \.afantibbs\.com
