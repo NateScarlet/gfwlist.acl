@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-03-02T10:49:00.649713+08:00
+# Date: 2023-03-27T10:28:29.142305+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -169,6 +169,7 @@ share\.dmhy\.org
 (^|\.)s1\.nudezz\.com
 (^|\.)nusatrip\.com
 (^|\.)nuuvem\.com
+(^|\.)olehdtv\.com
 (^|\.)omni7\.jp
 (^|\.)onapp\.com
 (^|\.)ontrac\.com
@@ -791,6 +792,7 @@ blogspot\.com
 (^|\.)chromercise\.com
 (^|\.)chromestatus\.com
 (^|\.)chromium\.org
+(^|\.)cloudfunctions\.net
 (^|\.)com\.google
 (^|\.)crbug\.com
 (^|\.)creativelab5\.com
@@ -1423,6 +1425,7 @@ animecrazy\.net
 aniscartujo\.com
 (^|\.)aniscartujo\.com
 (^|\.)anobii\.com
+(^|\.)anonfiles\.com
 \.anonymitynetwork\.com
 \.anonymizer\.com
 \.anonymouse\.org
@@ -3655,8 +3658,8 @@ isuntv\.com
 (^|\.)isupportuyghurs\.org
 itaboo\.info
 (^|\.)itaboo\.info
-\.italiatibet\.org
-download\.ithome\.com\.tw
+(^|\.)italiatibet\.org
+(^|\.)itemfix\.com
 ithelp\.ithome\.com\.tw
 (^|\.)itshidden\.com
 \.itsky\.it
@@ -3670,6 +3673,7 @@ ithelp\.ithome\.com\.tw
 (^|\.)ivacy\.com
 \.iverycd\.com
 \.ivpn\.net
+(^|\.)ivpn\.net
 (^|\.)ixquick\.com
 \.ixxx\.com
 \.iyouport\.com
@@ -3926,6 +3930,7 @@ latelinenews\.com
 (^|\.)le-vpn\.com
 \.leafyvpn\.net
 (^|\.)leafyvpn\.net
+(^|\.)ledger\.com
 lefora\.com
 (^|\.)left21\.hk
 \.legalporno\.com
