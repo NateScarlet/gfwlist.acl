@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-05-21T10:32:50.074384+08:00
+# Date: 2023-07-24T10:30:36.657411+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -235,6 +235,7 @@ share\.dmhy\.org
 (^|\.)wowhead\.com
 (^|\.)vod\.wwe\.com
 (^|\.)xfinity\.com
+(^|\.)xiaomi\.eu
 (^|\.)youwin\.com
 (^|\.)ytn\.co\.kr
 (^|\.)zattoo\.com
@@ -3141,6 +3142,7 @@ greatzhonghua\.org
 \.greenvpn\.net
 (^|\.)greenvpn\.net
 \.greenvpn\.org
+(^|\.)grindr\.com
 (^|\.)grotty-monday\.com
 gs-discuss\.com
 (^|\.)gsearch\.media
@@ -3550,8 +3552,7 @@ ifjc\.org
 (^|\.)ilove80\.be
 (^|\.)im\.tv
 (^|\.)im88\.tw
-\.imgchili\.net
-^imgchili\.net
+(^|\.)imgchili\.net
 \.imageab\.com
 \.imagefap\.com
 (^|\.)imagefap\.com
@@ -3563,6 +3564,7 @@ imageshack\.us
 ^imb\.org
 \.img\.ly
 (^|\.)img\.ly
+(^|\.)imgasd\.com
 \.imgur\.com
 (^|\.)imgur\.com
 \.imkev\.com
