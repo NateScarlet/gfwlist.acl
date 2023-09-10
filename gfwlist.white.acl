@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-07-24T10:30:36.657411+08:00
+# Date: 2023-09-10T10:16:40.813373+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -3077,6 +3077,7 @@ go-pki\.com
 (^|\.)goagent\.biz
 (^|\.)goagentplus\.com
 gobet\.cc
+(^|\.)godaddy\.com
 godfootsteps\.org
 (^|\.)godfootsteps\.org
 godns\.work
