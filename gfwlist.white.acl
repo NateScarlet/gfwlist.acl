@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-09-10T10:16:40.813373+08:00
+# Date: 2023-09-18T10:15:33.987871+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -689,7 +689,6 @@ bloomberg\.de
 \.yourtrap\.com
 \.zyns\.com
 \.zzux\.com
-(^|\.)pages\.dev
 d1b183sg0nvnuh\.cloudfront\.net
 ^d1b183sg0nvnuh\.cloudfront\.net
 d1c37gjwa26taa\.cloudfront\.net
@@ -978,7 +977,6 @@ blogspot\.com
 (^|\.)thinkwithgoogle\.com
 (^|\.)tiltbrush\.com
 (^|\.)translate\.goog
-(^|\.)translate\.google
 (^|\.)tv\.google
 (^|\.)urchin\.com
 (^|\.)waveprotocol\.org
@@ -1057,6 +1055,7 @@ cn\.nytstyle\.com
 (^|\.)hpa\.gov\.tw
 (^|\.)immigration\.gov\.tw
 (^|\.)itaiwan\.gov\.tw
+(^|\.)li\.taipei
 (^|\.)mjib\.gov\.tw
 (^|\.)moeaic\.gov\.tw
 (^|\.)mofa\.gov\.tw
@@ -1253,7 +1252,6 @@ taiwannation\.50webs\.com
 (^|\.)6parknews\.com
 (^|\.)7capture\.com
 \.7cow\.com
-(^|\.)7-zip\.org
 \.8-d\.com
 ^8-d\.com
 85cc\.net
@@ -2114,7 +2112,7 @@ civilhrfront\.org
 \.civilmedia\.tw
 (^|\.)civilmedia\.tw
 psiphon\.civisec\.org
-(^|\.)vpn\.cjb\.net
+(^|\.)civitai\.com
 \.ck101\.com
 (^|\.)ck101\.com
 (^|\.)classicalguitarblog\.net
@@ -4265,6 +4263,7 @@ molihua\.org
 \.moonbbs\.com
 (^|\.)moonbbs\.com
 (^|\.)moptt\.tw
+(^|\.)monica\.im
 (^|\.)monitorchina\.org
 (^|\.)monocloud\.me
 bbs\.morbell\.com
