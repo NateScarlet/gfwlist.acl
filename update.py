@@ -90,9 +90,9 @@ def main():
         print("Updated repository data, skip release since not specified `--release`")
         return
 
-    subprocess.run(["hub", "add", *filenames], check=True)
+    subprocess.run(["git", "add", *filenames], check=True)
     diff = subprocess.run(
-        ["hub", "diff", "--cached", "gfwlist.acl.json"],
+        ["git", "diff", "--cached", "gfwlist.acl.json"],
         encoding="utf-8",
         stdout=subprocess.PIPE,
         check=True,
@@ -100,26 +100,23 @@ def main():
     if not diff:
         print("Already up to date")
         return
-    subprocess.run(["hub", "commit", "-m", "Update acl files [skip ci]"], check=True)
-    subprocess.run(["hub", "push"], check=True)
+    subprocess.run(["git", "commit", "-m", "Update acl files [skip ci]"], check=True)
+    subprocess.run(["git", "push"], check=True)
 
-    temp_fd, temp_name = mkstemp()
-    with open(temp_fd, "w", encoding="utf-8") as f:
-        f.write(now.strftime("%Y.%m.%d") + "\n\n```diff\n" + diff + "\n```")
-
+    note = now.strftime("%Y.%m.%d") + "\n\n```diff\n" + diff + "\n```"
     subprocess.run(
         [
-            "hub",
+            "gh",
             "release",
             "create",
-            "-F",
-            temp_name,
-            *chain(*(["-a", i] for i in filenames)),
             now.strftime("%Y.%m.%d"),
+            *filenames,
+            "-F",
+            "-",
         ],
         check=True,
+        input=note,
     )
-    os.unlink(temp_name)
 
 
 if __name__ == "__main__":
