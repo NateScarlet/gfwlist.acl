@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-09-18T10:15:33.987871+08:00
+# Date: 2023-12-03T10:23:16.451426+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1564,6 +1564,7 @@ babynet\.com\.hk
 backchina\.com
 (^|\.)backchina\.com
 backtotiananmen\.com
+(^|\.)bad\.news
 \.badiucao\.com
 (^|\.)badiucao\.com
 \.badjojo\.com
@@ -3588,6 +3589,7 @@ in-disguise\.com
 (^|\.)info-graf\.fr
 website\.informer\.com
 (^|\.)initiativesforchina\.org
+(^|\.)inkbunny\.net
 (^|\.)inkui\.com
 (^|\.)inmediahk\.net
 (^|\.)inmediahk\.net
@@ -4107,7 +4109,8 @@ maskedip\.com
 (^|\.)mathiew-badimon\.com
 (^|\.)matrix\.org
 (^|\.)matsushimakaede\.com
-^maturejp\.com
+(^|\.)matters\.town
+(^|\.)maturejp\.com
 mayimayi\.com
 \.maxing\.jp
 \.mcaf\.ee
