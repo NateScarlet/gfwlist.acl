@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-12-03T10:23:16.451426+08:00
+# Date: 2023-12-30T10:18:50.996290+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -348,6 +348,7 @@ share\.dmhy\.org
 (^|\.)potato\.im
 (^|\.)premproxy\.com
 (^|\.)prism-break\.org
+(^|\.)proton\.me
 (^|\.)protonvpn\.com
 (^|\.)api\.pureapk\.com
 (^|\.)quora\.com
@@ -476,6 +477,7 @@ share\.dmhy\.org
 (^|\.)localbitcoins\.com
 (^|\.)mercatox\.com
 (^|\.)oanda\.com
+(^|\.)obyte\.org
 (^|\.)oex\.com
 (^|\.)okex\.com
 (^|\.)okx\.com
@@ -753,6 +755,7 @@ cdninstagram\.com
 (^|\.)rocksdb\.org
 (^|\.)parse\.com
 (^|\.)thefacebook\.com
+(^|\.)threads\.net
 (^|\.)whatsapp\.com
 (^|\.)whatsapp\.net
 (^|\.)auntology\.fandom\.com
@@ -2176,6 +2179,7 @@ commandarms\.com
 \.contactmagazine\.net
 \.convio\.net
 \.coobay\.com
+(^|\.)cool18\.com
 \.coolaler\.com
 (^|\.)coolaler\.com
 coolder\.com
@@ -3159,7 +3163,6 @@ gunsandammo\.com
 (^|\.)gzone-anime\.info
 (^|\.)clementine-player\.org
 echofon\.com
-(^|\.)greasespot\.net
 (^|\.)www\.klip\.me
 (^|\.)stephaniered\.com
 ^ub0\.cc
@@ -4939,6 +4942,7 @@ psblog\.name
 \.psiphon3\.com
 (^|\.)psiphon3\.com
 \.psiphontoday\.com
+(^|\.)pstatic\.net
 (^|\.)pt\.im
 \.ptt\.cc
 (^|\.)ptt\.cc
@@ -6581,14 +6585,14 @@ winwhispers\.info
 \.witopia\.net
 \.wjbk\.org
 (^|\.)wjbk\.org
-^wn\.com
+(^|\.)wmflabs\.org
+(^|\.)wn\.com
 \.wnacg\.com
 \.wnacg\.org
 \.wo\.tc
 (^|\.)woeser\.com
-^woesermiddle-way\.net$
 \.wokar\.org
-^wokar\.org
+(^|\.)wokar\.org
 wolfax\.com
 (^|\.)wolfax\.com
 (^|\.)wombo\.ai
@@ -6756,6 +6760,7 @@ xyy69\.info
 (^|\.)yam\.org\.tw
 (^|\.)yande\.re
 (^|\.)disk\.yandex\.com
+(^|\.)disk\.yandex\.ru
 \.yanghengjun\.com
 yangjianli\.com
 \.yasni\.co\.uk
@@ -6785,7 +6790,8 @@ yegle\.net
 (^|\.)yidio\.com
 (^|\.)yigeni\.com
 yilubbs\.com
-xa\.yimg\.com
+(^|\.)s\.yimg\.com
+(^|\.)xa\.yimg\.com
 \.yingsuoss\.com
 \.yipub\.com
 (^|\.)yipub\.com
