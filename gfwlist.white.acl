@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-12-30T10:18:50.996290+08:00
+# Date: 2023-12-31T10:23:41.622475+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1021,12 +1021,19 @@ cn\.nytstyle\.com
 \.steamcommunity\.com
 (^|\.)steamcommunity\.com
 (^|\.)store\.steampowered\.com
+(^|\.)cdn-telegram\.org
+(^|\.)comments\.app
+(^|\.)graph\.org
+(^|\.)quiz\.directory
 (^|\.)t\.me
 (^|\.)updates\.tdesktop\.com
 (^|\.)telegram\.dog
 (^|\.)telegram\.me
 (^|\.)telegram\.org
-\.telegramdownload\.com
+(^|\.)telegram\.space
+(^|\.)telegram-cdn\.org
+(^|\.)telegramdownload\.com
+(^|\.)telegra\.ph
 (^|\.)telesco\.pe
 (^|\.)jtvnw\.net
 (^|\.)ttvnw\.net
@@ -1853,6 +1860,7 @@ bwsj\.hk
 \.cahr\.org\.tw
 \.caijinglengyan\.com
 (^|\.)caijinglengyan\.com
+(^|\.)calendarz\.com
 \.calgarychinese\.ca
 \.calgarychinese\.com
 \.calgarychinese\.net
@@ -3002,6 +3010,7 @@ gdzf\.org
 ^gekikame\.com
 \.gelbooru\.com
 ^gelbooru\.com
+(^|\.)generated\.photos
 (^|\.)genius\.com
 \.geocities\.co\.jp
 hk\.geocities\.com
@@ -3462,6 +3471,9 @@ huaxia-news\.com
 huaxiabao\.org
 huaxin\.ph
 (^|\.)huayuworld\.org
+(^|\.)huffingtonpost\.com
+(^|\.)huffpost\.com
+(^|\.)huggingface\.co
 (^|\.)hugoroy\.eu
 (^|\.)huhaitai\.com
 (^|\.)huhamhire\.com
@@ -5707,7 +5719,6 @@ teensinasia\.com
 (^|\.)tehrantimes\.com
 \.telecomspace\.com
 (^|\.)telegraph\.co\.uk
-(^|\.)telegra\.ph
 \.tenacy\.com
 (^|\.)tenzinpalmo\.com
 \.tew\.org
@@ -6480,6 +6491,7 @@ washeng\.net
 \.watch8x\.com
 (^|\.)watchmygf\.net
 (^|\.)wav\.tv
+(^|\.)wd\.bible
 \.wdf5\.com
 (^|\.)wealth\.com\.tw
 \.wearehairy\.com
