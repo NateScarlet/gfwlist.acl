@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2023-12-31T10:23:41.622475+08:00
+# Date: 2024-02-20T10:13:58.792321+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -3481,6 +3481,7 @@ huaxin\.ph
 (^|\.)huhangfei\.com
 huiyi\.in
 \.hulkshare\.com
+(^|\.)humanparty\.me
 (^|\.)humanrightspressawards\.org
 (^|\.)hung-ya\.com
 (^|\.)hungerstrikeforaids\.org
@@ -5720,6 +5721,7 @@ teensinasia\.com
 \.telecomspace\.com
 (^|\.)telegraph\.co\.uk
 \.tenacy\.com
+(^|\.)tenor\.com
 (^|\.)tenzinpalmo\.com
 \.tew\.org
 (^|\.)tew\.org
