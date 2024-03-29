@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-02-20T10:13:58.792321+08:00
+# Date: 2024-03-29T10:15:48.956600+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -35,11 +35,13 @@
 (^|\.)casinobellini\.com
 (^|\.)centauro\.com\.br
 (^|\.)chobit\.cc
+(^|\.)ciciai\.com
 (^|\.)clearsurance\.com
 (^|\.)images\.comico\.tw
 (^|\.)static\.comico\.tw
 (^|\.)counter\.social
 (^|\.)costco\.com
+(^|\.)coze\.com
 (^|\.)crossfire\.co\.kr
 (^|\.)crunchyroll\.com
 (^|\.)d2pass\.com
@@ -1494,6 +1496,7 @@ appledaily\.com\.tw
 (^|\.)archive\.is
 \.archive\.li
 (^|\.)archive\.li
+(^|\.)archive\.md
 (^|\.)archive\.org
 (^|\.)archive\.ph
 archive\.today
@@ -1850,6 +1853,7 @@ bwsj\.hk
 (^|\.)c-spanvideo\.org
 (^|\.)c-est-simple\.com
 \.c100tibet\.org
+(^|\.)cableav\.tv
 (^|\.)cablegatesearch\.net
 \.cachinese\.com
 \.cacnw\.com
@@ -2520,6 +2524,7 @@ eastern-ark\.com
 \.easyca\.ca
 \.easypic\.com
 (^|\.)fnc\.ebc\.net\.tw
+(^|\.)news\.ebc\.net\.tw
 \.ebony-beauty\.com
 ebookbrowse\.com
 ebookee\.com
@@ -2635,8 +2640,8 @@ etvonline\.hk
 (^|\.)eurekavpt\.com
 \.euronews\.com
 (^|\.)euronews\.com
-\.evschool\.net
-^evschool\.net
+(^|\.)apps\.evozi\.com
+(^|\.)evschool\.net
 (^|\.)exblog\.jp
 (^|\.)blog\.exblog\.co\.jp
 \.exchristian\.hk
