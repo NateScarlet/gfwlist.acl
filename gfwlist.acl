@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-03-29T10:15:48.956600+08:00
+# Date: 2024-04-15T12:04:52.406742+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -3525,6 +3525,7 @@ ibros\.org
 \.ibvpn\.com
 (^|\.)ibvpn\.com
 icams\.com
+(^|\.)icedrive\.net
 \.icij\.org
 (^|\.)icij\.org
 (^|\.)icl-fi\.org
@@ -5139,6 +5140,7 @@ rfaweb\.org
 \.roodo\.com
 \.rosechina\.net
 \.rotten\.com
+(^|\.)rou\.video
 \.rsf\.org
 (^|\.)rsf\.org
 \.rsf-chinese\.org
