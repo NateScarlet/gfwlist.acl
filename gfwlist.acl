@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-04-15T12:04:52.406742+08:00
+# Date: 2024-04-19T10:20:30.101943+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -240,6 +240,7 @@ share\.dmhy\.org
 (^|\.)xiaomi\.eu
 (^|\.)youwin\.com
 (^|\.)ytn\.co\.kr
+(^|\.)zamimg\.com
 (^|\.)zattoo\.com
 (^|\.)zim\.vn
 (^|\.)zozotown\.com
@@ -450,10 +451,12 @@ share\.dmhy\.org
 (^|\.)dragonex\.io
 (^|\.)ebtcbank\.com
 (^|\.)etherdelta\.com
+(^|\.)ethermine\.org
 (^|\.)etherscan\.io
 (^|\.)exmo\.com
 (^|\.)exrates\.me
 (^|\.)exx\.com
+(^|\.)f2pool\.com
 (^|\.)fatbtc\.com
 (^|\.)ftx\.com
 (^|\.)gate\.io
@@ -1090,6 +1093,7 @@ cn\.nytstyle\.com
 (^|\.)wda\.gov\.tw
 (^|\.)teco-hk\.org
 (^|\.)teco-mo\.org
+(^|\.)npm\.gov\.tw
 (^|\.)kinmen\.org\.tw
 ^www\.americorps\.gov
 (^|\.)jpl\.nasa\.gov
@@ -3449,6 +3453,7 @@ hqmovies\.com
 \.hrea\.org
 \.hrichina\.org
 (^|\.)hrichina\.org
+(^|\.)hrntt\.org
 \.hrtsea\.com
 \.hrw\.org
 (^|\.)hrw\.org
@@ -3812,6 +3817,7 @@ juyuange\.org
 juziyue\.com
 (^|\.)juziyue\.com
 (^|\.)jwmusic\.org
+(^|\.)cdn\.jwplayer\.com
 \.jyxf\.net
 (^|\.)k-doujin\.net
 (^|\.)ka-wai\.com
@@ -4887,6 +4893,7 @@ politicalconsultation\.org
 postadult\.com
 \.postimg\.org
 (^|\.)potvpn\.com
+(^|\.)pourquoi\.tw
 (^|\.)powercx\.com
 \.powerphoto\.org
 (^|\.)www\.powerpointninja\.com
@@ -6674,7 +6681,7 @@ wretch\.cc
 \.wtfpeople\.com
 wuerkaixi\.com
 (^|\.)wufafangwen\.com
-wufi\.org\.tw
+(^|\.)wufi\.org\.tw
 (^|\.)wuguoguang\.com
 wujie\.net
 wujieliulan\.com
@@ -7020,7 +7027,6 @@ ultrasurf
 (^|\.)nmp\.gov\.tw
 (^|\.)nmvttc\.gov\.tw
 (^|\.)northguan-nsa\.gov\.tw
-(^|\.)npm\.gov\.tw
 (^|\.)nstm\.gov\.tw
 (^|\.)ntdmh\.gov\.tw
 (^|\.)ntl\.gov\.tw
