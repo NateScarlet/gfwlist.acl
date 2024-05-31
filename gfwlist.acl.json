@@ -1050,6 +1050,7 @@
         "(^|\\.)twitter\\.com",
         "(^|\\.)twitter\\.jp",
         "(^|\\.)vine\\.co",
+        "(^|\\.)x\\.com",
         "(^|\\.)gov\\.taipei",
         "\\.gov\\.tw",
         "^aiss\\.anws\\.gov\\.tw",
