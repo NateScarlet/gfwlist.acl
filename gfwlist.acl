@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-05-31T10:26:34.199187+08:00
+# Date: 2024-06-02T10:28:36.291539+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -4996,7 +4996,8 @@ python\.com
 ss\.pythonic\.life$
 \.qanote\.com
 (^|\.)qanote\.com
-\.qgirl\.com\.tw
+(^|\.)qbittorrent\.org
+(^|\.)qgirl\.com\.tw
 (^|\.)qianbai\.tw
 (^|\.)qiandao\.today
 (^|\.)qiangwaikan\.com
