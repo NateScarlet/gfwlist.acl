@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-06-02T10:28:36.291539+08:00
+# Date: 2024-06-03T10:27:34.732083+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -4814,6 +4814,7 @@ picturesocial\.com
 \.piposay\.com
 piraattilahti\.org
 \.piring\.com
+(^|\.)pixeldrain\.com
 (^|\.)pixelqi\.com
 (^|\.)css\.pixnet\.in
 (^|\.)pixnet\.net
@@ -6826,8 +6827,8 @@ yilubbs\.com
 \.yingsuoss\.com
 \.yipub\.com
 (^|\.)yipub\.com
-(^|\.)yiyechat\.com
 \.yizhihongxing\.com
+(^|\.)yizhihongxing\.com
 \.yobt\.com
 \.yobt\.tv
 (^|\.)yobt\.tv
@@ -6863,9 +6864,9 @@ topic\.youthwant\.com\.tw
 \.youporngay\.com
 (^|\.)youporngay\.com
 \.yourlisten\.com
-^yourlisten\.com
+(^|\.)yourlisten\.com
 \.yourlust\.com
-^yourlust\.com
+(^|\.)yourlust\.com
 youshun12\.com
 \.youtubecn\.com
 youversion\.com
@@ -6874,14 +6875,15 @@ ytht\.net
 yuanming\.net
 \.yuanzhengtang\.org
 \.yulghun\.com
+(^|\.)yulghun\.com
 (^|\.)yunchao\.net
-(^|\.)yuntipub\.com
 \.yuvutu\.com
 (^|\.)yvesgeleyn\.com
 yx51\.net
 \.yyii\.org
 (^|\.)yyii\.org
 (^|\.)yyjlymb\.xyz
+(^|\.)yysub\.net
 \.yzzk\.com
 (^|\.)yzzk\.com
 (^|\.)z-lib\.org
