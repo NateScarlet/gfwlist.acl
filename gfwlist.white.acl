@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-06-03T10:27:34.732083+08:00
+# Date: 2024-06-04T10:27:01.844465+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1186,7 +1186,7 @@ video\.yahoo\.com
 \.138\.com
 (^|\.)141jj\.com
 \.141tube\.com
-\.1688\.com\.au
+(^|\.)1688\.com\.au
 \.173ng\.com
 (^|\.)173ng\.com
 \.177pic\.info
@@ -4026,14 +4026,13 @@ listorious\.com
 \.liujianshu\.com
 (^|\.)liujianshu\.com
 \.liuxiaobo\.net
-^liuxiaobo\.net
+(^|\.)liuxiaobo\.net
 liuxiaotong\.com
 (^|\.)liuxiaotong\.com
 \.livedoor\.jp
 \.liveleak\.com
 (^|\.)liveleak\.com
 (^|\.)livemint\.com
-\.livestation\.com
 livestream\.com
 (^|\.)livestream\.com
 (^|\.)livingonline\.us
@@ -4043,7 +4042,7 @@ livestream\.com
 \.liwangyang\.com
 lizhizhuangbi\.com
 lkcn\.net
-\.llss\.me$
+(^|\.)chat\.lmsys\.org
 (^|\.)lncn\.org
 \.load\.to
 \.lobsangwangyal\.com
@@ -5032,13 +5031,11 @@ qusi8\.net
 \.qvodzy\.org
 qxbbs\.org
 (^|\.)r0\.ru
-\.ra\.gg
-^ra\.gg$
-\.radicalparty\.org
+(^|\.)radio-canada\.ca
 (^|\.)rael\.org
 radicalparty\.org
 (^|\.)radio\.garden
-radioaustralia\.net\.au
+(^|\.)radioaustralia\.net\.au
 \.radiohilight\.net
 (^|\.)radiohilight\.net
 (^|\.)radioline\.co
@@ -5658,6 +5655,7 @@ tahr\.org\.tw
 \.taipeisociety\.org
 (^|\.)taipeisociety\.org
 (^|\.)taipeitimes\.com
+(^|\.)taisounds\.com
 \.taiwanbible\.com
 \.taiwancon\.com
 \.taiwandaily\.net
@@ -6537,7 +6535,7 @@ webworkerdaily\.com
 \.wefong\.com
 weiboleak\.com
 \.weihuo\.org
-weijingsheng\.org
+(^|\.)weijingsheng\.org
 \.weiming\.info
 (^|\.)weiming\.info
 weiquanwang\.org
