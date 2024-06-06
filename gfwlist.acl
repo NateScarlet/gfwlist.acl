@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-06-04T10:27:01.844465+08:00
+# Date: 2024-06-06T10:26:34.390514+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1478,8 +1478,8 @@ video\.ap\.org
 (^|\.)apkcombo\.com
 (^|\.)apkmonk\.com
 (^|\.)apkplz\.com
-apkpure\.com
 (^|\.)apkpure\.com
+(^|\.)apkpure\.net
 \.aplusvpn\.com
 (^|\.)appbrain\.com
 \.appledaily\.com
@@ -2373,6 +2373,7 @@ dcmilitary\.com
 (^|\.)deviantart\.net
 (^|\.)devio\.us
 (^|\.)devpn\.com
+(^|\.)devv\.ai
 (^|\.)dfas\.mil
 dfn\.org
 dharmakara\.net
