@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-06-06T10:26:34.390514+08:00
+# Date: 2024-06-08T10:26:32.215274+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -3995,10 +3995,11 @@ letscorp\.net
 (^|\.)liaowangxizang\.net
 \.liaowangxizang\.net
 (^|\.)liberal\.org\.hk
-\.libertytimes\.com\.tw
+(^|\.)libertysculpturepark\.com
+(^|\.)libertytimes\.com\.tw
 (^|\.)libredd\.it
-\.lighten\.org\.tw
-\.lightnovel\.cn
+(^|\.)lighten\.org\.tw
+(^|\.)lightnovel\.cn
 limiao\.net
 linkuswell\.com
 (^|\.)line\.me
@@ -6675,6 +6676,7 @@ woxinghuiguo\.com
 (^|\.)wqyd\.org
 wrchina\.org
 wretch\.cc
+(^|\.)writesonic\.com
 \.wsj\.com
 (^|\.)wsj\.com
 \.wsj\.net
@@ -7062,7 +7064,6 @@ ultrasurf
 (^|\.)myvlog\.im\.tv
 (^|\.)music\.jwmusic\.org
 (^|\.)www\.kodingen\.com
-^www\.lightnovel\.cn
 (^|\.)openwrt\.org\.cn
 (^|\.)simplecd\.me
 (^|\.)static\.soup\.io
