@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-06-08T10:26:32.215274+08:00
+# Date: 2024-07-21T10:32:01.153280+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -15,6 +15,7 @@
 (^|\.)altrec\.com
 (^|\.)angela-merkel\.de
 (^|\.)angola\.org
+(^|\.)anthropic\.com
 (^|\.)apartmentratings\.com
 (^|\.)apartments\.com
 (^|\.)arena\.taipei
@@ -36,6 +37,7 @@
 (^|\.)centauro\.com\.br
 (^|\.)chobit\.cc
 (^|\.)ciciai\.com
+(^|\.)claude\.ai
 (^|\.)clearsurance\.com
 (^|\.)images\.comico\.tw
 (^|\.)static\.comico\.tw
@@ -428,6 +430,7 @@ share\.dmhy\.org
 (^|\.)bithumb\.com
 (^|\.)bitinka\.com\.ar
 (^|\.)bitmex\.com
+(^|\.)bnbstatic\.com
 (^|\.)btc98\.com
 (^|\.)btcbank\.bank
 (^|\.)btctrade\.im
@@ -4775,6 +4778,7 @@ penisbot\.com
 \.percy\.in
 \.perfectgirls\.net
 (^|\.)perfect-privacy\.com
+(^|\.)perplexity\.ai
 \.persecutionblog\.com
 \.persiankitty\.com
 phapluan\.org
