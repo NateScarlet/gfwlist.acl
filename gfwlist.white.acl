@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-07-21T10:32:01.153280+08:00
+# Date: 2024-07-29T10:32:20.558252+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1576,6 +1576,7 @@ avaaz\.org
 (^|\.)axureformac\.com
 \.azerbaycan\.tv
 azerimix\.com
+(^|\.)azirevpn\.com
 boxun.+\.azurewebsites\.net
 (^|\.)boxun.+\.azurewebsites\.net
 (^|\.)b-ok\.cc
@@ -2151,7 +2152,8 @@ cloakpoint\.com
 (^|\.)cloudflare-ipfs\.com
 (^|\.)club1069\.com
 (^|\.)clubhouseapi\.com
-cmi\.org\.tw
+(^|\.)cmegroup\.com
+(^|\.)cmi\.org\.tw
 ^www\.cmoinc\.org
 cmp\.hku\.hk
 hkupop\.hku\.hk
@@ -3590,7 +3592,8 @@ ifjc\.org
 \.imagefap\.com
 (^|\.)imagefap\.com
 (^|\.)imageflea\.com
-imageshack\.us
+(^|\.)imageglass\.org
+(^|\.)imageshack\.us
 (^|\.)imagevenue\.com
 (^|\.)imagezilla\.net
 \.imb\.org
