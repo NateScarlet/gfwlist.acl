@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-07-29T10:32:20.558252+08:00
+# Date: 2024-08-04T10:33:27.503642+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -3647,7 +3647,7 @@ internetfreedom\.org
 inxian\.com
 (^|\.)inxian\.com
 ipalter\.com
-\.ipfire\.org
+(^|\.)ipfire\.org
 (^|\.)iphone4hongkong\.com
 (^|\.)iphonehacks\.com
 (^|\.)iphonetaiwan\.org
@@ -3714,6 +3714,7 @@ ithelp\.ithome\.com\.tw
 \.iverycd\.com
 \.ivpn\.net
 (^|\.)ivpn\.net
+(^|\.)iwara\.tv
 (^|\.)ixquick\.com
 \.ixxx\.com
 \.iyouport\.com
@@ -5908,11 +5909,11 @@ tibetoffice\.eu
 tibetonline\.com
 (^|\.)tibetonline\.com
 \.tibetoffice\.com\.au
-^tibetoffice\.com\.au
+(^|\.)tibetoffice\.com\.au
 (^|\.)tibetonline\.tv
 \.tibetonline\.tv
 \.tibetoralhistory\.org
-^tibetoralhistory\.org
+(^|\.)tibetoralhistory\.org
 \.tibetpolicy\.eu
 \.tibetrelieffund\.co\.uk
 tibetsites\.com
@@ -5920,10 +5921,11 @@ tibetsites\.com
 (^|\.)tibetsociety\.com
 \.tibetsun\.com
 \.tibetsupportgroup\.org
-^tibetsupportgroup\.org
+(^|\.)tibetsupportgroup\.org
 \.tibetswiss\.ch
 \.tibettelegraph\.com
 tibettimes\.net
+(^|\.)tibettruth\.com
 (^|\.)tibetwrites\.org
 \.ticket\.com\.tw
 \.tigervpn\.com
