@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-08-04T10:33:27.503642+08:00
+# Date: 2024-08-15T10:30:53.277768+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -5577,6 +5577,7 @@ sthoo\.com
 \.stoptibetcrisis\.net
 (^|\.)stoptibetcrisis\.net
 (^|\.)storify\.com
+(^|\.)storj\.io
 \.stormmediagroup\.com
 (^|\.)stoweboyd\.com
 (^|\.)straitstimes\.com
@@ -6307,8 +6308,8 @@ us\.to
 (^|\.)usacn\.com
 \.usaip\.eu
 (^|\.)usaip\.eu
-dalailama\.usc\.edu
 (^|\.)uscnpm\.org
+(^|\.)uscardforum\.com
 (^|\.)usma\.edu
 \.usocctn\.com
 (^|\.)ustibetcommittee\.org
