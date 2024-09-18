@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-09-03T10:36:05.947702+08:00
+# Date: 2024-09-18T10:39:27.943420+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -961,6 +961,7 @@ blogspot\.com
 (^|\.)on2\.com
 (^|\.)opensource\.google
 (^|\.)panoramio\.com
+(^|\.)passwords\.google
 (^|\.)picasaweb\.com
 (^|\.)pki\.goog
 (^|\.)plus\.codes
