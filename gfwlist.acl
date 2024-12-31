@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2024-10-08T10:48:43.710085+08:00
+# Date: 2024-12-31T10:41:56.135598+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -819,6 +819,7 @@ blogspot\.com
 (^|\.)digisfera\.com
 (^|\.)dns\.google
 (^|\.)hub\.docker\.com
+(^|\.)docs\.new
 (^|\.)domains\.google
 (^|\.)duck\.com
 (^|\.)environment\.google
@@ -982,6 +983,9 @@ blogspot\.com
 (^|\.)schema\.org
 (^|\.)shattered\.io
 ^sipml5\.org$
+(^|\.)sheets\.new
+(^|\.)slides\.new
+(^|\.)snapseed\.com
 (^|\.)stories\.google
 (^|\.)sustainability\.google
 (^|\.)synergyse\.com
@@ -1000,6 +1004,7 @@ blogspot\.com
 (^|\.)webpkgcache\.com
 (^|\.)webrtc\.org
 (^|\.)whatbrowser\.org
+(^|\.)whats\.new
 (^|\.)widevine\.com
 (^|\.)withgoogle\.com
 (^|\.)withyoutube\.com
@@ -1823,7 +1828,8 @@ bbs\.brockbbs\.com
 brucewang\.net
 \.brutaltgp\.com
 (^|\.)brutaltgp\.com
-\.bt2mag\.com
+(^|\.)bsky\.app
+(^|\.)bsky\.social
 (^|\.)bt95\.com
 \.btaia\.com
 \.btbtav\.com
@@ -2367,6 +2373,7 @@ dcmilitary\.com
 (^|\.)de-sci\.org
 \.de-sci\.org
 (^|\.)deadline\.com
+(^|\.)deepai\.org
 (^|\.)decodet\.co
 \.definebabe\.com
 (^|\.)delcamp\.net
@@ -3232,20 +3239,11 @@ guruonline\.hk
 \.h-moe\.com
 ^h-moe\.com
 h1n1china\.org
-\.hacg\.club
-(^|\.)hacg\.club
-\.hacg\.in
-^hacg\.in
-\.hacg\.li
-^hacg\.li
-\.hacg\.me
-^hacg\.me
-\.hacg\.red
-^hacg\.red
 \.hacker\.org
 (^|\.)hackmd\.io
 (^|\.)hackthatphone\.net
 hahlo\.com
+(^|\.)haijiao\.com
 (^|\.)hakkatv\.org\.tw
 \.handcraftedsoftware\.org
 ^bbs\.hanminzu\.org$
@@ -6474,6 +6472,7 @@ vpnjack\.com
 (^|\.)vporn\.com
 \.vpser\.net
 vraiesagesse\.net
+(^|\.)vrchat\.com
 \.vrmtr\.com
 (^|\.)vtunnel\.com
 (^|\.)vuku\.cc
