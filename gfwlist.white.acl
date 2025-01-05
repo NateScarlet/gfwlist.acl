@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-01-01T10:51:49.950701+08:00
+# Date: 2025-01-05T10:49:48.478640+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -39,6 +39,7 @@
 (^|\.)ciciai\.com
 (^|\.)claude\.ai
 (^|\.)clearsurance\.com
+(^|\.)cnbeta\.com\.tw
 (^|\.)images\.comico\.tw
 (^|\.)static\.comico\.tw
 (^|\.)counter\.social
