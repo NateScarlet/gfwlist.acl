@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-01-05T10:49:48.478640+08:00
+# Date: 2025-01-13T10:50:33.378298+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -140,6 +140,7 @@ share\.dmhy\.org
 (^|\.)mattwilcox\.net
 (^|\.)metarthunter\.com
 (^|\.)mfxmedia\.com
+(^|\.)miraheze\.org
 (^|\.)mojim\.com
 (^|\.)kb\.monitorware\.com
 (^|\.)monster\.com
@@ -219,7 +220,6 @@ share\.dmhy\.org
 (^|\.)terabox\.com
 (^|\.)thinkgeek\.com
 (^|\.)thebodyshop-usa\.com
-(^|\.)tiktok\.com
 (^|\.)tma\.co\.jp
 (^|\.)tracfone\.com
 (^|\.)tryheart\.jp
@@ -1052,6 +1052,10 @@ cn\.nytstyle\.com
 (^|\.)telegramdownload\.com
 (^|\.)telegra\.ph
 (^|\.)telesco\.pe
+(^|\.)tiktok\.com
+(^|\.)tiktokv\.com
+(^|\.)tiktokv\.us
+(^|\.)tiktokcdn-us\.com
 (^|\.)jtvnw\.net
 (^|\.)ttvnw\.net
 (^|\.)twitch\.tv
@@ -1223,15 +1227,13 @@ zhao\.1984\.city
 \.1eew\.com
 \.1mobile\.com
 ^.+\.1mobile\.tw
+(^|\.)1point3acres\.com
 (^|\.)1pondo\.tv
 \.2-hand\.info
-\.2008xianzhang\.info
 (^|\.)2008xianzhang\.info
 (^|\.)2017\.hk
 (^|\.)2021hkcharter\.com
 (^|\.)2047\.name
-\.21join\.com
-\.21pron\.com
 21sextury\.com
 \.228\.net\.tw
 (^|\.)233abc\.com
@@ -1300,6 +1302,7 @@ taiwannation\.50webs\.com
 \.9001700\.com
 ^908taiwan\.org$
 (^|\.)91porn\.com
+(^|\.)91porny\.com
 (^|\.)91vps\.club
 \.92ccav\.com
 \.991\.com
@@ -1561,6 +1564,7 @@ atgfw\.org
 (^|\.)atlanta168\.com
 \.atnext\.com
 (^|\.)atnext\.com
+(^|\.)audacy\.com
 ice\.audionow\.com
 \.av\.com
 (^|\.)av\.movie
@@ -1610,7 +1614,7 @@ badoo\.com
 (^|\.)bakgeekhome\.tk
 \.banana-vpn\.com
 (^|\.)banana-vpn\.com
-\.band\.us
+(^|\.)band\.us
 (^|\.)bandcamp\.com
 \.bandwagonhost\.com
 (^|\.)bandwagonhost\.com
@@ -1977,14 +1981,13 @@ cdp1998\.org
 cdp2006\.org
 (^|\.)cdp2006\.org
 \.cdpa\.url\.tw
-cdpeu\.org
-cdpusa\.org
-cdpweb\.org
+(^|\.)cdpeu\.org
+(^|\.)cdpuk\.co\.uk
+(^|\.)cdpusa\.org
 (^|\.)cdpweb\.org
-cdpwu\.org
+(^|\.)cdpweb\.org
 (^|\.)cdpwu\.org
 (^|\.)cdw\.com
-\.cecc\.gov
 (^|\.)cecc\.gov
 (^|\.)cellulo\.info
 (^|\.)cenews\.eu
@@ -2369,10 +2372,11 @@ cn\.dayabook\.com
 (^|\.)dbgjd\.com
 (^|\.)dcard\.tw
 dcmilitary\.com
-\.ddc\.com\.tw
+(^|\.)ddc\.com\.tw
 \.ddhw\.info
 (^|\.)de-sci\.org
 \.de-sci\.org
+(^|\.)deadhouse\.org
 (^|\.)deadline\.com
 (^|\.)deepai\.org
 (^|\.)decodet\.co
@@ -2818,6 +2822,7 @@ finler\.net
 (^|\.)firetweet\.io
 (^|\.)firstpost\.com
 (^|\.)firstrade\.com
+(^|\.)fish\.audio
 \.flagsonline\.it
 fleshbot\.com
 \.fleursdeslettres\.com
@@ -3471,9 +3476,10 @@ hqmovies\.com
 \.hrw\.org
 (^|\.)hrw\.org
 hrweb\.org
+(^|\.)hsex\.men
 (^|\.)hsjp\.net
 (^|\.)hsselite\.com
-^hst\.net\.tw
+(^|\.)hst\.net\.tw
 \.hstern\.net
 \.hstt\.net
 \.htkou\.net
@@ -3630,6 +3636,7 @@ in-disguise\.com
 (^|\.)indiemerch\.com
 (^|\.)info-graf\.fr
 website\.informer\.com
+(^|\.)inherit\.live
 (^|\.)initiativesforchina\.org
 (^|\.)inkbunny\.net
 (^|\.)inkui\.com
@@ -3646,7 +3653,7 @@ website\.informer\.com
 (^|\.)interactivebrokers\.com
 (^|\.)internet\.org
 internetdefenseleague\.org
-internetfreedom\.org
+(^|\.)internetfreedom\.org
 (^|\.)internetpopculture\.com
 \.inthenameofconfuciusmovie\.com
 (^|\.)inthenameofconfuciusmovie\.com
@@ -4303,9 +4310,9 @@ wiki\.moegirl\.org
 (^|\.)mog\.com
 (^|\.)mohu\.rocks
 molihua\.org
+(^|\.)momoshop\.com\.tw
 (^|\.)mondex\.org
-\.money-link\.com\.tw
-^money-link\.com\.tw
+(^|\.)money-link\.com\.tw
 ^www\.monlamit\.org
 (^|\.)moon\.fm
 \.moonbbs\.com
@@ -5045,6 +5052,7 @@ qusi8\.net
 qxbbs\.org
 (^|\.)r0\.ru
 (^|\.)radio-canada\.ca
+(^|\.)radio-en-ligne\.fr
 (^|\.)rael\.org
 radicalparty\.org
 (^|\.)radio\.garden
@@ -5427,6 +5435,7 @@ bbs\.skykiwi\.com
 m\.slandr\.net
 \.slaytizle\.com
 \.sleazydream\.com
+(^|\.)sleazyfork\.org
 (^|\.)slheng\.com
 (^|\.)slideshare\.net
 forum\.slime\.com\.tw
@@ -5523,6 +5532,7 @@ spem\.at
 \.spike\.com
 \.spotflux\.com
 (^|\.)spotflux\.com
+(^|\.)spreaker\.com
 \.spring4u\.info
 (^|\.)spring4u\.info
 (^|\.)springwood\.me
@@ -5925,7 +5935,6 @@ tibetoffice\.eu
 \.ticket\.com\.tw
 \.tigervpn\.com
 (^|\.)tigervpn\.com
-(^|\.)tiktokv\.com
 \.timdir\.com
 ^timdir\.com
 \.time\.com
@@ -6894,6 +6903,7 @@ yx51\.net
 (^|\.)yysub\.net
 \.yzzk\.com
 (^|\.)yzzk\.com
+(^|\.)z-lib\.io
 (^|\.)z-lib\.org
 zacebook\.com
 \.zalmos\.com
@@ -6901,7 +6911,6 @@ zacebook\.com
 (^|\.)zannel\.com
 \.zaobao\.com
 (^|\.)zaobao\.com
-^zaobao\.com\.sg
 (^|\.)zaobao\.com\.sg
 \.zaozon\.com
 (^|\.)zdnet\.com\.tw
