@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-01-13T10:50:33.378298+08:00
+# Date: 2025-01-19T10:43:29.309594+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -186,6 +186,7 @@ share\.dmhy\.org
 (^|\.)phmsociety\.org
 ^.+\.pimg\.tw$
 (^|\.)podcast\.co
+(^|\.)popai\.pro
 (^|\.)pure18\.com
 (^|\.)pytorch\.org
 (^|\.)qq\.co\.za
@@ -1021,6 +1022,7 @@ blogspot\.com
 (^|\.)yt\.be
 (^|\.)ytimg\.com
 (^|\.)zynamics\.com
+(^|\.)copilot\.microsoft\.com
 (^|\.)naughtyamerica\.com
 static01\.nyt\.com
 (^|\.)nyt\.com
@@ -1325,6 +1327,7 @@ a5\.com\.ru
 \.abchinese\.com
 abclite\.net
 ^www\.abclite\.net
+(^|\.)abebooks\.co\.uk
 \.ablwang\.com
 \.aboluowang\.com
 (^|\.)aboluowang\.com
@@ -1697,8 +1700,8 @@ beric\.me
 \.bianlei\.com
 biantailajiao\.com
 biantailajiao\.in
-\.biblesforamerica\.org
-^biblesforamerica\.org
+(^|\.)biblesforamerica\.org
+(^|\.)vpl\.bibliocommons\.com
 \.bic2011\.org
 (^|\.)biedian\.me
 bigfools\.com
@@ -1928,6 +1931,7 @@ ss\.carryzhou\.com
 \.cari\.com\.my
 (^|\.)cari\.com\.my
 (^|\.)caribbeancom\.com
+(^|\.)carousell\.com\.hk
 \.casinoking\.com
 \.casinoriva\.com
 (^|\.)catch22\.net
@@ -2007,6 +2011,7 @@ cdp2006\.org
 \.changsa\.net
 ^changsa\.net
 (^|\.)channelnewsasia\.com
+(^|\.)chanworld\.org
 \.chapm25\.com
 (^|\.)chatgpt\.com
 \.chaturbate\.com
@@ -2361,13 +2366,13 @@ dalianmeng\.org
 daolan\.net
 darktoy\.net
 (^|\.)darrenliuwei\.com
+(^|\.)dashlane\.com
 (^|\.)dastrassi\.org
 (^|\.)daum\.net
 \.david-kilgour\.com
 ^david-kilgour\.com
 daxa\.cn
 (^|\.)daxa\.cn
-cn\.dayabook\.com
 (^|\.)db\.tt
 (^|\.)dbgjd\.com
 (^|\.)dcard\.tw
@@ -2652,7 +2657,6 @@ erabaru\.net
 \.eroticsaloon\.net
 \.eslite\.com
 (^|\.)eslite\.com
-(^|\.)esu\.dog
 \.etaa\.org\.au
 \.etadult\.com
 etaiwannews\.com
@@ -5226,7 +5230,7 @@ sacom\.hk
 (^|\.)cn\.sandscotaicentral\.com
 (^|\.)sankakucomplex\.com
 (^|\.)sankei\.com
-\.sanmin\.com\.tw
+(^|\.)sanmin\.com\.tw
 sapikachu\.net
 savemedia\.com
 (^|\.)savethesounds\.info
