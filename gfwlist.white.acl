@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-01-21T10:39:45.724563+08:00
+# Date: 2025-01-22T10:41:48.724613+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -259,6 +259,7 @@ share\.dmhy\.org
 (^|\.)xn--4gq171p\.com
 (^|\.)xn--czq75pvv1aj5c\.org
 (^|\.)xn--i2ru8q2qg\.com
+(^|\.)xn--noss43i\.com
 (^|\.)xn--oiq\.cc
 (^|\.)xn--p8j9a0d9c9a\.xn--q9jyb4c
 (^|\.)xn--9pr62r24a\.com
@@ -2121,7 +2122,7 @@ chinayuanmin\.org
 (^|\.)chinayuanmin\.org
 \.chinese-hermit\.net
 chinese-leaders\.org
-chinese-memorial\.org
+(^|\.)chinese-memorial\.org
 \.chinesedaily\.com
 (^|\.)chinesedailynews\.com
 \.chinesedemocracy\.com
@@ -2961,8 +2962,9 @@ freeweibo\.com
 \.freexinwen\.com
 \.freeyoutubeproxy\.net
 (^|\.)freeyoutubeproxy\.net
-friendfeed\.com
-friends-of-tibet\.org
+(^|\.)freezhihu\.org
+(^|\.)friendfeed\.com
+(^|\.)friends-of-tibet\.org
 \.friendsoftibet\.org
 (^|\.)friendsoftibet\.org
 freechina\.net
@@ -3927,6 +3929,7 @@ kinghost\.com
 (^|\.)kinokuniya\.com
 killwall\.com
 (^|\.)killwall\.com
+(^|\.)kindle4rss\.com
 (^|\.)kinmen\.travel
 \.kir\.jp
 \.kissbbao\.cn
@@ -4510,6 +4513,7 @@ newschinacomment\.org
 (^|\.)newscn\.org
 \.newsancai\.com
 (^|\.)newsancai\.com
+(^|\.)newsblur\.com
 \.newsdetox\.ca
 \.newsdh\.com
 (^|\.)newsmax\.com
@@ -5048,6 +5052,7 @@ ss\.pythonic\.life
 (^|\.)qgirl\.com\.tw
 (^|\.)qianbai\.tw
 (^|\.)qiandao\.today
+(^|\.)qianglie\.com
 (^|\.)qiangwaikan\.com
 \.qi-gong\.me
 (^|\.)qi-gong\.me
@@ -5108,22 +5113,18 @@ ranyunfei\.com
 rapidvpn\.com
 (^|\.)rapidvpn\.com
 (^|\.)rarbgprx\.org
-\.raremovie\.cc
-^raremovie\.cc
-\.raremovie\.net
-^raremovie\.net
 (^|\.)rationalwiki\.org
 (^|\.)rawgit\.com
 (^|\.)rawgithub\.com
-(^|\.)razyboard\.com
-rcinet\.ca
+(^|\.)rcinet\.ca
+(^|\.)reabble\.com
 \.read100\.com
 \.readingtimes\.com\.tw
 (^|\.)readingtimes\.com\.tw
 (^|\.)readmoo\.com
 \.readydown\.com
 ^readydown\.com
-\.realcourage\.org
+(^|\.)realcourage\.org
 \.realitykings\.com
 (^|\.)realitykings\.com
 \.realraptalk\.com
@@ -5137,7 +5138,7 @@ rcinet\.ca
 redballoonsolidarity\.org
 (^|\.)redbubble\.com
 \.redchinacn\.net
-^redchinacn\.net
+(^|\.)redchinacn\.net
 redchinacn\.org
 redtube\.com
 referer\.us
@@ -6460,6 +6461,7 @@ vocn\.tv
 (^|\.)voxer\.com
 \.voy\.com
 (^|\.)vpn\.ac
+(^|\.)vpn\.net
 \.vpn4all\.com
 (^|\.)vpn4all\.com
 \.vpnaccount\.org
