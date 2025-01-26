@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-01-25T10:35:33.228841+08:00
+# Date: 2025-01-26T10:41:32.246009+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1168,12 +1168,17 @@ voatibetan\.com
 fq\.wikia\.com
 cn\.uncyclopedia\.wikia\.com
 zh\.uncyclopedia\.wikia\.com
+(^|\.)wikidata\.org
 (^|\.)wikimedia\.org
+(^|\.)wikibooks\.org
+(^|\.)wikiversity\.org
 ^zh\.wikisource\.org
 (^|\.)zh\.wikiquote\.org
 (^|\.)zh\.wikinews\.org
-(^|\.)ja\.wikipedia\.org
+(^|\.)wikivoyage\.org
+(^|\.)wiktionary\.org
 (^|\.)wikipedia\.org
+(^|\.)wmfusercontent\.org
 (^|\.)data\.flurry\.com
 (^|\.)page\.bid\.yahoo\.com
 (^|\.)tw\.bid\.yahoo\.com
