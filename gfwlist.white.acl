@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-01-26T10:41:32.246009+08:00
+# Date: 2025-02-08T10:38:04.143888+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -1133,10 +1133,12 @@ cn\.nytstyle\.com
 (^|\.)teco-mo\.org
 (^|\.)npm\.gov\.tw
 (^|\.)kinmen\.org\.tw
-^www\.americorps\.gov
+(^|\.)americorps\.gov
+(^|\.)dfas\.mil
 (^|\.)dma\.mil
 (^|\.)jpl\.nasa\.gov
 (^|\.)pds\.nasa\.gov
+(^|\.)pacom\.mil
 (^|\.)soc\.mil
 (^|\.)solarsystem\.nasa\.gov
 iipdigital\.usembassy\.gov
@@ -1992,6 +1994,7 @@ catholic\.org\.tw
 (^|\.)cccat\.co
 \.ccdtr\.org
 (^|\.)ccdtr\.org
+(^|\.)ccfd\.org\.tw
 \.cchere\.com
 (^|\.)cchere\.com
 \.ccim\.org
@@ -2309,14 +2312,12 @@ csdparty\.com
 (^|\.)csis\.org
 (^|\.)csmonitor\.com
 (^|\.)csuchen\.de
-\.csw\.org\.uk
-\.ct\.org\.tw
+(^|\.)csw\.org\.uk
 (^|\.)ct\.org\.tw
 \.ctao\.org
 \.ctfriend\.net
-\.ctitv\.com\.tw
+(^|\.)ctitv\.com\.tw
 (^|\.)ctowc\.org
-\.cts\.com\.tw
 (^|\.)cts\.com\.tw
 (^|\.)ctwant\.com
 ^library\.usc\.cuhk\.edu\.hk$
@@ -2442,7 +2443,6 @@ dcmilitary\.com
 (^|\.)devio\.us
 (^|\.)devpn\.com
 (^|\.)devv\.ai
-(^|\.)dfas\.mil
 dfn\.org
 dharmakara\.net
 \.dharamsalanet\.com
@@ -3178,7 +3178,6 @@ globalmuseumoncommunism\.org
 go-pki\.com
 (^|\.)goagent\.biz
 (^|\.)goagentplus\.com
-gobet\.cc
 (^|\.)godaddy\.com
 godfootsteps\.org
 (^|\.)godfootsteps\.org
@@ -3235,6 +3234,7 @@ greatfirewall\.biz
 (^|\.)greenfieldbookstore\.com\.hk
 \.greenparty\.org\.tw
 (^|\.)greenpeace\.org
+(^|\.)greasyfork\.org
 great-firewall\.com
 great-roc\.org
 greatroc\.org
@@ -3715,6 +3715,7 @@ internetdefenseleague\.org
 inxian\.com
 (^|\.)inxian\.com
 ipalter\.com
+(^|\.)ipdefenseforum\.com
 (^|\.)ipfire\.org
 (^|\.)iphone4hongkong\.com
 (^|\.)iphonehacks\.com
@@ -4602,6 +4603,7 @@ sytes\.net
 (^|\.)nobel\.se
 nobodycanstop\.us
 (^|\.)nobodycanstop\.us
+(^|\.)nodeseek\.com
 (^|\.)nokogiri\.org
 (^|\.)nokola\.com
 noodlevpn\.com
@@ -4619,7 +4621,6 @@ nordvpn\.com
 (^|\.)npa\.go\.jp
 \.npnt\.me
 ^npnt\.me
-\.nps\.gov
 \.nradio\.me
 ^nradio\.me
 \.nrk\.no
@@ -5625,7 +5626,6 @@ sstmlt\.net
 (^|\.)stage64\.hk
 (^|\.)standupfortibet\.org
 (^|\.)standwithhk\.org
-usinfo\.state\.gov
 (^|\.)statueofdemocracy\.org
 \.starfishfx\.com
 \.starp2p\.com
