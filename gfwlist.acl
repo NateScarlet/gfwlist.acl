@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-02-08T10:38:04.143888+08:00
+# Date: 2025-02-19T10:42:34.930594+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1300,6 +1300,7 @@ taiwannation\.50webs\.com
 5i01\.com
 \.5isotoi5\.org
 \.5maodang\.com
+(^|\.)611study\.icu
 (^|\.)63i\.com
 \.64museum\.org
 64tianwang\.com
@@ -4539,6 +4540,7 @@ newipnow\.com
 \.newlandmagazine\.com\.au
 (^|\.)newmitbbs\.com
 \.newnews\.ca
+(^|\.)news1\.kr
 news100\.com\.tw
 newschinacomment\.org
 \.newscn\.org
@@ -4871,6 +4873,7 @@ philborges\.com
 \.picidae\.net
 (^|\.)img.+\.picturedip\.com
 picturesocial\.com
+(^|\.)picuki\.com
 (^|\.)pigav\.com
 (^|\.)pin-cong\.com
 \.pin6\.com
