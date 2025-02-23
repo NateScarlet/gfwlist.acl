@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-02-19T10:42:34.930594+08:00
+# Date: 2025-02-23T10:47:59.215952+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -98,6 +98,7 @@ share\.dmhy\.org
 (^|\.)wego\.here\.com
 (^|\.)gamer-cds\.cdn\.hinet\.net
 (^|\.)gamer2-cds\.cdn\.hinet\.net
+(^|\.)grok\.com
 (^|\.)hmoegirl\.com
 (^|\.)hmvdigital\.ca
 (^|\.)hmvdigital\.com
@@ -2251,6 +2252,7 @@ news\.cnyes\.com
 ^goagent\.codeplex\.com
 (^|\.)codeshare\.io
 (^|\.)codeskulptor\.org
+(^|\.)cofacts\.tw
 (^|\.)conoha\.jp
 ^tosh\.comedycentral\.com
 comefromchina\.com
