@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-02-23T10:47:59.215952+08:00
+# Date: 2025-03-01T10:52:43.226118+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -1877,6 +1877,7 @@ brucewang\.net
 \.brutaltgp\.com
 (^|\.)brutaltgp\.com
 (^|\.)bsky\.app
+(^|\.)bsky\.network
 (^|\.)bsky\.social
 (^|\.)bt95\.com
 \.btaia\.com
