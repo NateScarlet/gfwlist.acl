@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-03-03T10:50:52.673907+08:00
+# Date: 2025-03-04T10:50:07.781572+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.white.acl
 #
 
@@ -8,6 +8,10 @@
 
 [proxy_list]
 
+(^|\.)ptwxz\.com
+(^|\.)miuipolska\.pl
+(^|\.)piaotia\.com
+(^|\.)wunderground\.com
 (^|\.)500px\.com
 (^|\.)500px\.org
 85.17.73.31
@@ -289,7 +293,6 @@ share\.dmhy\.org
 (^|\.)boomssr\.com
 (^|\.)bwgyhw\.com
 (^|\.)castbox\.fm
-(^|\.)chinatimes\.com
 (^|\.)clyp\.it
 (^|\.)cmcn\.org
 (^|\.)cmx\.im
@@ -303,7 +306,7 @@ share\.dmhy\.org
 (^|\.)encyclopedia\.com
 (^|\.)fangeqiang\.com
 (^|\.)fanqiangdang\.com
-(^|\.)feedly\.com
+(^|\.)feedly\.comfastgpt\.run
 (^|\.)feedx\.net
 (^|\.)flyzy2005\.com
 (^|\.)foreignpolicy\.com
@@ -1172,45 +1175,26 @@ voatibetan\.com
 fq\.wikia\.com
 cn\.uncyclopedia\.wikia\.com
 zh\.uncyclopedia\.wikia\.com
+(^|\.)mediawiki\.org
 (^|\.)wikidata\.org
 (^|\.)wikimedia\.org
 (^|\.)wikibooks\.org
 (^|\.)wikiversity\.org
-^zh\.wikisource\.org
+(^|\.)wikisource\.org
 (^|\.)zh\.wikiquote\.org
-(^|\.)zh\.wikinews\.org
+wikinews\.org
 (^|\.)wikivoyage\.org
 (^|\.)wiktionary\.org
 (^|\.)wikipedia\.org
 (^|\.)wmfusercontent\.org
-(^|\.)data\.flurry\.com
-(^|\.)page\.bid\.yahoo\.com
-(^|\.)tw\.bid\.yahoo\.com
 (^|\.)auctions\.yahoo\.co\.jp
 (^|\.)blogs\.yahoo\.co\.jp
 (^|\.)search\.yahoo\.co\.jp
-(^|\.)buy\.yahoo\.com\.tw
-(^|\.)hk\.yahoo\.com
-(^|\.)hk\.knowledge\.yahoo\.com
-(^|\.)tw\.money\.yahoo\.com
-(^|\.)hk\.myblog\.yahoo\.com
-(^|\.)hk\.news\.yahoo\.com
-hk\.rd\.yahoo\.com
-meme\.yahoo\.com
-tw\.answers\.yahoo\.com
-^tw\.answers\.yahoo\.com
-(^|\.)tw\.knowledge\.yahoo\.com
-(^|\.)tw\.mall\.yahoo\.com
-(^|\.)tw\.yahoo\.com
-(^|\.)tw\.mobi\.yahoo\.com
-tw\.myblog\.yahoo\.com
-(^|\.)tw\.news\.yahoo\.com
-pulse\.yahoo\.com
-(^|\.)search\.yahoo\.com
-upcoming\.yahoo\.com
-video\.yahoo\.com
+(^|\.)yahoo\.com\.tw
 (^|\.)yahoo\.com\.hk
+(^|\.)yahoo\.com
 (^|\.)duckduckgo-owned-server\.yahoo\.net
+(^|\.)18comic\.org
 (^|\.)000webhost\.com
 \.030buy\.com
 \.0rz\.tw
@@ -1349,6 +1333,8 @@ taiwannation\.50webs\.com
 (^|\.)9bis\.com
 (^|\.)9bis\.net
 (^|\.)9news\.com\.au
+(^|\.)annas-archive\.org
+(^|\.)av01\.tv
 (^|\.)acg\.rip
 (^|\.)annas-archive\.se
 \.tibet\.a\.se
@@ -1922,6 +1908,9 @@ busytrade\.com
 bwsj\.hk
 (^|\.)bx\.tl
 (^|\.)bypasscensorship\.org
+(^|\.)clipconverter\.cc
+(^|\.)zh-hans\.cfsh99\.com
+(^|\.)colacloud\.net
 (^|\.)ci-en\.jp
 (^|\.)c-span\.org
 \.c-spanvideo\.org
@@ -2355,6 +2344,7 @@ cytode\.us
 (^|\.)ifan\.cz\.cc
 (^|\.)mike\.cz\.cc
 (^|\.)nic\.cz\.cc
+(^|\.)cloud\.dify\.ai
 \.d-fukyu\.com
 ^d-fukyu\.com
 cl\.d0z\.net
@@ -2585,6 +2575,7 @@ xys\.dxiong\.com
 (^|\.)dynawebinc\.com
 (^|\.)dysfz\.cc
 \.dzze\.com
+(^|\.)elconfidencial\.com
 (^|\.)e-classical\.com\.tw
 (^|\.)e-gold\.com
 \.e-gold\.com
@@ -2718,9 +2709,8 @@ etaiwannews\.com
 (^|\.)etizer\.org
 (^|\.)etokki\.com
 (^|\.)etsy\.com
+(^|\.).+\.ettoday\.net
 etvonline\.hk
-\.eu\.org
-(^|\.)eu\.org
 \.eucasino\.com
 \.eulam\.com
 \.eurekavpt\.com
@@ -2749,6 +2739,9 @@ eyevio\.jp
 \.eyny\.com
 (^|\.)eyny\.com
 \.ezpeer\.com
+(^|\.)free\.com\.tw
+(^|\.)fastgpt\.run
+(^|\.)froth\.zone
 (^|\.)fanbox\.cc
 (^|\.)free\.bg
 (^|\.)f-droid\.org
@@ -3050,6 +3043,8 @@ funp\.com
 fzh999\.com
 fzh999\.net
 fzlm\.com
+(^|\.)go-to-zlibrary\.se
+(^|\.)gitbook\.io
 \.g6hentai\.com
 ^g6hentai\.com
 (^|\.)g-queen\.com
@@ -3166,7 +3161,6 @@ gigporno\.ru
 \.github\.io
 (^|\.)github\.io
 (^|\.)githubusercontent\.com
-(^|\.)githubassets\.com
 \.gizlen\.net
 (^|\.)gizlen\.net
 \.gjczz\.com
@@ -3307,6 +3301,8 @@ guruonline\.hk
 ^gvlib\.com
 \.gyalwarinpoche\.com
 \.gyatsostudio\.com
+(^|\.)haiwaikan\.com
+(^|\.)home\.saxo
 (^|\.)hoy\.tv
 \.h528\.com
 \.h5dm\.com
@@ -3599,6 +3595,8 @@ hxwq\.org
 (^|\.)hypothes\.is
 ebook\.hyread\.com\.tw
 (^|\.)ebook\.hyread\.com\.tw
+(^|\.)illawarramercury\.com\.au
+(^|\.)imago-images\.com
 (^|\.)i1\.hk
 (^|\.)i2p2\.de
 (^|\.)i2runner\.com
@@ -3810,6 +3808,8 @@ ithelp\.ithome\.com\.tw
 (^|\.)gmozomg\.izihost\.org
 \.izles\.net
 \.izlesem\.org
+(^|\.)javdb\.com
+(^|\.)jifangge\.com
 (^|\.)j\.mp
 (^|\.)jable\.tv
 (^|\.)blog\.jackjia\.com
@@ -4021,6 +4021,8 @@ kyohk\.net
 (^|\.)kzaobao\.com
 \.kzeng\.info
 (^|\.)kzeng\.info
+(^|\.)www\.lorenzetti\.com\.br
+(^|\.)linktr\.ee
 la-forum\.org
 ladbrokes\.com
 (^|\.)labiennale\.org
@@ -4194,6 +4196,11 @@ lvhai\.org
 (^|\.)lzjscript\.com
 \.lzmtnews\.org
 (^|\.)lzmtnews\.org
+(^|\.)mywife\.cc
+(^|\.)c\.mi\.com
+(^|\.)missav\.com
+(^|\.)madou\.club
+(^|\.)mahjongsoul\.com
 (^|\.)mangabz\.com
 ^.+\.m-team\.cc
 \.macrovpn\.com
@@ -5022,7 +5029,6 @@ provpnaccounts\.com
 proxyanonimo\.es
 \.proxynetwork\.org\.uk
 (^|\.)proxynetwork\.org\.uk
-(^|\.)pts\.org\.tw
 \.pttvan\.org
 (^|\.)pubu\.com\.tw
 (^|\.)puffinbrowser\.com
@@ -5289,6 +5295,12 @@ rutube\.ru
 \.ruyiseek\.com
 \.rxhj\.net
 ^rxhj\.net
+(^|\.)slides\.com
+(^|\.)suno\.com
+(^|\.)sydney\.bing\.com
+(^|\.)sehuatang\.org
+(^|\.)singlelogin\.se
+(^|\.)suno\.ai
 (^|\.)syosetu\.com
 \.s1s1s1\.com
 (^|\.)s-cute\.com
@@ -5750,6 +5762,10 @@ sysresccd\.org
 \.sytes\.net
 \.szbbs\.net
 \.szetowah\.org\.hk
+(^|\.)tomp3\.cc
+(^|\.)tukaani\.org
+(^|\.)thetatoken\.org
+(^|\.)typeset\.io
 (^|\.)thechasernews\.co\.uk
 (^|\.)hole\.thu\.monster
 (^|\.)thuhole\.com
@@ -6338,6 +6354,7 @@ twurl\.nl
 (^|\.)blogs\.tampabay\.com
 (^|\.)contests\.twilio\.com
 (^|\.)typora\.io
+(^|\.)demo\.unlock-music\.dev
 \.u9un\.com
 (^|\.)u9un\.com
 \.ubddns\.org
@@ -6446,6 +6463,7 @@ uyghur\.co\.uk
 (^|\.)uyghurtribunal\.com
 uygur\.org
 ^uymaarip\.com$
+(^|\.)vern\.cc
 (^|\.)v2fly\.org
 \.v2ray\.com
 (^|\.)v2ray\.com
@@ -6597,7 +6615,7 @@ vraiesagesse\.net
 (^|\.)vrporn\.com
 (^|\.)vtunnel\.com
 (^|\.)vuku\.cc
-(^|\.)w3schools\.com
+(^|\.)wikiless\.funami\.tech
 (^|\.)waffle1999\.com
 \.wahas\.com
 \.waigaobu\.com
@@ -7013,8 +7031,6 @@ zacebook\.com
 \.zalmos\.com
 (^|\.)zalmos\.com
 (^|\.)zannel\.com
-\.zaobao\.com
-(^|\.)zaobao\.com
 (^|\.)zaobao\.com\.sg
 \.zaozon\.com
 (^|\.)zdnet\.com\.tw
@@ -7106,6 +7122,7 @@ zyzc9\.com
 (^|\.)ip6\.static\.sl-reverse\.com
 ^www\.ampproject\.org
 ^cdn\.ampproject\.org
+(^|\.)ci\.android\.com
 (^|\.)redirector\.gvt1\.com
 (^|\.)aftygh\.gov\.tw
 (^|\.)aide\.gov\.tw
