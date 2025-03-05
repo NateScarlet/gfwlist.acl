@@ -1,6 +1,6 @@
 #
 # Home: https://github.com/NateScarlet/gfwlist.acl
-# Date: 2025-03-04T10:50:07.781572+08:00
+# Date: 2025-03-05T10:49:20.598354+08:00
 # URL: https://raw.githubusercontent.com/NateScarlet/gfwlist.acl/master/gfwlist.acl
 #
 
@@ -8,6 +8,7 @@
 
 [proxy_list]
 
+(^|\.)zoominfo\.com
 (^|\.)ptwxz\.com
 (^|\.)miuipolska\.pl
 (^|\.)piaotia\.com
@@ -90,7 +91,7 @@ share\.dmhy\.org
 (^|\.)funkyimg\.com
 (^|\.)fxnetworks\.com
 (^|\.)g-area\.org
-(^|\.)gettyimages\.com
+(^|\.)gettyimages\..+
 (^|\.)getuploader\.com
 (^|\.)ghidra-sre\.org
 (^|\.)glass8\.eu
@@ -117,8 +118,7 @@ share\.dmhy\.org
 (^|\.)cdn.+\.i-scmp\.com
 (^|\.)ilbe\.com
 (^|\.)ilovelongtoes\.com
-(^|\.)imlive\.com
-(^|\.)tw\.iqiyi\.com
+(^|\.)imlive\.co
 (^|\.)javhub\.net
 (^|\.)javhuge\.com
 \.javlibrary\.com
@@ -260,11 +260,38 @@ share\.dmhy\.org
 (^|\.)zattoo\.com
 (^|\.)zim\.vn
 (^|\.)zozotown\.com
+(^|\.)c3pool\.com
+(^|\.)unmineable\.com
+(^|\.)666pool\.cn
+(^|\.)antpool\.com
+(^|\.)crazypool\.org
+(^|\.)cruxpool\.com
+(^|\.)miningpoolhub\.com
+(^|\.)huobipool\.com
+(^|\.)poolbinance\.com
+(^|\.)hiveon\.net
+(^|\.)sparkpool\.com
+(^|\.)flypool\.org
+(^|\.)nanopool\.org
+(^|\.)xnpool\.com
+(^|\.)beepool\.com
+(^|\.)zhizhu\.top
+(^|\.)spiderpool\.com
+(^|\.)uupool\.cn
+(^|\.)flexpool\.io
+(^|\.)beepool\.org
+(^|\.)dpool\.top
+(^|\.)okpool\.me
+(^|\.)binancezh\.cc
+(^|\.)btc\.com
+(^|\.)r-pool\.net
+(^|\.)w-pool\.com
 14.102.250.18
 14.102.250.19
 50.7.31.230:8898
 174.142.105.153
 69.65.19.160
+(^|\.)xn--11xs86f\.icu
 (^|\.)xn--4gq171p\.com
 (^|\.)xn--czq75pvv1aj5c\.org
 (^|\.)xn--i2ru8q2qg\.com
@@ -526,6 +553,17 @@ china-mmm\.jp\.net
 \.china-mmm\.net
 (^|\.)china-mmm\.net
 china-mmm\.sa\.com
+(^|\.)bgme\.me
+(^|\.)o3o\.ca
+(^|\.)go5\.dev
+(^|\.)me\.ns\.ci
+(^|\.)moresci\.sale
+(^|\.)social\.edu\.ci
+(^|\.)mstdn\.social
+(^|\.)douchi\.space
+(^|\.)slashine\.onl
+(^|\.)social\.datalabour\.com
+(^|\.)mastodon\.online
 \.allowed\.org
 \.now\.im
 (^|\.)amazon\.co\.jp
@@ -718,13 +756,7 @@ bloomberg\.de
 \.yourtrap\.com
 \.zyns\.com
 \.zzux\.com
-d1b183sg0nvnuh\.cloudfront\.net
-^d1b183sg0nvnuh\.cloudfront\.net
-d1c37gjwa26taa\.cloudfront\.net
-^d1c37gjwa26taa\.cloudfront\.net
-d3c33hcgiwev3\.cloudfront\.net
-^d3c33hcgiwev3\.cloudfront\.net
-(^|\.)d3rhr7kgmtrq1v\.cloudfront\.net
+(^|\.)cloudfront\.net
 \.3d-game\.com
 \.4irc\.com
 \.b0ne\.com
@@ -753,7 +785,6 @@ d3c33hcgiwev3\.cloudfront\.net
 \.dynu\.net
 \.freeddns\.org
 (^|\.)accountkit\.com
-cdninstagram\.com
 (^|\.)cdninstagram\.com
 (^|\.)f8\.com
 (^|\.)facebook\.br
@@ -791,6 +822,7 @@ cdninstagram\.com
 (^|\.)hongkong\.fandom\.com
 \.ftchinese\.com
 (^|\.)ftchinese\.com
+(^|\.)translate\.googleapis\.com
 (^|\.)1e100\.net
 (^|\.)466453\.com
 (^|\.)abc\.xyz
@@ -933,8 +965,6 @@ blogspot\.com
 ^([^/]+\.)*google\.(se|sh|si|sk|sm|sn|so|sr|st|td)$
 ^([^/]+\.)*google\.(tg|tk|tl|tm|tn|to|tt|us|vg|vn)$
 ^([^/]+\.)*google\.(vu|ws)$
-(^|\.)googleapis\.cn
-(^|\.)googleapis\.com
 (^|\.)googleapps\.com
 (^|\.)googleartproject\.com
 (^|\.)googleblog\.com
@@ -1059,6 +1089,8 @@ cn\.nytstyle\.com
 \.steamcommunity\.com
 (^|\.)steamcommunity\.com
 (^|\.)store\.steampowered\.com
+(^|\.)api\.steampowered\.com
+(^|\.)steamstatic\.com
 (^|\.)cdn-telegram\.org
 (^|\.)comments\.app
 (^|\.)graph\.org
@@ -1194,6 +1226,7 @@ wikinews\.org
 (^|\.)yahoo\.com\.hk
 (^|\.)yahoo\.com
 (^|\.)duckduckgo-owned-server\.yahoo\.net
+(^|\.)611study\.com
 (^|\.)18comic\.org
 (^|\.)000webhost\.com
 \.030buy\.com
@@ -1333,6 +1366,7 @@ taiwannation\.50webs\.com
 (^|\.)9bis\.com
 (^|\.)9bis\.net
 (^|\.)9news\.com\.au
+(^|\.)akinator\.com
 (^|\.)annas-archive\.org
 (^|\.)av01\.tv
 (^|\.)acg\.rip
@@ -1539,15 +1573,15 @@ appledaily\.com\.tw
 (^|\.)archives\.gov
 \.archive\.fo
 (^|\.)archive\.fo
-\.archive\.is
+(^|\.)archive\.vn
 (^|\.)archive\.is
-\.archive\.li
+(^|\.)archive\.is
+(^|\.)archive\.li
 (^|\.)archive\.li
 (^|\.)archive\.md
 (^|\.)archive\.org
 (^|\.)archive\.ph
-archive\.today
-^archive\.today
+(^|\.)archive\.today
 (^|\.)archiveofourown\.com
 (^|\.)archiveofourown\.org
 \.arctosia\.com
@@ -1620,6 +1654,11 @@ azerimix\.com
 (^|\.)azirevpn\.com
 boxun.+\.azurewebsites\.net
 (^|\.)boxun.+\.azurewebsites\.net
+(^|\.)btbit\.net
+(^|\.)betaclouds\.net
+(^|\.)blocktempo\.com
+(^|\.)blockcast\.it
+(^|\.)www\.bing\.com
 (^|\.)bangumi\.moe
 (^|\.)b-ok\.cc
 forum\.baby-kingdom\.com
@@ -1908,6 +1947,8 @@ busytrade\.com
 bwsj\.hk
 (^|\.)bx\.tl
 (^|\.)bypasscensorship\.org
+(^|\.)catbox\.moe
+(^|\.)crosswall\.org
 (^|\.)clipconverter\.cc
 (^|\.)zh-hans\.cfsh99\.com
 (^|\.)colacloud\.net
@@ -2344,6 +2385,8 @@ cytode\.us
 (^|\.)ifan\.cz\.cc
 (^|\.)mike\.cz\.cc
 (^|\.)nic\.cz\.cc
+(^|\.)d\.cash
+(^|\.)doubiyunbackup\.com
 (^|\.)cloud\.dify\.ai
 \.d-fukyu\.com
 ^d-fukyu\.com
@@ -2496,7 +2539,7 @@ dongtaiwang\.com
 \.dongtaiwang\.net
 (^|\.)dongtaiwang\.net
 \.dongyangjing\.com
-^danbooru\.donmai\.us
+(^|\.)danbooru\.donmai\.us
 \.dontfilter\.us
 (^|\.)dontmovetochina\.com
 (^|\.)doosho\.com
@@ -2575,6 +2618,8 @@ xys\.dxiong\.com
 (^|\.)dynawebinc\.com
 (^|\.)dysfz\.cc
 \.dzze\.com
+(^|\.)epochtimes\.com\.tw
+(^|\.)cn\.etherscan\.com
 (^|\.)elconfidencial\.com
 (^|\.)e-classical\.com\.tw
 (^|\.)e-gold\.com
@@ -2739,6 +2784,8 @@ eyevio\.jp
 \.eyny\.com
 (^|\.)eyny\.com
 \.ezpeer\.com
+(^|\.)freess\.org
+(^|\.)fril\.jp
 (^|\.)free\.com\.tw
 (^|\.)fastgpt\.run
 (^|\.)froth\.zone
@@ -2811,6 +2858,8 @@ fangeming\.com
 \.fanyue\.info
 \.farwestchina\.com
 en\.favotter\.net
+(^|\.).+\.global\.ssl\.fastly\.net
+(^|\.).+\.freetls\.fastly\.net
 nytimes\.map\.fastly\.net
 (^|\.)nytimes\.map\.fastly\.net
 (^|\.)fast\.wistia\.com
@@ -3043,6 +3092,7 @@ funp\.com
 fzh999\.com
 fzh999\.net
 fzlm\.com
+(^|\.)gfwatch\.org
 (^|\.)go-to-zlibrary\.se
 (^|\.)gitbook\.io
 \.g6hentai\.com
@@ -3301,6 +3351,7 @@ guruonline\.hk
 ^gvlib\.com
 \.gyalwarinpoche\.com
 \.gyatsostudio\.com
+(^|\.)halktv\.com\.tr
 (^|\.)haiwaikan\.com
 (^|\.)home\.saxo
 (^|\.)hoy\.tv
@@ -3595,6 +3646,7 @@ hxwq\.org
 (^|\.)hypothes\.is
 ebook\.hyread\.com\.tw
 (^|\.)ebook\.hyread\.com\.tw
+(^|\.)improd\.works
 (^|\.)illawarramercury\.com\.au
 (^|\.)imago-images\.com
 (^|\.)i1\.hk
@@ -3808,6 +3860,8 @@ ithelp\.ithome\.com\.tw
 (^|\.)gmozomg\.izihost\.org
 \.izles\.net
 \.izlesem\.org
+(^|\.)justmysocks\.net
+(^|\.)jav321\.com
 (^|\.)javdb\.com
 (^|\.)jifangge\.com
 (^|\.)j\.mp
@@ -3913,6 +3967,7 @@ juziyue\.com
 (^|\.)jwmusic\.org
 (^|\.)cdn\.jwplayer\.com
 \.jyxf\.net
+(^|\.)kanald\.com\.tr
 (^|\.)kpkuang\.org
 (^|\.)k-doujin\.net
 (^|\.)ka-wai\.com
@@ -4021,6 +4076,7 @@ kyohk\.net
 (^|\.)kzaobao\.com
 \.kzeng\.info
 (^|\.)kzeng\.info
+(^|\.)litenews\.hk
 (^|\.)www\.lorenzetti\.com\.br
 (^|\.)linktr\.ee
 la-forum\.org
@@ -4196,6 +4252,11 @@ lvhai\.org
 (^|\.)lzjscript\.com
 \.lzmtnews\.org
 (^|\.)lzmtnews\.org
+(^|\.)m\.moegirl\.org
+(^|\.)myjs\.tw
+(^|\.)mercari\.com
+(^|\.)mercari\.jp
+(^|\.)mirror\.xyz
 (^|\.)mywife\.cc
 (^|\.)c\.mi\.com
 (^|\.)missav\.com
@@ -4489,6 +4550,7 @@ mysinablog\.com
 (^|\.)myspacecdn\.com
 \.mytalkbox\.com
 \.mytizi\.com
+(^|\.)nbyy\.tv
 (^|\.)newthuhole\.com
 (^|\.)naacoalition\.org
 old\.nabble\.com
@@ -4687,6 +4749,8 @@ nylonstockingsonline\.com
 (^|\.)nypost\.com
 \.nzchinese\.com
 (^|\.)nzchinese\.net\.nz
+(^|\.)onedrive\.com
+(^|\.)olelive\.com
 (^|\.)oann\.com
 observechina\.net
 \.obutu\.com
@@ -4800,6 +4864,7 @@ bbs\.ozchinese\.com
 (^|\.)ozvoice\.org
 \.ozxw\.com
 \.ozyoyo\.com
+(^|\.)potatso\.com
 (^|\.)pendrivelinux\.com
 (^|\.)paimon\.moe
 (^|\.)photonmedia\.net
@@ -5148,6 +5213,8 @@ quantumbooter\.net
 qusi8\.net
 \.qvodzy\.org
 qxbbs\.org
+(^|\.)r10s\.jp
+(^|\.)rakuten\.co\.jp
 (^|\.)r0\.ru
 (^|\.)radio-canada\.ca
 (^|\.)radio-en-ligne\.fr
@@ -5295,6 +5362,9 @@ rutube\.ru
 \.ruyiseek\.com
 \.rxhj\.net
 ^rxhj\.net
+(^|\.)share-videos\.se
+(^|\.)ssrshare\.us
+(^|\.)cdn\.statically\.io
 (^|\.)slides\.com
 (^|\.)suno\.com
 (^|\.)sydney\.bing\.com
@@ -5552,7 +5622,6 @@ smchbooks\.com
 smhric\.org
 (^|\.)smn\.news
 \.smyxy\.org
-(^|\.)snapchat\.com
 \.snaptu\.com
 (^|\.)snaptu\.com
 (^|\.)sndcdn\.com
@@ -5762,6 +5831,13 @@ sysresccd\.org
 \.sytes\.net
 \.szbbs\.net
 \.szetowah\.org\.hk
+(^|\.)tinyurl\.com
+(^|\.)textnow\.com
+(^|\.)textnow\.me
+(^|\.)token\.im
+(^|\.)tokenlon\.im
+(^|\.)tardigrade\.io
+(^|\.)torrentgalaxy\.to
 (^|\.)tomp3\.cc
 (^|\.)tukaani\.org
 (^|\.)thetatoken\.org
@@ -6463,6 +6539,8 @@ uyghur\.co\.uk
 (^|\.)uyghurtribunal\.com
 uygur\.org
 ^uymaarip\.com$
+(^|\.)v2\.help
+(^|\.)vocaroo\.com
 (^|\.)vern\.cc
 (^|\.)v2fly\.org
 \.v2ray\.com
@@ -6615,6 +6693,7 @@ vraiesagesse\.net
 (^|\.)vrporn\.com
 (^|\.)vtunnel\.com
 (^|\.)vuku\.cc
+(^|\.)work2icu\.org
 (^|\.)wikiless\.funami\.tech
 (^|\.)waffle1999\.com
 \.wahas\.com
@@ -6797,6 +6876,7 @@ worldjournal\.com
 (^|\.)wo3ttt\.wordpress\.com
 (^|\.)sujiatun\.wordpress\.com
 (^|\.)xijie\.wordpress\.com
+(^|\.)ifreechina\.wordpress\.com
 (^|\.)wp\.com
 \.wow\.com
 \.wow-life\.net
@@ -6833,6 +6913,8 @@ wukangrui\.net
 (^|\.)wuyanblog\.com
 \.wwitv\.com
 (^|\.)wwitv\.com
+(^|\.)xt\.com
+(^|\.)xt\.pub
 (^|\.)x\.co
 \.x-berry\.com
 (^|\.)x-berry\.com
@@ -6922,6 +7004,7 @@ xys\.org
 xysblogs\.org
 xyy69\.com
 xyy69\.info
+(^|\.)storage\.yandex\.net
 (^|\.)y2mate\.com
 (^|\.)yadi\.sk
 (^|\.)yakbutterblues\.com
@@ -7025,6 +7108,8 @@ yx51\.net
 (^|\.)yysub\.net
 \.yzzk\.com
 (^|\.)yzzk\.com
+(^|\.)zhongzidi\.com
+(^|\.)zooqle\.com
 (^|\.)z-lib\.io
 (^|\.)z-lib\.org
 zacebook\.com
@@ -7114,6 +7199,8 @@ zyzc9\.com
 
 [bypass_list]
 
+(^|\.)gettyimages\.com
+(^|\.)gettyimages\.cn
 (^|\.)cn\.noxinfluencer\.com
 ^blog\.ontrac\.com
 ^store\.sprite\.org
@@ -7209,7 +7296,6 @@ zyzc9\.com
 (^|\.)storage\.googleapis\.com
 (^|\.)update\.googleapis\.com
 (^|\.)safebrowsing\.googleapis\.com
-(^|\.)cn\.gravatar\.com
 (^|\.)haosou\.com
 (^|\.)ip\.cn
 (^|\.)jike\.com
